@@ -343,56 +343,57 @@ TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----14
 就								就
 在								在
-昨天							      |	昨天下午自己被打倒的一瞬间她曾苦苦恳求眼前的年轻人别打了但是
-下午							      <
-自己							      <
-被							      <
-打倒							      <
-的							      <
-一瞬间							      <
-她							      <
-曾							      <
-苦苦							      <
-恳求							      <
-眼前							      <
-的							      <
-年轻人							      <
-别							      <
-打							      <
-了							      <
-但是							      <
-让							      <
-她							      <
-不							      <
-愿意							      <
-相信							      <
-的							      <
-是							      <
-车上							      <
-的							      <
-那							      <
-名							      <
-女子							      <
-非但							      <
-没有							      <
-劝阻							      <
-反而							      <
-下							      <
-了							      <
-车							      <
-和							      <
-男子							      <
-一同							      <
-殴打							      <
-她							      <
-INSERTIONS:	0
-DELETIONS:	41
+昨天								昨天
+下午								下午
+自己								自己
+被								被
+打倒								打倒
+的								的
+一瞬间								一瞬间
+她								她
+曾								曾
+苦苦								苦苦
+恳求								恳求
+眼前								眼前
+的								的
+年轻人								年轻人
+别								别
+打								打
+了								了
+但是							      |	但
+							      >	是
+让								让
+她								她
+不								不
+愿意								愿意
+相信								相信
+的								的
+是								是
+车上								车上
+的								的
+那								那
+名								名
+女子								女子
+非但								非但
+没有								没有
+劝阻								劝阻
+反而								反而
+下								下
+了								了
+车								车
+和								和
+男子								男子
+一同								一同
+殴打								殴打
+她								她
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	42
+NCHANGE:	2
 NTRUTH:	44
-NTEST:	3
-TRUE WORDS RECALL:	0.045
-TEST WORDS PRECISION:	0.667
+NTEST:	45
+TRUE WORDS RECALL:	0.977
+TEST WORDS PRECISION:	0.956
 --standard.txt-------testout.txt----15
 他								他
 太								太
@@ -791,55 +792,58 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----28
 铁路								铁路
-新							      |	新客规从十二月一号起实施到现在已经有一周的时间了这其中争议最
-客规							      <
-从							      <
-十二月							      <
-一							      <
-号							      <
-起							      <
-实施							      <
-到							      <
-现在							      <
-已经							      <
-有							      <
-一							      <
-周							      <
-的							      <
-时间							      <
-了							      <
-这							      <
-其中							      <
-争议							      <
-最							      <
-大							      <
-的							      <
-一							      <
-条							      <
-规定							      <
-就							      <
-是非							      <
-动车组							      <
-旅客							      <
-火车票							      <
-改签							      <
-必须							      <
-在							      <
-开车							      <
-前							      <
-办理							      <
-否则							      <
-车票							      <
-将							      <
-作废							      <
-INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	1
-NCHANGE:	41
+新								新
+客规							      |	客
+							      >	规
+从								从
+十二月							      |	十二
+							      >	月
+一								一
+号								号
+起								起
+实施								实施
+到								到
+现在								现在
+已经								已经
+有								有
+一								一
+周								周
+的								的
+时间								时间
+了								了
+这								这
+其中								其中
+争议								争议
+最								最
+大								大
+的								的
+一								一
+条								条
+规定								规定
+就								就
+是非								是非
+动车组								动车组
+旅客								旅客
+火车票								火车票
+改签								改签
+必须								必须
+在								在
+开车								开车
+前								前
+办理								办理
+否则							      |	否
+							      >	则
+车票								车票
+将								将
+作废								作废
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	45
+TRUE WORDS RECALL:	0.929
+TEST WORDS PRECISION:	0.867
 --standard.txt-------testout.txt----29
 那么								那么
 万一							      |	万
@@ -887,60 +891,70 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----31
 今天								今天
-早上							      |	早上十点四十分左右记者在杭州站内遇到了从河南来杭州游玩的小唐
-十点							      <
-四十分							      <
-左右							      <
-记者							      <
-在							      <
-杭州站							      <
-内							      <
-遇到							      <
-了							      <
-从							      <
-河南							      <
-来							      <
-杭州							      <
-游玩							      <
-的							      <
-小唐							      <
-小唐							      <
-手里							      <
-握							      <
-着							      <
-一							      <
-张							      <
-一百一十二						      <
-次							      <
-十点							      <
-二十九							      <
-分							      <
-从							      <
-杭州							      <
-前往							      <
-郑州							      <
-的							      <
-车票							      <
-正							      <
-焦急							      <
-地							      <
-站							      <
-在							      <
-咨询台							      <
-前							      <
-询问							      <
-原来							      <
-他							      <
-误点							      <
-了							      <
-INSERTIONS:	0
-DELETIONS:	45
-SUBSTITUTIONS:	1
-NCHANGE:	46
+早上								早上
+十点							      |	十
+四十分							      |	点
+							      >	四
+							      >	十分
+左右								左右
+记者								记者
+在								在
+杭州站							      |	杭州
+							      >	站
+内								内
+遇到								遇到
+了								了
+从								从
+河南								河南
+来								来
+杭州								杭州
+游玩								游玩
+的								的
+小唐								小唐
+小唐								小唐
+手里								手里
+握								握
+着								着
+一								一
+张								张
+一百一十二						      |	一百
+							      >	一十
+							      >	二
+次								次
+十点							      |	十
+二十九							      |	点
+							      >	二
+							      >	十
+							      >	九
+分								分
+从								从
+杭州								杭州
+前往								前往
+郑州								郑州
+的								的
+车票								车票
+正								正
+焦急								焦急
+地								地
+站								站
+在								在
+咨询台							      |	咨询
+							      >	台
+前								前
+询问								询问
+原来								原来
+他								他
+误点							      |	误
+							      >	点
+了								了
+INSERTIONS:	10
+DELETIONS:	0
+SUBSTITUTIONS:	8
+NCHANGE:	18
 NTRUTH:	47
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	57
+TRUE WORDS RECALL:	0.830
+TEST WORDS PRECISION:	0.684
 --standard.txt-------testout.txt----32
 过去								过去
 了								了
@@ -1181,67 +1195,76 @@ NTEST:	27
 TRUE WORDS RECALL:	0.962
 TEST WORDS PRECISION:	0.926
 --standard.txt-------testout.txt----41
-本来							      |	本来是十点半的车刚十点二十九的时候刚走到候车厅车已经走掉了来
-是							      <
-十点半							      <
-的							      <
-车							      <
-刚							      <
-十点							      <
-二十九							      <
-的							      <
-时候							      <
-刚							      <
-走到							      <
-候车厅							      <
-车							      <
-已经							      <
-走掉							      <
-了							      <
-来不及							      <
-了							      <
-我							      <
-听							      <
-他们							      <
-说							      <
-票							      <
-要是							      <
-车							      <
-过							      <
-了							      <
-就							      <
-不能							      <
-改							      <
-了							      <
-但是							      <
-我							      <
-今天							      <
-去							      <
-了							      <
-我							      <
-想							      <
-肯定							      <
-改不了							      <
-了							      <
-我							      <
-心里							      <
-一直							      <
-着急							      <
-没							      <
-想到							      <
-一							      <
-过去							      <
-就							      <
-改掉							      <
+本来								本来
+是								是
+十点半								十点半
+的								的
+车								车
+刚								刚
+十点							      |	十
+二十九							      |	点
+							      >	二十
+							      >	九
+的								的
+时候								时候
+刚								刚
+走到							      |	走
+							      >	到
+候车厅								候车厅
+车								车
+已经								已经
+走掉							      |	走
+							      >	掉
 了								了
-INSERTIONS:	0
-DELETIONS:	51
-SUBSTITUTIONS:	1
-NCHANGE:	52
+来不及								来不及
+了								了
+我								我
+听								听
+他们								他们
+说								说
+票								票
+要是								要是
+车								车
+过								过
+了								了
+就								就
+不能							      |	不
+							      >	能
+改								改
+了								了
+但是							      |	但
+							      >	是
+我								我
+今天								今天
+去								去
+了								了
+我								我
+想								想
+肯定								肯定
+改不了							      |	改
+							      >	不
+							      >	了
+了								了
+我								我
+心里								心里
+一直								一直
+着急								着急
+没								没
+想到								想到
+一								一
+过去								过去
+就								就
+改掉							      |	改
+							      >	掉
+了								了
+INSERTIONS:	9
+DELETIONS:	0
+SUBSTITUTIONS:	8
+NCHANGE:	17
 NTRUTH:	53
-NTEST:	2
-TRUE WORDS RECALL:	0.019
-TEST WORDS PRECISION:	0.500
+NTEST:	62
+TRUE WORDS RECALL:	0.849
+TEST WORDS PRECISION:	0.726
 --standard.txt-------testout.txt----42
 铁路								铁路
 杭州站							      |	杭州
@@ -1277,112 +1300,115 @@ NTEST:	25
 TRUE WORDS RECALL:	0.913
 TEST WORDS PRECISION:	0.840
 --standard.txt-------testout.txt----43
-遇							      |	遇特殊情况经我们车站值班站长同意可以在开车后二小时改签作为我
-特殊							      <
-情况							      <
-经							      <
-我们							      <
-车站							      <
-值班							      <
-站长							      <
-同意							      <
-可以							      <
-在							      <
-开车							      <
-后							      <
-二							      <
-小时							      <
-改签							      <
-作为							      <
-我们							      <
-在							      <
-掌握							      <
-这							      <
-一							      <
-块							      <
-情况							      <
-作为							      <
-我们							      <
-铁路							      <
-方							      <
-来说							      <
-还是							      <
-以							      <
-以人为本						      <
-的							      <
-原则							      <
-人性化							      <
-操作							      <
-我们							      <
-尽量							      <
-把							      <
-旅客							      <
-的							      <
-利益							      <
-放							      <
-在							      <
+遇								遇
+特殊								特殊
+情况								情况
+经								经
+我们								我们
+车站								车站
+值班								值班
+站长								站长
+同意								同意
+可以								可以
+在								在
+开车								开车
+后								后
+二								二
+小时								小时
+改签								改签
+作为								作为
+我们								我们
+在								在
+掌握								掌握
+这								这
+一								一
+块								块
+情况								情况
+作为								作为
+我们								我们
+铁路								铁路
+方								方
+来说								来说
+还是								还是
+以								以
+以人为本						      |	以
+							      >	人
+							      >	为
+							      >	本
+的								的
+原则								原则
+人性化								人性化
+操作								操作
+我们								我们
+尽量								尽量
+把								把
+旅客								旅客
+的								的
+利益								利益
+放								放
+在								在
 第一								第一
 位								位
-INSERTIONS:	0
-DELETIONS:	43
+INSERTIONS:	3
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	44
+NCHANGE:	4
 NTRUTH:	46
-NTEST:	3
-TRUE WORDS RECALL:	0.043
-TEST WORDS PRECISION:	0.667
+NTEST:	49
+TRUE WORDS RECALL:	0.978
+TEST WORDS PRECISION:	0.918
 --standard.txt-------testout.txt----44
 昨天								昨天
-铁道部							      |	铁道部运输局有关负责人也表示新规定主要是为了遏制票贩子的倒票
-运输局							      <
-有关							      <
-负责人							      <
-也							      <
-表示							      <
-新							      <
-规定							      <
-主要							      <
-是							      <
-为了							      <
-遏制							      <
-票贩子							      <
-的							      <
-倒票							      <
-行为							      <
-对于							      <
-普通							      <
-旅客							      <
-列车							      <
-车票							      <
-改签							      <
-的							      <
-规定							      <
-与							      <
-原							      <
-规定							      <
-办理							      <
-改签							      <
-手续							      <
-最							      <
-晚							      <
-不							      <
-超过							      <
-开车							      <
-后							      <
-二							      <
-小时							      <
-没有							      <
-实质性							      <
-的							      <
-改变							      <
+铁道部								铁道部
+运输局								运输局
+有关								有关
+负责人								负责人
+也								也
+表示								表示
+新								新
+规定								规定
+主要								主要
+是								是
+为了								为了
+遏制								遏制
+票贩子								票贩子
+的								的
+倒票								倒票
+行为								行为
+对于								对于
+普通								普通
+旅客								旅客
+列车								列车
+车票								车票
+改签								改签
+的								的
+规定								规定
+与								与
+原								原
+规定								规定
+办理								办理
+改签								改签
+手续								手续
+最								最
+晚								晚
+不								不
+超过								超过
+开车								开车
+后								后
+二								二
+小时								小时
+没有								没有
+实质性								实质性
+的								的
+改变								改变
 INSERTIONS:	0
-DELETIONS:	41
-SUBSTITUTIONS:	1
-NCHANGE:	42
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	43
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	43
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----45
 新闻								新闻
 直通车								直通车
@@ -1622,47 +1648,57 @@ NTEST:	15
 TRUE WORDS RECALL:	0.929
 TEST WORDS PRECISION:	0.867
 --standard.txt-------testout.txt----54
-另							      |	另一段视频是在古墩路往骆家庄方向的路上时间是下午三点三十三分
-一							      |	头
-段							      <
-视频							      <
-是							      <
-在							      <
-古墩路							      <
-往							      <
-骆家庄							      <
-方向							      <
-的							      <
-路上							      <
-时间							      <
-是							      <
-下午							      <
-三							      <
-点							      <
-三十三分						      <
-男子							      <
-已经							      <
-在							      <
-古墩路							      <
-星洲							      <
-花园							      <
-附近							      <
-一							      <
-家							      <
-理发店							      <
-把							      <
-平头							      <
-剃成							      <
-了							      <
-光头							      <
-INSERTIONS:	0
-DELETIONS:	31
-SUBSTITUTIONS:	2
-NCHANGE:	33
+另								另
+一								一
+段								段
+视频								视频
+是								是
+在								在
+古墩路							      |	古
+往							      |	墩
+骆家庄							      |	路往
+							      >	骆家
+							      >	庄
+方向								方向
+的								的
+路上								路上
+时间								时间
+是								是
+下午								下午
+三								三
+点								点
+三十三分						      |	三
+							      >	十
+							      >	三
+							      >	分
+男子								男子
+已经								已经
+在								在
+古墩路							      |	古
+星洲							      |	墩
+							      >	路
+							      >	星
+							      >	洲
+花园								花园
+附近								附近
+一								一
+家								家
+理发店								理发店
+把								把
+平头							      |	平
+剃成							      |	头
+							      >	剃
+							      >	成
+了								了
+光头								光头
+INSERTIONS:	10
+DELETIONS:	0
+SUBSTITUTIONS:	8
+NCHANGE:	18
 NTRUTH:	33
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	43
+TRUE WORDS RECALL:	0.758
+TEST WORDS PRECISION:	0.581
 --standard.txt-------testout.txt----55
 他								他
 左手								左手
@@ -1818,40 +1854,47 @@ TRUE WORDS RECALL:	0.643
 TEST WORDS PRECISION:	0.514
 --standard.txt-------testout.txt----60
 此外								此外
-这							      |	这名嫌疑男子小腹微隆眉骨较高上身穿一件灰底黑色细横条套头线衫
-名							      <
-嫌疑							      <
-男子							      <
-小腹							      <
-微隆							      <
-眉骨							      <
-较							      <
-高							      <
-上							      <
-身穿							      <
-一							      <
-件							      <
-灰底							      <
-黑色							      <
-细							      <
-横条							      <
-套头							      <
-线衫							      <
-下							      <
-穿							      <
-黑色							      <
-宽松							      <
-裤子							      <
-黑色							      <
-鞋							      <
-INSERTIONS:	0
-DELETIONS:	25
-SUBSTITUTIONS:	1
-NCHANGE:	26
+这								这
+名								名
+嫌疑								嫌疑
+男子								男子
+小腹							      |	小
+微隆							      |	腹
+眉骨							      |	微
+							      >	隆
+							      >	眉
+							      >	骨
+较								较
+高								高
+上								上
+身穿								身穿
+一								一
+件								件
+灰底							      |	灰
+							      >	底
+黑色								黑色
+细								细
+横条							      |	横
+套头							      |	条
+线衫							      |	套
+							      >	头
+							      >	线
+							      >	衫
+下								下
+穿								穿
+黑色								黑色
+宽松								宽松
+裤子								裤子
+黑色								黑色
+鞋								鞋
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	27
-NTEST:	2
-TRUE WORDS RECALL:	0.037
-TEST WORDS PRECISION:	0.500
+NTEST:	34
+TRUE WORDS RECALL:	0.741
+TEST WORDS PRECISION:	0.588
 --standard.txt-------testout.txt----61
 如果								如果
 您								您
@@ -1920,48 +1963,50 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----64
 接							      |	接下来
-下来							      |	我要向您发布一个紧急求助信息在嘉兴桐乡一家企业打工的二十岁陕
-我							      <
-要							      <
-向							      <
-您							      <
-发布							      <
-一个							      <
-紧急							      <
-求助							      <
-信息							      <
-在							      <
-嘉兴							      <
-桐乡							      <
-一							      <
-家							      <
-企业							      <
-打工							      <
-的							      <
-二十							      <
-岁							      <
-陕西							      <
-小伙子							      <
-郭							      <
-伟雄							      <
-在							      <
-一							      <
-次							      <
-事故							      <
-中							      <
-全身							      <
-百分之七十						      <
-烧伤							      <
-生命							      <
-垂危							      <
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	2
-NCHANGE:	35
+下来							      <
+我								我
+要								要
+向								向
+您								您
+发布								发布
+一个								一个
+紧急								紧急
+求助								求助
+信息								信息
+在								在
+嘉兴								嘉兴
+桐乡								桐乡
+一								一
+家								家
+企业								企业
+打工								打工
+的								的
+二十								二十
+岁								岁
+陕西								陕西
+小伙子								小伙子
+郭								郭
+伟雄							      |	伟
+							      >	雄
+在								在
+一								一
+次								次
+事故								事故
+中								中
+全身								全身
+百分之七十						      |	百
+							      >	分之七十
+烧伤								烧伤
+生命								生命
+垂危								垂危
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	36
+TRUE WORDS RECALL:	0.886
+TEST WORDS PRECISION:	0.861
 --standard.txt-------testout.txt----65
 明天								明天
 他								他
@@ -2043,61 +2088,65 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----68
 他								他
-就							      |	就是小郭十二月二号凌晨小郭刚好轮到值夜班哪知道附近的一个电源
-是							      <
-小郭							      <
-十二月							      <
-二							      <
-号							      <
-凌晨							      <
-小郭							      <
-刚好							      <
-轮							      <
-到							      <
-值夜班							      <
-哪知道							      <
-附近							      <
-的							      <
-一个							      <
-电源							      <
-突然							      <
-短路							      <
-产生							      <
-火星							      <
-地面							      <
-瞬间							      <
-着							      <
-了							      <
-起来							      <
-小郭							      <
-想							      <
-跑							      <
-脚下							      <
-一							      <
-滑							      <
-火苗							      <
-迅速							      <
-在							      <
-他							      <
-身上							      <
-蔓延							      <
-背部							      <
-手臂							      <
-脸							      <
-小郭							      <
-整个							      <
-人							      <
-被							      <
-火舌							      <
-吞没							      <
-INSERTIONS:	0
-DELETIONS:	46
-SUBSTITUTIONS:	1
-NCHANGE:	47
+就								就
+是								是
+小郭								小郭
+十二月							      |	十二
+							      >	月
+二								二
+号								号
+凌晨								凌晨
+小郭								小郭
+刚好								刚好
+轮								轮
+到								到
+值夜班							      |	值
+哪知道							      |	夜班
+							      >	哪
+							      >	知道
+附近								附近
+的								的
+一个								一个
+电源								电源
+突然								突然
+短路								短路
+产生								产生
+火星								火星
+地面								地面
+瞬间								瞬间
+着								着
+了								了
+起来								起来
+小郭								小郭
+想								想
+跑								跑
+脚下								脚下
+一								一
+滑								滑
+火苗								火苗
+迅速								迅速
+在								在
+他								他
+身上								身上
+蔓延								蔓延
+背部								背部
+手臂								手臂
+脸								脸
+小郭								小郭
+整个								整个
+人								人
+被								被
+火舌							      |	火
+							      >	舌
+吞没								吞没
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	48
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	52
+TRUE WORDS RECALL:	0.917
+TEST WORDS PRECISION:	0.846
 --standard.txt-------testout.txt----69
 他								他
 穿								穿
@@ -2122,112 +2171,120 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----70
 明天								明天
-手术							      |	手术小郭需要大量新鲜血液但是他的血型是隐性型血非常稀有小郭所
-小郭							      <
-需要							      <
-大量							      <
-新鲜							      <
-血液							      <
-但是							      <
-他							      <
-的							      <
-血型							      <
-是							      <
-隐性							      <
-型							      <
-血							      <
-非常							      <
-稀有							      <
-小郭							      <
-所在							      <
-的							      <
-工厂							      <
-的							      <
-工友							      <
-都							      <
-自发							      <
-地							      <
-组织							      <
-起来							      <
-前去							      <
-验血型							      <
-看看							      <
-能不能							      <
-帮							      <
-上							      <
-这个							      <
-只有							      <
-二十							      <
-岁							      <
-的							      <
-年轻人							      <
-闯							      <
-过							      <
-这							      <
-一							      <
-关							      <
-可惜							      <
-没有							      <
-一							      <
-例							      <
-吻合							      <
-INSERTIONS:	0
-DELETIONS:	48
-SUBSTITUTIONS:	1
-NCHANGE:	49
+手术								手术
+小郭								小郭
+需要								需要
+大量								大量
+新鲜								新鲜
+血液								血液
+但是							      |	但
+							      >	是
+他								他
+的								的
+血型								血型
+是								是
+隐性								隐性
+型								型
+血								血
+非常								非常
+稀有								稀有
+小郭								小郭
+所在							      |	所
+							      >	在
+的								的
+工厂								工厂
+的								的
+工友								工友
+都								都
+自发								自发
+地								地
+组织								组织
+起来								起来
+前去								前去
+验血型							      |	验
+							      >	血型
+看看								看看
+能不能							      |	能
+							      >	不
+							      >	能
+帮								帮
+上								上
+这个								这个
+只有							      |	只
+							      >	有
+二十								二十
+岁								岁
+的								的
+年轻人								年轻人
+闯								闯
+过								过
+这								这
+一								一
+关								关
+可惜								可惜
+没有								没有
+一								一
+例								例
+吻合								吻合
+INSERTIONS:	6
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	11
 NTRUTH:	50
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	56
+TRUE WORDS RECALL:	0.900
+TEST WORDS PRECISION:	0.804
 --standard.txt-------testout.txt----71
 这								这
-几							      |	几天嘉兴血站把最近两年献过熊猫血的人的电话都打了一遍有的是电
-天							      <
-嘉兴							      <
-血站							      <
-把							      <
-最近							      <
-两							      <
-年							      <
-献							      <
-过							      <
-熊猫							      <
-血							      <
-的							      <
-人							      <
-的							      <
-电话							      <
-都							      <
-打							      <
-了							      <
-一							      <
-遍							      <
-有							      <
-的							      <
-是							      <
-电话							      <
-变更							      <
-有							      <
+几								几
+天								天
+嘉兴								嘉兴
+血站								血站
+把								把
+最近								最近
+两								两
+年								年
+献								献
+过								过
+熊猫								熊猫
+血								血
+的								的
+人								人
+的								的
+电话								电话
+都								都
+打								打
+了								了
+一								一
+遍								遍
+有							      |	有的是
 的							      <
 是							      <
-人							      <
-在							      <
-外地							      <
-能							      <
-来							      <
-献血							      <
+电话								电话
+变更								变更
+有							      |	有的是
 的							      <
-人							      <
-很少							      <
-很少							      <
-INSERTIONS:	0
-DELETIONS:	38
-SUBSTITUTIONS:	1
-NCHANGE:	39
+是							      <
+人								人
+在								在
+外地								外地
+能								能
+来								来
+献血								献血
+的								的
+人								人
+很少							      |	很
+很少							      |	少
+							      >	很
+							      >	少
+INSERTIONS:	2
+DELETIONS:	4
+SUBSTITUTIONS:	4
+NCHANGE:	10
 NTRUTH:	40
-NTEST:	2
-TRUE WORDS RECALL:	0.025
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.800
+TEST WORDS PRECISION:	0.842
 --standard.txt-------testout.txt----72
 因为								因为
 他								他
@@ -2263,47 +2320,48 @@ TRUE WORDS RECALL:	0.957
 TEST WORDS PRECISION:	0.917
 --standard.txt-------testout.txt----73
 在								在
-嘉兴							      |	嘉兴第二医院的烧伤抢救室里我们看到了浑身裹满纱布的小郭由于气
-第二							      <
-医院							      <
-的							      <
-烧伤							      <
-抢救室							      <
-里							      <
-我们							      <
-看到							      <
-了							      <
-浑身							      <
-裹							      <
-满							      <
-纱布							      <
-的							      <
-小郭							      <
-由于							      <
-气管							      <
-切开							      <
-他							      <
-现在							      <
-暂时							      <
-不能							      <
-说话							      <
-对于							      <
-他							      <
-现在							      <
-的							      <
-情况							      <
-院方							      <
-也							      <
-很							      <
-担忧							      <
-INSERTIONS:	0
-DELETIONS:	32
+嘉兴								嘉兴
+第二								第二
+医院								医院
+的								的
+烧伤								烧伤
+抢救室								抢救室
+里								里
+我们								我们
+看到								看到
+了								了
+浑身								浑身
+裹								裹
+满								满
+纱布								纱布
+的								的
+小郭								小郭
+由于								由于
+气管								气管
+切开								切开
+他								他
+现在								现在
+暂时								暂时
+不能							      |	不
+							      >	能
+说话								说话
+对于								对于
+他								他
+现在								现在
+的								的
+情况								情况
+院方								院方
+也								也
+很								很
+担忧								担忧
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	33
+NCHANGE:	2
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	35
+TRUE WORDS RECALL:	0.971
+TEST WORDS PRECISION:	0.943
 --standard.txt-------testout.txt----74
 如果								如果
 在								在
@@ -2425,8 +2483,8 @@ NTEST:	5
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----78
-如果								如果
-电视机							      |	电视机前的您也是隐性型血请您帮帮二十岁的小郭吧这么年轻的生命
+如果							      |	如
+电视机							      |	果电视机前的您也是隐性型血请您帮帮二十岁的小郭吧这么年轻的生
 前							      <
 的							      <
 您							      <
@@ -2495,12 +2553,12 @@ TEST WORDS PRECISION:	1.000
 难关							      <
 INSERTIONS:	0
 DELETIONS:	66
-SUBSTITUTIONS:	1
-NCHANGE:	67
+SUBSTITUTIONS:	2
+NCHANGE:	68
 NTRUTH:	68
 NTEST:	2
-TRUE WORDS RECALL:	0.015
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----79
 昨天								昨天
 晚上								晚上
@@ -2548,82 +2606,87 @@ TRUE WORDS RECALL:	0.600
 TEST WORDS PRECISION:	0.692
 --standard.txt-------testout.txt----81
 与								与
-往							      |	往届不同的是本届戏剧节开幕式晚会推出的戏曲专场粉墨青春由我省
+往							      |	往届
 届							      <
-不同							      <
-的							      <
-是							      <
-本届							      <
-戏剧节							      <
-开幕式							      <
-晚会							      <
-推出							      <
-的							      <
-戏曲							      <
-专场							      <
-粉							      <
-墨							      <
-青春							      <
-由							      <
-我省							      <
-新							      <
-一代							      <
-青年							      <
-演员							      <
-出演							      <
-是							      <
-对							      <
-艺术							      <
-人才							      <
-新松							      <
-计划							      <
-成果							      <
-的							      <
-全面							      <
-展示							      <
-INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+不同								不同
+的								的
+是								是
+本届								本届
+戏剧节								戏剧节
+开幕式								开幕式
+晚会								晚会
+推出								推出
+的								的
+戏曲								戏曲
+专场								专场
+粉								粉
+墨								墨
+青春								青春
+由								由
+我省								我省
+新								新
+一代							      |	一
+							      >	代
+青年								青年
+演员								演员
+出演								出演
+是								是
+对								对
+艺术								艺术
+人才								人才
+新松							      |	新
+							      >	松
+计划								计划
+成果								成果
+的								的
+全面								全面
+展示								展示
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	35
+TRUE WORDS RECALL:	0.882
+TEST WORDS PRECISION:	0.857
 --standard.txt-------testout.txt----82
-从事							      |	从
-昆剧							      |	事昆剧京剧越剧等六个剧种的青年演员分别演出了牡丹亭五女拜寿穆
-京剧							      <
-越剧							      <
-等							      <
-六							      <
-个							      <
-剧种							      <
-的							      <
-青年							      <
-演员							      <
-分别							      <
-演出							      <
-了							      <
-牡丹亭							      <
-五							      <
-女							      <
-拜寿							      <
-穆桂英							      <
-挂帅							      <
-等							      <
-多							      <
-个							      <
-经典							      <
-戏曲							      <
-折子戏							      <
-INSERTIONS:	0
-DELETIONS:	24
-SUBSTITUTIONS:	2
-NCHANGE:	26
+从事								从事
+昆剧								昆剧
+京剧								京剧
+越剧								越剧
+等								等
+六								六
+个								个
+剧种								剧种
+的								的
+青年								青年
+演员								演员
+分别								分别
+演出								演出
+了								了
+牡丹亭							      |	牡丹
+							      >	亭
+五								五
+女								女
+拜寿							      |	拜
+							      >	寿
+穆桂英								穆桂英
+挂帅								挂帅
+等								等
+多								多
+个								个
+经典								经典
+戏曲								戏曲
+折子戏							      |	折子
+							      >	戏
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	26
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	29
+TRUE WORDS RECALL:	0.885
+TEST WORDS PRECISION:	0.793
 --standard.txt-------testout.txt----83
 从								从
 二零零五						      |	二零
@@ -2828,59 +2891,59 @@ NTEST:	6
 TRUE WORDS RECALL:	0.714
 TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----90
-韩							      |	韩长赋长期从事国家宏观经济研究和政策制定工作尤其是对三农问题
+韩							      |	韩长赋
 长赋							      <
-长期							      <
-从事							      <
-国家							      <
-宏观							      <
-经济							      <
-研究							      <
-和							      <
-政策							      <
-制定							      <
-工作							      <
-尤其							      <
-是							      <
-对							      <
-三							      <
-农							      <
-问题							      <
-有							      <
-很							      <
-深							      <
-地							      <
-研究							      <
-多次							      <
-参与							      <
-中央							      <
-全会							      <
-等							      <
-重大							      <
-会议							      <
-文件							      <
-起草							      <
-工作							      <
-具有							      <
-深厚							      <
-的							      <
-理论							      <
-功底							      <
-和							      <
-实际							      <
-工作							      <
+长期								长期
+从事								从事
+国家								国家
+宏观								宏观
+经济								经济
+研究								研究
+和								和
+政策								政策
+制定								制定
+工作								工作
+尤其								尤其
+是								是
+对								对
+三								三
+农								农
+问题								问题
+有								有
+很								很
+深								深
+地								地
+研究								研究
+多次								多次
+参与								参与
+中央								中央
+全会								全会
+等								等
+重大								重大
+会议								会议
+文件								文件
+起草								起草
+工作								工作
+具有								具有
+深厚								深厚
+的								的
+理论								理论
+功底								功底
+和								和
+实际								实际
+工作								工作
 经验								经验
 INSERTIONS:	0
-DELETIONS:	40
+DELETIONS:	1
 SUBSTITUTIONS:	1
-NCHANGE:	41
+NCHANGE:	2
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	41
+TRUE WORDS RECALL:	0.952
+TEST WORDS PRECISION:	0.976
 --standard.txt-------testout.txt----91
-报告会							      |	报告
-上							      |	会上韩长赋从巨大成就与重要机遇指导思想与总体要求宏伟蓝图与目
+报告会							      |	报告会上韩长赋从巨大成就与重要机遇指导思想与总体要求宏伟蓝图
+上							      |	解
 韩							      <
 长赋							      <
 从							      <
@@ -3037,137 +3100,135 @@ TRUE WORDS RECALL:	0.944
 TEST WORDS PRECISION:	0.895
 --standard.txt-------testout.txt----95
 要								要
-把								把
-深入								深入
-学习								学习
-贯彻								贯彻
-党								党
-的								的
-十七							      |	十
-							      >	七
-届								届
-五中全会						      |	五
-							      >	中
-							      >	全会
-精神								精神
-与								与
-贯							      |	贯彻
-彻							      <
-落实								落实
-省委								省委
-十二							      |	十
-							      >	二
-届								届
-八								八
-次								次
-全会								全会
-精神								精神
-结合								结合
-起来								起来
-与								与
-编制								编制
-十二							      |	十
-五							      |	二五
-规划								规划
-结合								结合
-起来								起来
-与								与
-抓好								抓好
-当前								当前
-各项								各项
-工作								工作
-结合								结合
-起来								起来
-为								为
-推进								推进
-创业								创业
-富民								富民
-创新								创新
-强								强
-省								省
-全面								全面
-建设								建设
-惠及								惠及
-全省								全省
-人民								人民
-的								的
-小康								小康
-社会								社会
-作出								作出
-新								新
-的								的
-更								更
-大								大
-的								的
-贡							      |	贡献
-献							      <
-INSERTIONS:	4
-DELETIONS:	2
-SUBSTITUTIONS:	7
-NCHANGE:	13
-NTRUTH:	61
-NTEST:	63
-TRUE WORDS RECALL:	0.852
-TEST WORDS PRECISION:	0.825
---standard.txt-------testout.txt----96
-省委							      <
-理论							      <
+把							      |	把深入学习贯彻党的十七届五中全会精神与贯彻落实省委十二届八次
+深入							      <
 学习							      <
-中心							      <
-组成员							      <
-在							      <
-杭							      <
-副							      <
-省								省
-以上							      |	委理论学习中心组成员在杭副省以上领导干部及副省以上老同志在杭
-领导							      <
-干部							      <
-及							      <
-副							      <
+贯彻							      <
+党							      <
+的							      <
+十七							      <
+届							      <
+五中全会						      <
+精神							      <
+与							      <
+贯							      <
+彻							      <
+落实							      <
+省委							      <
+十二							      <
+届							      <
+八							      <
+次							      <
+全会							      <
+精神							      <
+结合							      <
+起来							      <
+与							      <
+编制							      <
+十二							      <
+五							      <
+规划							      <
+结合							      <
+起来							      <
+与							      <
+抓好							      <
+当前							      <
+各项							      <
+工作							      <
+结合							      <
+起来							      <
+为							      <
+推进							      <
+创业							      <
+富民							      <
+创新							      <
+强							      <
 省							      <
-以上							      <
-老							      <
-同志							      <
-在							      <
-杭							      <
-省							      <
-直属							      <
-各							      <
-单位							      <
-副厅							      <
-以上							      <
-领导							      <
-干部							      <
-在							      <
-杭							      <
-部分							      <
-高校							      <
-师生							      <
-代表							      <
-武警							      <
-浙江省							      <
-总队							      <
-全体							      <
-机关干部						      <
-杭州市							      <
-部分							      <
-干部							      <
-群众							      <
-代表							      <
-共							      <
-约							      <
-一千							      <
-人							      <
-参加							      <
-报告会							      <
+全面							      <
+建设							      <
+惠及							      <
+全省							      <
+人民							      <
+的							      <
+小康							      <
+社会							      <
+作出							      <
+新							      <
+的							      <
+更							      <
+大							      <
+的							      <
+贡							      <
+献							      <
 INSERTIONS:	0
-DELETIONS:	48
+DELETIONS:	59
 SUBSTITUTIONS:	1
-NCHANGE:	49
-NTRUTH:	50
+NCHANGE:	60
+NTRUTH:	61
 NTEST:	2
-TRUE WORDS RECALL:	0.020
+TRUE WORDS RECALL:	0.016
 TEST WORDS PRECISION:	0.500
+--standard.txt-------testout.txt----96
+省委								省委
+理论								理论
+学习								学习
+中心							      |	中心组
+组成员							      |	成员
+在								在
+杭								杭
+副								副
+省								省
+以上								以上
+领导								领导
+干部								干部
+及								及
+副								副
+省								省
+以上								以上
+老							      |	老同志
+同志							      <
+在								在
+杭								杭
+省								省
+直属								直属
+各								各
+单位								单位
+副厅							      |	副
+							      >	厅
+以上								以上
+领导								领导
+干部								干部
+在								在
+杭								杭
+部分								部分
+高校								高校
+师生								师生
+代表								代表
+武警								武警
+浙江省								浙江省
+总队								总队
+全体								全体
+机关干部						      |	机关
+							      >	干部
+杭州市								杭州市
+部分								部分
+干部								干部
+群众								群众
+代表								代表
+共								共
+约								约
+一千								一千
+人								人
+参加								参加
+报告会								报告会
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	5
+NCHANGE:	8
+NTRUTH:	50
+NTEST:	51
+TRUE WORDS RECALL:	0.880
+TEST WORDS PRECISION:	0.863
 --standard.txt-------testout.txt----97
 浙江								浙江
 工业								工业
@@ -3553,79 +3614,89 @@ TRUE WORDS RECALL:	0.938
 TEST WORDS PRECISION:	0.882
 --standard.txt-------testout.txt----110
 像								像
-这种							      |	这种提花图案复杂的以前做不了的单子现在都可以做手摇横机一个人
-提花							      <
-图案							      <
-复杂							      <
-的							      <
-以前							      <
-做不了							      <
-的							      <
-单子							      <
-现在							      <
-都							      <
-可以							      <
-做							      <
-手摇							      <
-横机							      <
-一个							      <
-人							      <
-只能							      <
-看							      <
-一							      <
-台							      <
-现在							      <
-一个							      <
-人							      <
-可以							      <
-看							      <
-五台							      <
-至							      <
-六							      <
-台							      <
-INSERTIONS:	0
-DELETIONS:	29
-SUBSTITUTIONS:	1
-NCHANGE:	30
+这种								这种
+提花							      |	提
+							      >	花
+图案								图案
+复杂								复杂
+的								的
+以前								以前
+做不了							      |	做
+							      >	不
+							      >	了
+的								的
+单子								单子
+现在								现在
+都								都
+可以								可以
+做								做
+手摇								手摇
+横机							      |	横
+							      >	机
+一个								一个
+人								人
+只能							      |	只
+							      >	能
+看								看
+一								一
+台								台
+现在								现在
+一个								一个
+人								人
+可以								可以
+看								看
+五台							      |	五
+							      >	台
+至								至
+六								六
+台								台
+INSERTIONS:	6
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	11
 NTRUTH:	31
-NTEST:	2
-TRUE WORDS RECALL:	0.032
-TEST WORDS PRECISION:	0.500
+NTEST:	37
+TRUE WORDS RECALL:	0.839
+TEST WORDS PRECISION:	0.703
 --standard.txt-------testout.txt----111
 在								在
-以							      |	以制造全球人均一支笔而文明的桐庐分水镇自动制笔机械手正熟练地
-制造							      <
-全球							      <
-人均							      <
-一							      <
-支							      <
-笔							      <
-而							      <
-文明							      <
-的							      <
-桐庐							      <
-分水镇							      <
-自动							      <
-制笔							      <
-机械手							      <
-正							      <
-熟练							      <
-地							      <
-将							      <
-做好							      <
-的							      <
-模具							      <
-成批							      <
-成批							      <
-吐出							      <
-INSERTIONS:	0
-DELETIONS:	24
-SUBSTITUTIONS:	1
-NCHANGE:	25
+以								以
+制造								制造
+全球								全球
+人均								人均
+一								一
+支								支
+笔								笔
+而								而
+文明								文明
+的								的
+桐庐								桐庐
+分水镇							      |	分水
+							      >	镇
+自动								自动
+制笔							      |	制
+机械手							      |	笔
+							      >	机械
+							      >	手
+正								正
+熟练								熟练
+地								地
+将								将
+做好								做好
+的								的
+模具								模具
+成批								成批
+成批								成批
+吐出							      |	吐
+							      >	出
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	26
-NTEST:	2
-TRUE WORDS RECALL:	0.038
-TEST WORDS PRECISION:	0.500
+NTEST:	30
+TRUE WORDS RECALL:	0.846
+TEST WORDS PRECISION:	0.733
 --standard.txt-------testout.txt----112
 对比								对比
 一旁								一旁
@@ -3648,51 +3719,56 @@ NTEST:	12
 TRUE WORDS RECALL:	0.900
 TEST WORDS PRECISION:	0.750
 --standard.txt-------testout.txt----113
-贯彻							      |	贯彻省委两创总战略桐庐县把目光瞄准针织制笔等传统产业的技术升
-省委							      <
-两							      <
-创							      <
-总							      <
-战略							      <
-桐庐县							      <
-把							      <
-目光							      <
-瞄准							      <
-针织							      <
-制笔							      <
-等							      <
-传统							      <
-产业							      <
-的							      <
-技术							      <
-升级							      <
-先后							      <
-出台							      <
-多							      <
-项							      <
-技改							      <
-扶持							      <
-政策							      <
-对							      <
-针织							      <
-和							      <
-制笔							      <
-企业							      <
-新							      <
-购							      <
-设备							      <
-给予							      <
-百分之二十五						      <
-的							      <
+贯彻								贯彻
+省委								省委
+两								两
+创								创
+总								总
+战略								战略
+桐庐县								桐庐县
+把								把
+目光								目光
+瞄准								瞄准
+针织								针织
+制笔							      |	制
+							      >	笔
+等								等
+传统								传统
+产业								产业
+的								的
+技术								技术
+升级								升级
+先后								先后
+出台								出台
+多								多
+项								项
+技改								技改
+扶持								扶持
+政策								政策
+对								对
+针织								针织
+和								和
+制笔							      |	制
+							      >	笔
+企业								企业
+新								新
+购								购
+设备								设备
+给予								给予
+百分之二十五						      |	百
+							      >	分之
+							      >	二十
+							      >	五
+的								的
 补贴								补贴
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	1
-NCHANGE:	36
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	8
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.027
-TEST WORDS PRECISION:	0.500
+NTEST:	42
+TRUE WORDS RECALL:	0.919
+TEST WORDS PRECISION:	0.810
 --standard.txt-------testout.txt----114
 企业								企业
 购买								购买
@@ -4386,9 +4462,9 @@ NTEST:	10
 TRUE WORDS RECALL:	0.700
 TEST WORDS PRECISION:	0.700
 --standard.txt-------testout.txt----137
-两							      |	两年来浙江贸促机构积极组织企业出国参加国际专业商品展览会共组
-年							      |	首
-来							      |	位
+两								两
+年							      |	年来浙江贸促机构积极组织企业出国参加国际专业商品展览会共组织
+来							      <
 浙江							      <
 贸促							      <
 机构							      <
@@ -4437,13 +4513,13 @@ TEST WORDS PRECISION:	0.700
 市区							      <
 首位							      <
 INSERTIONS:	0
-DELETIONS:	47
-SUBSTITUTIONS:	3
-NCHANGE:	50
+DELETIONS:	48
+SUBSTITUTIONS:	1
+NCHANGE:	49
 NTRUTH:	50
-NTEST:	3
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	2
+TRUE WORDS RECALL:	0.020
+TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----138
 浙江								浙江
 台								台
@@ -4633,61 +4709,62 @@ NTEST:	23
 TRUE WORDS RECALL:	0.818
 TEST WORDS PRECISION:	0.783
 --standard.txt-------testout.txt----144
-这里							      |	这
-是							      |	里是萧山国际机场刚才一辆从北京飞往杭州的客机在降落的时候不慎
-萧山							      <
-国际							      <
-机场							      <
-刚才							      <
-一							      <
-辆							      <
-从							      <
-北京							      <
-飞往							      <
-杭州							      <
-的							      <
-客机							      <
-在							      <
-降落							      <
-的							      <
-时候							      <
-不慎							      <
-与							      <
-地面							      <
-发生							      <
-碰撞							      <
-飞机							      <
-已经							      <
-紧急							      <
-迫降							      <
-在							      <
-货机							      <
-停机坪							      <
-现在							      <
-我们							      <
-看到							      <
-消防							      <
-救护							      <
-等							      <
-各							      <
-方面							      <
-的							      <
-人员							      <
-已经							      <
-赶到							      <
-现场							      <
-进行							      <
-紧急							      <
-的							      <
-抢救							      <
-INSERTIONS:	0
-DELETIONS:	45
-SUBSTITUTIONS:	2
-NCHANGE:	47
+这里								这里
+是								是
+萧山								萧山
+国际								国际
+机场								机场
+刚才								刚才
+一								一
+辆								辆
+从								从
+北京								北京
+飞往								飞往
+杭州								杭州
+的								的
+客机								客机
+在								在
+降落								降落
+的								的
+时候								时候
+不慎								不慎
+与								与
+地面								地面
+发生								发生
+碰撞								碰撞
+飞机								飞机
+已经								已经
+紧急								紧急
+迫降								迫降
+在								在
+货机								货机
+停机坪								停机坪
+现在							      |	现
+							      >	在
+我们								我们
+看到								看到
+消防								消防
+救护								救护
+等								等
+各								各
+方面								方面
+的								的
+人员								人员
+已经								已经
+赶到								赶到
+现场								现场
+进行								进行
+紧急								紧急
+的								的
+抢救								抢救
+INSERTIONS:	1
+DELETIONS:	0
+SUBSTITUTIONS:	1
+NCHANGE:	2
 NTRUTH:	47
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	48
+TRUE WORDS RECALL:	0.979
+TEST WORDS PRECISION:	0.958
 --standard.txt-------testout.txt----145
 接到								接到
 救援								救援
@@ -4863,46 +4940,49 @@ NTEST:	25
 TRUE WORDS RECALL:	0.864
 TEST WORDS PRECISION:	0.760
 --standard.txt-------testout.txt----152
-一大早							      |	一
-任							      |	大早任爱华就带着自己亲手缝制的小袜鞋来到莘塍镇下村王雪莹吕迁
-爱华							      <
-就							      <
-带							      <
-着							      <
-自己							      <
-亲手							      <
-缝制							      <
-的							      <
-小							      <
-袜							      <
-鞋							      <
-来到							      <
-莘塍镇							      <
-下							      <
-村							      <
-王							      <
-雪莹							      <
-吕							      <
-迁							      <
-夫妇							      <
-家							      <
-给							      <
-他们							      <
-刚							      <
-满月							      <
-的							      <
-小宝宝							      <
-送上							      <
-满月							      <
-礼							      <
-INSERTIONS:	0
-DELETIONS:	30
-SUBSTITUTIONS:	2
-NCHANGE:	32
+一大早								一大早
+任								任
+爱华							      |	爱
+							      >	华
+就								就
+带								带
+着								着
+自己								自己
+亲手								亲手
+缝制								缝制
+的								的
+小								小
+袜								袜
+鞋								鞋
+来到								来到
+莘塍镇								莘塍镇
+下								下
+村								村
+王								王
+雪莹							      |	雪
+							      >	莹
+吕								吕
+迁								迁
+夫妇								夫妇
+家								家
+给								给
+他们								他们
+刚								刚
+满月								满月
+的								的
+小宝宝								小宝宝
+送上							      |	送
+							      >	上
+满月								满月
+礼								礼
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	32
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	35
+TRUE WORDS RECALL:	0.906
+TEST WORDS PRECISION:	0.829
 --standard.txt-------testout.txt----153
 看到								看到
 母子								母子
@@ -5299,57 +5379,58 @@ NTEST:	12
 TRUE WORDS RECALL:	0.909
 TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----169
-公司							      |	公司经理介绍说这个软件能通过拍照截屏的方式对不良视频进行抓拍
-经理							      <
-介绍							      <
-说							      <
-这个							      <
-软件							      <
-能							      <
-通过							      <
-拍照							      <
-截屏							      <
-的							      <
-方式							      <
-对							      <
-不良							      <
-视频							      <
-进行							      <
-抓拍							      <
-一旦							      <
-确认							      <
-这些							      <
-视频							      <
-的							      <
-暴露							      <
-尺度							      <
-过							      <
-大							      <
-这个							      <
-系统							      <
-就							      <
-会							      <
-自动							      <
-对							      <
-这个							      <
-视频							      <
-进行							      <
-关闭							      <
-从而							      <
-净化							      <
-网络							      <
-视频							      <
-社交							      <
-的							      <
+公司								公司
+经理								经理
+介绍								介绍
+说								说
+这个								这个
+软件								软件
+能								能
+通过								通过
+拍照								拍照
+截屏							      |	截
+							      >	屏
+的								的
+方式								方式
+对								对
+不良								不良
+视频								视频
+进行								进行
+抓拍								抓拍
+一旦								一旦
+确认								确认
+这些								这些
+视频								视频
+的								的
+暴露								暴露
+尺度								尺度
+过								过
+大								大
+这个								这个
+系统								系统
+就								就
+会								会
+自动								自动
+对								对
+这个								这个
+视频								视频
+进行								进行
+关闭								关闭
+从而								从而
+净化								净化
+网络								网络
+视频								视频
+社交								社交
+的								的
 环境								环境
-INSERTIONS:	0
-DELETIONS:	41
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	42
+NCHANGE:	2
 NTRUTH:	43
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	44
+TRUE WORDS RECALL:	0.977
+TEST WORDS PRECISION:	0.955
 --standard.txt-------testout.txt----170
 产品								产品
 一经								一经
@@ -5631,8 +5712,8 @@ NTEST:	24
 TRUE WORDS RECALL:	0.957
 TEST WORDS PRECISION:	0.917
 --standard.txt-------testout.txt----179
-昨天								昨天
-铁道部							      |	铁道部有关负责人表示新修订的退票改签规定是为了遏制票贩子的倒
+昨天							      |	昨天铁道部有关负责人表示新修订的退票改签规定是为了遏制票贩子
+铁道部							      |	响
 有关							      <
 负责人							      <
 表示							      <
@@ -5685,12 +5766,12 @@ TEST WORDS PRECISION:	0.917
 影响							      <
 INSERTIONS:	0
 DELETIONS:	50
-SUBSTITUTIONS:	1
-NCHANGE:	51
+SUBSTITUTIONS:	2
+NCHANGE:	52
 NTRUTH:	52
 NTEST:	2
-TRUE WORDS RECALL:	0.019
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----180
 教育部								教育部
 昨天								昨天
@@ -5837,50 +5918,50 @@ TRUE WORDS RECALL:	0.933
 TEST WORDS PRECISION:	0.824
 --standard.txt-------testout.txt----187
 农业部								农业部
-下发							      |	下发意见函公开征求农产品及食品中农药最大残留限量此次征求意见
-意见							      <
-函							      <
-公开							      <
-征求							      <
-农产品							      <
-及							      <
-食品							      <
-中							      <
-农药							      <
-最							      <
-大							      <
-残留							      <
-限量							      <
-此次							      <
-征求							      <
-意见							      <
-的							      <
-农产品							      <
-包括							      <
-白菜							      <
-蘑菇							      <
-黄瓜							      <
-玉米							      <
-荔							      <
-枝							      <
-苹							      <
-果							      <
+下发								下发
+意见								意见
+函								函
+公开								公开
+征求								征求
+农产品								农产品
+及								及
+食品								食品
+中								中
+农药								农药
+最								最
+大								大
+残留								残留
+限量								限量
+此次								此次
+征求								征求
+意见								意见
+的								的
+农产品								农产品
+包括								包括
+白菜								白菜
+蘑菇								蘑菇
+黄瓜								黄瓜
+玉米								玉米
+荔							      |	荔枝
+枝							      |	苹果
+苹							      |	桔
+果							      |	子
 桔子							      <
-等							      <
-多种							      <
-蔬菜							      <
-瓜果							      <
+等								等
+多种								多种
+蔬菜								蔬菜
+瓜果								瓜果
 INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+DELETIONS:	1
+SUBSTITUTIONS:	4
+NCHANGE:	5
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	33
+TRUE WORDS RECALL:	0.853
+TEST WORDS PRECISION:	0.879
 --standard.txt-------testout.txt----188
-针对								针对
-近期							      |	近期出现的诸如零零零零零零零幺冠字号码的人民币纸币中国人民银
+针对							      |	针对近期出现的诸如零零零零零零零幺冠字号码的人民币纸币中国人
+近期							      |	据
 出现							      <
 的							      <
 诸如							      <
@@ -5940,12 +6021,12 @@ TEST WORDS PRECISION:	0.500
 依据							      <
 INSERTIONS:	0
 DELETIONS:	57
-SUBSTITUTIONS:	1
-NCHANGE:	58
+SUBSTITUTIONS:	2
+NCHANGE:	59
 NTRUTH:	59
 NTEST:	2
-TRUE WORDS RECALL:	0.017
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----189
 最近								最近
 一个								一个
@@ -6008,48 +6089,52 @@ NTEST:	16
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----192
-兰溪市							      |	兰溪市黄店镇卢山村的几位棉农拼凑了一小货车的籽棉拉到棉花场去
-黄店镇							      <
-卢							      <
-山村							      <
-的							      <
-几							      <
-位							      <
-棉农							      <
-拼凑							      <
-了							      <
-一							      <
-小							      <
-货车							      <
-的							      <
-籽棉							      <
-拉到							      <
-棉花							      <
-场							      <
+兰溪市								兰溪市
+黄店镇							      |	黄
+							      >	店
+							      >	镇
+卢								卢
+山村								山村
+的								的
+几								几
+位								位
+棉农								棉农
+拼凑								拼凑
+了								了
+一								一
+小								小
+货车								货车
+的								的
+籽棉							      |	籽
+拉到							      |	棉
+							      >	拉
+							      >	到
+棉花								棉花
+场								场
 去								去
-但							      <
-转							      <
-了							      <
-三							      <
-四							      <
-个							      <
-地方							      <
-也							      <
-没							      <
-能							      <
-将							      <
-这些							      <
-棉花							      <
-卖							      <
-出去							      <
-INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+但								但
+转								转
+了								了
+三								三
+四								四
+个								个
+地方								地方
+也								也
+没								没
+能								能
+将								将
+这些								这些
+棉花								棉花
+卖								卖
+出去								出去
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	7
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.912
+TEST WORDS PRECISION:	0.816
 --standard.txt-------testout.txt----193
 现在								现在
 这里								这里
@@ -6277,49 +6362,50 @@ NTEST:	18
 TRUE WORDS RECALL:	0.833
 TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----201
-工厂							      |	工厂负责人在忙着四处借钱的同时为缓解资金压力还得向棉纱厂上门
-负责人							      <
-在							      <
-忙							      <
-着							      <
-四处							      <
-借							      <
+工厂								工厂
+负责人								负责人
+在								在
+忙								忙
+着								着
+四处								四处
+借							      |	借钱
 钱							      <
-的							      <
-同时							      <
-为							      <
-缓解							      <
-资金							      <
-压力							      <
-还							      <
-得							      <
-向							      <
-棉纱厂							      <
-上门							      <
-推销							      <
-但							      <
-无奈							      <
-的							      <
-是							      <
-如今							      <
-棉花							      <
-已经							      <
-由							      <
-前段							      <
-时间							      <
-的							      <
-炙手可热						      <
-变成							      <
-了							      <
+的								的
+同时								同时
+为								为
+缓解								缓解
+资金								资金
+压力								压力
+还								还
+得								得
+向								向
+棉纱厂							      |	棉纱
+							      >	厂
+上门								上门
+推销								推销
+但								但
+无奈								无奈
+的								的
+是								是
+如今								如今
+棉花								棉花
+已经								已经
+由								由
+前段								前段
+时间								时间
+的								的
+炙手可热							炙手可热
+变成								变成
+了								了
 无人问津							无人问津
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+INSERTIONS:	1
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	35
+TRUE WORDS RECALL:	0.914
+TEST WORDS PRECISION:	0.914
 --standard.txt-------testout.txt----202
 兰溪市								兰溪市
 益农							      |	益
@@ -7073,40 +7159,44 @@ TRUE WORDS RECALL:	0.881
 TEST WORDS PRECISION:	0.755
 --standard.txt-------testout.txt----229
 今年								今年
-七月							      |	七月一日居住在绍兴市区医保关系在诸暨的七十一岁老人骆楚佶拿到
-一日							      <
-居住							      <
-在							      <
-绍兴市							      <
-区							      <
-医保							      <
-关系							      <
-在							      <
-诸暨							      <
-的							      <
-七十一							      <
-岁							      <
-老人							      <
-骆							      <
-楚							      <
-佶							      <
+七月							      |	七
+一日							      |	月
+							      >	一
+							      >	日
+居住								居住
+在								在
+绍兴市							      |	绍兴
+区							      |	市区
+医保								医保
+关系								关系
+在								在
+诸暨								诸暨
+的								的
+七十一							      |	七十
+							      >	一
+岁								岁
+老人								老人
+骆							      |	骆楚佶
+楚							      |	拿
+佶							      |	到
 拿到							      <
-了							      <
-绍兴市							      <
-第一							      <
-张							      <
-新							      <
-的							      <
-社会							      <
-保障卡							      <
-INSERTIONS:	0
-DELETIONS:	25
-SUBSTITUTIONS:	1
-NCHANGE:	26
+了								了
+绍兴市								绍兴市
+第一								第一
+张								张
+新								新
+的								的
+社会								社会
+保障卡							      |	保障
+							      >	卡
+INSERTIONS:	4
+DELETIONS:	1
+SUBSTITUTIONS:	9
+NCHANGE:	14
 NTRUTH:	27
-NTEST:	2
-TRUE WORDS RECALL:	0.037
-TEST WORDS PRECISION:	0.500
+NTEST:	30
+TRUE WORDS RECALL:	0.630
+TEST WORDS PRECISION:	0.567
 --standard.txt-------testout.txt----230
 有								有
 了								了
@@ -7586,50 +7676,51 @@ TRUE WORDS RECALL:	0.935
 TEST WORDS PRECISION:	0.967
 --standard.txt-------testout.txt----248
 目前								目前
-杭州市							      |	杭州市物价局正在组织开展商业零售促销价格行为专项检查对个别涉
-物价局							      <
-正在							      <
-组织							      <
-开展							      <
-商业							      <
-零售							      <
-促销							      <
-价格							      <
-行为							      <
-专项							      <
-检查							      <
-对							      <
-个别							      <
-涉嫌							      <
-价格							      <
-垄断							      <
-的							      <
-行业							      <
-进行							      <
-调查							      <
-严厉							      <
-打击							      <
-恶意							      <
-囤积							      <
-哄抬							      <
-价格							      <
-以及							      <
-合谋							      <
-涨价							      <
-串通							      <
-涨价							      <
-等							      <
-价格							      <
-违法							      <
-行为							      <
-INSERTIONS:	0
-DELETIONS:	35
+杭州市							      |	杭州
+							      >	市
+物价局								物价局
+正在								正在
+组织								组织
+开展								开展
+商业								商业
+零售								零售
+促销								促销
+价格								价格
+行为								行为
+专项								专项
+检查								检查
+对								对
+个别								个别
+涉嫌								涉嫌
+价格								价格
+垄断								垄断
+的								的
+行业								行业
+进行								进行
+调查								调查
+严厉								严厉
+打击								打击
+恶意								恶意
+囤积								囤积
+哄抬								哄抬
+价格								价格
+以及								以及
+合谋								合谋
+涨价								涨价
+串通								串通
+涨价								涨价
+等								等
+价格								价格
+违法								违法
+行为								行为
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	36
+NCHANGE:	2
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.027
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.973
+TEST WORDS PRECISION:	0.947
 --standard.txt-------testout.txt----249
 浙江								浙江
 台								台
@@ -8155,51 +8246,53 @@ NTEST:	3
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----267
-新华社							      |	新
-消息							      |	华社消息今天凌晨五点四十分左右山东聊城市阳谷县山东中石药业有
-今天							      <
-凌晨							      <
-五点							      <
-四十分							      <
-左右							      <
-山东							      <
-聊							      <
+新华社								新华社
+消息								消息
+今天								今天
+凌晨								凌晨
+五点							      |	五
+四十分							      |	点
+							      >	四
+							      >	十分
+左右								左右
+山东								山东
+聊							      |	聊城市
 城市							      <
-阳谷县							      <
-山东							      <
-中							      <
-石							      <
-药业							      <
-有限公司						      <
-发生							      <
-爆炸							      <
-目前							      <
-尚未							      <
-接到							      <
-人员							      <
-伤亡							      <
-报告							      <
-初步							      <
-分析							      <
-认为							      <
-药厂							      <
-一							      <
-储罐							      <
-外层							      <
-油料							      <
-起火							      <
-具体							      <
-起火							      <
-原因							      <
-不明							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	2
-NCHANGE:	37
+阳谷县								阳谷县
+山东								山东
+中								中
+石								石
+药业								药业
+有限公司							有限公司
+发生								发生
+爆炸								爆炸
+目前								目前
+尚未								尚未
+接到								接到
+人员								人员
+伤亡								伤亡
+报告								报告
+初步								初步
+分析								分析
+认为								认为
+药厂								药厂
+一								一
+储罐								储罐
+外层								外层
+油料								油料
+起火								起火
+具体								具体
+起火								起火
+原因								原因
+不明								不明
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	38
+TRUE WORDS RECALL:	0.892
+TEST WORDS PRECISION:	0.868
 --standard.txt-------testout.txt----268
 山东								山东
 中								中
@@ -8433,49 +8526,50 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----278
 为了								为了
-弥补							      |	弥补粮油企业的损失国家粮食局将安排这些企业进购低价小麦同时按
-粮油							      <
-企业							      <
-的							      <
-损失							      <
-国家							      <
-粮食局							      <
-将							      <
-安排							      <
-这些							      <
-企业							      <
-进购							      <
-低价							      <
-小麦							      <
-同时							      <
-按照							      <
-顺价							      <
-销售							      <
-的							      <
-原则							      <
-选择							      <
-部分							      <
-大型							      <
-的							      <
-面粉							      <
-加工							      <
-企业							      <
-进行							      <
-小麦							      <
-定向							      <
-销售							      <
-增加							      <
-市场							      <
-的							      <
-供给							      <
-INSERTIONS:	0
-DELETIONS:	34
+弥补								弥补
+粮油								粮油
+企业								企业
+的								的
+损失								损失
+国家								国家
+粮食局								粮食局
+将								将
+安排								安排
+这些								这些
+企业								企业
+进购								进购
+低价								低价
+小麦								小麦
+同时								同时
+按照								按照
+顺价							      |	顺
+							      >	价
+销售								销售
+的								的
+原则								原则
+选择								选择
+部分								部分
+大型								大型
+的								的
+面粉								面粉
+加工								加工
+企业								企业
+进行								进行
+小麦								小麦
+定向								定向
+销售								销售
+增加								增加
+市场								市场
+的								的
+供给								供给
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	35
+NCHANGE:	2
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	37
+TRUE WORDS RECALL:	0.972
+TEST WORDS PRECISION:	0.946
 --standard.txt-------testout.txt----279
 节目								节目
 一								一
@@ -9419,57 +9513,58 @@ NTEST:	18
 TRUE WORDS RECALL:	0.875
 TEST WORDS PRECISION:	0.778
 --standard.txt-------testout.txt----314
-轰							      |	轰的一塌下来眼睛都睁不开了你看我我一身都是灰尘了眼睛都睁不开
-的							      <
-一							      <
-塌							      <
-下来							      <
-眼睛							      <
-都							      <
-睁							      <
-不							      <
-开							      <
-了							      <
-你							      <
-看							      <
-我							      <
-我							      <
-一身							      <
-都							      <
-是							      <
-灰尘							      <
-了							      <
-眼睛							      <
-都							      <
-睁							      <
-不							      <
-开							      <
-了							      <
-总之							      <
-哗							      <
-一							      <
-声							      <
-知道							      <
-房子							      <
-倒							      <
-了							      <
-满							      <
-房间							      <
-满							      <
-大街							      <
-全部							      <
-都							      <
-是							      <
-灰尘							      <
+轰								轰
+的								的
+一								一
+塌								塌
+下来								下来
+眼睛								眼睛
+都								都
+睁								睁
+不								不
+开								开
 了								了
-INSERTIONS:	0
-DELETIONS:	41
+你								你
+看								看
+我								我
+我								我
+一身							      |	一
+							      >	身
+都								都
+是								是
+灰尘								灰尘
+了								了
+眼睛								眼睛
+都								都
+睁								睁
+不								不
+开								开
+了								了
+总之								总之
+哗								哗
+一								一
+声								声
+知道								知道
+房子								房子
+倒								倒
+了								了
+满								满
+房间								房间
+满								满
+大街								大街
+全部								全部
+都								都
+是								是
+灰尘								灰尘
+了								了
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	42
+NCHANGE:	2
 NTRUTH:	43
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	44
+TRUE WORDS RECALL:	0.977
+TEST WORDS PRECISION:	0.955
 --standard.txt-------testout.txt----315
 搜救								搜救
 工作								工作
@@ -9913,60 +10008,63 @@ NTEST:	12
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----331
-媒体							      |	媒体中提及的磐安县人民医院院长杜正通接受江苏正大丰海制药有限
-中							      <
-提及							      <
-的							      <
-磐安县							      <
-人民							      <
-医院							      <
-院长							      <
-杜							      <
-正通							      <
-接受							      <
-江苏							      <
-正							      <
-大							      <
-丰海							      <
-制药							      <
-有限公司						      <
-浙西							      <
-大区							      <
-业务员							      <
-胡							      <
-智清							      <
-吃请							      <
-和							      <
-付							      <
-小姐							      <
-费用							      <
-经							      <
-调查							      <
-也							      <
-为							      <
-失实							      <
-两							      <
-人							      <
-相互							      <
-不							      <
-认识							      <
-也							      <
-没有							      <
-接触							      <
+媒体								媒体
+中								中
+提及								提及
+的								的
+磐安县								磐安县
+人民								人民
+医院								医院
+院长								院长
+杜								杜
+正通							      |	正
+							      >	通
+接受								接受
+江苏								江苏
+正								正
+大							      |	大丰
+丰海							      |	海
+制药								制药
+有限公司							有限公司
+浙西								浙西
+大区								大区
+业务员								业务员
+胡								胡
+智清							      |	智
+吃请							      |	清
+							      >	吃
+							      >	请
+和								和
+付								付
+小姐								小姐
+费用								费用
+经								经
+调查								调查
+也								也
+为								为
+失实								失实
+两								两
+人								人
+相互								相互
+不								不
+认识								认识
+也								也
+没有								没有
+接触								接触
 过								过
-INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	1
-NCHANGE:	40
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	8
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	44
+TRUE WORDS RECALL:	0.878
+TEST WORDS PRECISION:	0.818
 --standard.txt-------testout.txt----332
-二零一零年						      |	二零
-四月							      |	一零
-十五日							      |	年
-开始							      |	四月十五日开始磐安县人民医院通过浙江海虹医药电子商务系统以每
+二零一零年						      <
+四月							      <
+十五日							      <
+开始							      <
 磐安县							      <
 人民							      <
 医院							      <
@@ -10014,111 +10112,119 @@ TEST WORDS PRECISION:	0.500
 七千八百						      <
 零七							      <
 点							      <
-二							      <
-零元							      <
+二								二
+零元							      |	零一零年四月十五日开始磐安县人民医院通过浙江海虹医药电子商务
 INSERTIONS:	0
-DELETIONS:	49
-SUBSTITUTIONS:	4
-NCHANGE:	53
-NTRUTH:	53
-NTEST:	4
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
---standard.txt-------testout.txt----333
-江苏							      |	江苏正大丰海制药有限公司浙西大区经理沈兴亮否认曾向磐安县人民
-正							      <
-大							      <
-丰海							      <
-制药							      <
-有限公司						      <
-浙西							      <
-大区							      <
-经理							      <
-沈							      <
-兴亮							      <
-否认							      <
-曾							      <
-向							      <
-磐安县							      <
-人民							      <
-医院							      <
-提供							      <
-回扣							      <
-但							      <
-调查							      <
-中							      <
-发现							      <
-磐安县							      <
-人民							      <
-医院							      <
-和							      <
-少数							      <
-医务							      <
-人员							      <
-与							      <
-该							      <
-果糖							      <
-注射液							      <
-生产							      <
-厂家							      <
-之间							      <
-存在							      <
-着							      <
-其他							      <
-违纪							      <
-违规							      <
-情况								情况
-INSERTIONS:	0
-DELETIONS:	41
+DELETIONS:	51
 SUBSTITUTIONS:	1
-NCHANGE:	42
-NTRUTH:	43
+NCHANGE:	52
+NTRUTH:	53
 NTEST:	2
-TRUE WORDS RECALL:	0.023
+TRUE WORDS RECALL:	0.019
 TEST WORDS PRECISION:	0.500
+--standard.txt-------testout.txt----333
+江苏								江苏
+正								正
+大							      |	大丰
+丰海							      |	海
+制药								制药
+有限公司							有限公司
+浙西								浙西
+大区								大区
+经理								经理
+沈								沈
+兴亮							      |	兴
+							      >	亮
+否认								否认
+曾								曾
+向								向
+磐安县								磐安县
+人民								人民
+医院								医院
+提供								提供
+回扣								回扣
+但								但
+调查								调查
+中								中
+发现								发现
+磐安县								磐安县
+人民								人民
+医院								医院
+和								和
+少数								少数
+医务								医务
+人员								人员
+与								与
+该								该
+果糖								果糖
+注射液								注射液
+生产								生产
+厂家								厂家
+之间								之间
+存在								存在
+着								着
+其他								其他
+违纪								违纪
+违规								违规
+情况								情况
+INSERTIONS:	1
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	4
+NTRUTH:	43
+NTEST:	44
+TRUE WORDS RECALL:	0.930
+TEST WORDS PRECISION:	0.909
 --standard.txt-------testout.txt----334
 今年								今年
-四月							      |	四月三十日由胡智清经手购买了总价值四千零八十元的洁丽雅毛巾礼
-三十日							      <
-由							      <
-胡							      <
-智清							      <
-经手							      <
-购买							      <
-了							      <
-总价值							      <
-四千							      <
-零							      <
-八十							      <
-元							      <
-的							      <
-洁丽雅							      <
-毛巾							      <
-礼盒							      <
-一百零二						      <
-盒							      <
-向							      <
-磐安县							      <
-人民							      <
-医院							      <
-团							      <
+四月							      |	四
+三十日							      |	月
+							      >	三十
+							      >	日
+由								由
+胡								胡
+智清							      |	智
+							      >	清
+经手								经手
+购买								购买
+了								了
+总价值							      |	总
+							      >	价值
+四千								四千
+零								零
+八十								八十
+元								元
+的								的
+洁丽雅							      |	洁
+							      >	丽
+							      >	雅
+毛巾								毛巾
+礼盒								礼盒
+一百零二						      |	一百
+							      >	零二
+盒								盒
+向								向
+磐安县								磐安县
+人民								人民
+医院								医院
+团							      |	团支部
 支部							      <
-举办							      <
-的							      <
-五四青年节						      <
-联欢							      <
-晚会							      <
-提供							      <
-了							      <
-赞助							      <
-INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+举办								举办
+的								的
+五四青年节							五四青年节
+联欢								联欢
+晚会								晚会
+提供								提供
+了								了
+赞助								赞助
+INSERTIONS:	7
+DELETIONS:	1
+SUBSTITUTIONS:	7
+NCHANGE:	15
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	40
+TRUE WORDS RECALL:	0.765
+TEST WORDS PRECISION:	0.650
 --standard.txt-------testout.txt----335
 今年								今年
 八月							      |	八
@@ -10359,112 +10465,124 @@ NTEST:	36
 TRUE WORDS RECALL:	0.867
 TEST WORDS PRECISION:	0.722
 --standard.txt-------testout.txt----342
-十二月							      |	十二月五日晚上在温岭市太平街道县前街某洗头房内发生一起砍人事
-五日							      <
-晚上							      <
-在							      <
-温岭市							      <
-太平							      <
-街道							      <
-县							      <
-前							      <
-街							      <
-某							      <
-洗头房							      <
-内							      <
-发生							      <
-一起							      <
-砍人							      <
-事件							      <
-一							      <
-名							      <
-男子							      <
-在							      <
-洗头房							      <
-对							      <
-一							      <
-名							      <
-洗头							      <
-女							      <
-凶残							      <
-砍							      <
-伤							      <
-二十多							      <
-刀							      <
-致							      <
-其							      <
-重伤							      <
-当晚							      <
-这							      <
-名							      <
-男子							      <
-便							      <
-被							      <
-警方							      <
+十二月							      |	十二
+五日							      |	月
+							      >	五
+							      >	日
+晚上								晚上
+在								在
+温岭市								温岭市
+太平								太平
+街道								街道
+县								县
+前								前
+街								街
+某								某
+洗头房							      |	洗头
+							      >	房
+内								内
+发生								发生
+一起							      |	一
+砍人							      |	起
+							      >	砍
+							      >	人
+事件								事件
+一								一
+名								名
+男子								男子
+在								在
+洗头房							      |	洗头
+							      >	房
+对								对
+一								一
+名								名
+洗头								洗头
+女								女
+凶残								凶残
+砍								砍
+伤								伤
+二十多							      |	二十
+							      >	多
+刀								刀
+致								致
+其								其
+重伤								重伤
+当晚								当晚
+这								这
+名								名
+男子								男子
+便								便
+被								被
+警方								警方
 抓获								抓获
-INSERTIONS:	0
-DELETIONS:	41
-SUBSTITUTIONS:	1
-NCHANGE:	42
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	43
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	50
+TRUE WORDS RECALL:	0.837
+TEST WORDS PRECISION:	0.720
 --standard.txt-------testout.txt----343
-温岭市							      |	温岭市公安局太平派出所民警苏仁刚他在嫖娼的过程中认为女的态度
-公安局							      <
-太平							      <
-派出所							      <
-民警							      <
-苏							      <
-仁刚							      <
-他							      <
-在							      <
-嫖							      <
+温岭市								温岭市
+公安局								公安局
+太平								太平
+派出所								派出所
+民警								民警
+苏								苏
+仁刚							      |	仁
+							      >	刚
+他								他
+在								在
+嫖							      |	嫖娼
 娼							      <
-的							      <
-过程							      <
-中							      <
-认为							      <
-女							      <
-的							      <
-态度							      <
-不好							      <
-说话							      <
-硬							      <
-里							      <
-硬气							      <
-的							      <
-然后							      <
-他							      <
-第二							      <
-天							      <
-晚上							      <
-就							      <
-是							      <
-十二月							      <
-五							      <
-号							      <
-晚上							      <
-就							      <
-带							      <
-着							      <
-一							      <
-把							      <
-刀							      <
-想							      <
-把							      <
-她							      <
-砍							      <
+的								的
+过程								过程
+中								中
+认为								认为
+女								女
+的								的
+态度								态度
+不好							      |	不
+							      >	好
+说话								说话
+硬								硬
+里								里
+硬气							      |	硬
+							      >	气
+的								的
+然后							      |	然
+							      >	后
+他								他
+第二								第二
+天								天
+晚上								晚上
+就								就
+是								是
+十二月							      |	十二
+							      >	月
+五								五
+号								号
+晚上								晚上
+就								就
+带								带
+着								着
+一								一
+把								把
+刀								刀
+想								想
+把								把
+她								她
+砍								砍
 了								了
-INSERTIONS:	0
-DELETIONS:	44
-SUBSTITUTIONS:	1
-NCHANGE:	45
+INSERTIONS:	5
+DELETIONS:	1
+SUBSTITUTIONS:	6
+NCHANGE:	12
 NTRUTH:	46
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	50
+TRUE WORDS RECALL:	0.848
+TEST WORDS PRECISION:	0.780
 --standard.txt-------testout.txt----344
 十二月							      |	十二
 五日							      |	月
@@ -10562,97 +10680,103 @@ NTEST:	21
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----347
-目击者							      |	目击者吴女士我就赶过来门推开一点点里面叫的很厉害看到一把刀这
-吴							      <
-女士							      <
-我							      <
-就							      <
-赶							      <
-过来							      <
-门							      <
-推开							      <
-一点点							      <
-里面							      <
-叫							      <
-的							      <
-很							      <
-厉害							      <
-看到							      <
-一							      <
-把							      <
-刀							      <
-这么							      <
-长							      <
-喀嚓							      <
-喀嚓							      <
-在							      <
-砍							      <
-我							      <
-在							      <
-想							      <
-怎么							      <
-了							      <
-她							      <
-就							      <
-喊							      <
-救命							      <
-啊								啊
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
-NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
---standard.txt-------testout.txt----348
-温岭市							      |	温岭市公安局太平派出所民警苏仁刚犯罪嫌疑人看到外面来人了就开
-公安局							      <
-太平							      <
-派出所							      <
-民警							      <
-苏							      <
-仁刚							      <
-犯罪							      <
-嫌疑人							      <
-看到							      <
-外面							      <
-来							      <
-人							      <
-了							      <
-就							      <
-开门							      <
-提							      <
-着							      <
-刀							      <
-跑出去							      <
-了							      <
-当时							      <
-他							      <
-是							      <
-裤子							      <
-也							      <
-没							      <
-穿							      <
-就							      <
-穿							      <
-着							      <
-一							      <
-条							      <
-内裤							      <
-赤							      <
-着							      <
-脚							      <
-跑							      <
+目击者								目击者
+吴								吴
+女士								女士
+我								我
+就								就
+赶								赶
+过来								过来
+门								门
+推开								推开
+一点点							      |	一
+							      >	点
+							      >	点
+里面								里面
+叫								叫
+的								的
+很								很
+厉害								厉害
+看到								看到
+一								一
+把								把
+刀								刀
+这么								这么
+长								长
+喀嚓							      |	喀
+喀嚓							      |	嚓
+							      >	喀
+							      >	嚓
+在								在
+砍								砍
+我								我
+在								在
+想								想
+怎么								怎么
 了								了
-INSERTIONS:	0
-DELETIONS:	37
-SUBSTITUTIONS:	1
-NCHANGE:	38
+她								她
+就								就
+喊								喊
+救命								救命
+啊								啊
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	7
+NTRUTH:	35
+NTEST:	39
+TRUE WORDS RECALL:	0.914
+TEST WORDS PRECISION:	0.821
+--standard.txt-------testout.txt----348
+温岭市								温岭市
+公安局								公安局
+太平								太平
+派出所								派出所
+民警								民警
+苏								苏
+仁刚							      |	仁
+							      >	刚
+犯罪								犯罪
+嫌疑人								嫌疑人
+看到								看到
+外面								外面
+来							      |	来人
+人							      <
+了								了
+就								就
+开门								开门
+提								提
+着								着
+刀								刀
+跑出去							      |	跑
+							      >	出去
+了								了
+当时								当时
+他								他
+是								是
+裤子								裤子
+也								也
+没								没
+穿								穿
+就								就
+穿								穿
+着								着
+一								一
+条								条
+内裤								内裤
+赤								赤
+着								着
+脚								脚
+跑								跑
+了								了
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	39
-NTEST:	2
-TRUE WORDS RECALL:	0.026
-TEST WORDS PRECISION:	0.500
+NTEST:	40
+TRUE WORDS RECALL:	0.897
+TEST WORDS PRECISION:	0.875
 --standard.txt-------testout.txt----349
 随后								随后
 温岭								温岭
@@ -10802,55 +10926,65 @@ NTEST:	4
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----355
-婆媳							      |	婆媳关系一直是我们生活当中的一个热门话题从二零一一年一月六号
-关系							      <
-一直							      <
-是							      <
-我们							      <
-生活							      <
-当中							      <
-的							      <
-一个							      <
-热门							      <
-话题							      <
-从							      <
-二零一							      <
-一							      <
-年							      <
-一月							      <
-六号							      <
-开始							      <
-浙江							      <
-卫视							      <
-将							      <
-从							      <
-每晚							      <
-的							      <
-十九							      <
-点							      <
-三十三分						      <
-全国							      <
-卫视							      <
-独播							      <
-一							      <
-部							      <
-电视剧							      <
-它							      <
-的							      <
-名字							      <
-就							      <
-叫做							      <
-婆婆							      <
-来							      <
+婆媳								婆媳
+关系								关系
+一直								一直
+是								是
+我们								我们
+生活								生活
+当中								当中
+的								的
+一个								一个
+热门								热门
+话题								话题
+从								从
+二零一							      |	二
+							      >	零
+							      >	一
+一								一
+年								年
+一月							      |	一
+六号							      |	月
+							      >	六
+							      >	号
+开始								开始
+浙江								浙江
+卫视								卫视
+将								将
+从								从
+每晚								每晚
+的								的
+十九							      |	十
+							      >	九
+点								点
+三十三分						      |	三
+							      >	十
+							      >	三
+							      >	分
+全国								全国
+卫视								卫视
+独播							      |	独
+							      >	播
+一								一
+部								部
+电视剧								电视剧
+它								它
+的								的
+名字								名字
+就								就
+叫做							      |	叫
+							      >	做
+婆婆								婆婆
+来								来
 了								了
-INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	1
-NCHANGE:	40
+INSERTIONS:	10
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	17
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	51
+TRUE WORDS RECALL:	0.829
+TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----356
 婆婆								婆婆
 来								来
@@ -10878,47 +11012,47 @@ TRUE WORDS RECALL:	0.600
 TEST WORDS PRECISION:	0.562
 --standard.txt-------testout.txt----357
 在								在
-剧中							      |	剧中沙溢扮演一位来自农村的北方男人与北京姑娘相恋结婚以后却成
-沙							      <
+剧中								剧中
+沙							      |	沙溢
 溢							      <
-扮演							      <
-一							      <
-位							      <
-来自							      <
-农村							      <
-的							      <
-北方							      <
-男人							      <
-与							      <
-北京							      <
-姑娘							      <
-相恋							      <
-结婚							      <
-以后							      <
-却							      <
-成							      <
-了							      <
-婆媳							      <
-之间							      <
-的							      <
-三							      <
-夹板							      <
-总是							      <
-夹							      <
-在							      <
-母亲							      <
-和							      <
-妻子							      <
-中间							      <
-左右为难						      <
+扮演								扮演
+一								一
+位								位
+来自								来自
+农村								农村
+的								的
+北方								北方
+男人								男人
+与								与
+北京								北京
+姑娘								姑娘
+相恋								相恋
+结婚								结婚
+以后								以后
+却								却
+成								成
+了								了
+婆媳								婆媳
+之间								之间
+的								的
+三								三
+夹板								夹板
+总是								总是
+夹								夹
+在								在
+母亲								母亲
+和								和
+妻子								妻子
+中间								中间
+左右为难							左右为难
 INSERTIONS:	0
-DELETIONS:	32
+DELETIONS:	1
 SUBSTITUTIONS:	1
-NCHANGE:	33
+NCHANGE:	2
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	33
+TRUE WORDS RECALL:	0.941
+TEST WORDS PRECISION:	0.970
 --standard.txt-------testout.txt----358
 看到								看到
 剧情								剧情
@@ -10964,62 +11098,62 @@ TRUE WORDS RECALL:	0.636
 TEST WORDS PRECISION:	0.778
 --standard.txt-------testout.txt----360
 还								还
-不							      |	不一样他是属于很聪明我是属于农村出来的孩子笨嘴拙舌的其实在戏
-一样							      <
-他							      <
-是							      <
-属于							      <
-很							      <
-聪明							      <
-我							      <
-是							      <
-属于							      <
-农村							      <
-出来							      <
-的							      <
-孩子							      <
-笨							      <
-嘴							      <
-拙							      <
-舌							      <
-的							      <
-其实							      <
-在							      <
-戏							      <
-里							      <
-我							      <
-纽带							      <
-的							      <
-作用							      <
-起							      <
-的							      <
-不							      <
-是							      <
-很							      <
-好							      <
-因为							      <
-最终							      <
-真的							      <
-矛盾							      <
-出现							      <
-的							      <
-时候							      <
-我							      <
-还是							      <
-站							      <
-在							      <
-了							      <
-母亲							      <
-的							      <
-这边							      <
+不								不
+一样								一样
+他								他
+是								是
+属于								属于
+很								很
+聪明								聪明
+我								我
+是								是
+属于								属于
+农村								农村
+出来								出来
+的								的
+孩子								孩子
+笨								笨
+嘴								嘴
+拙								拙
+舌								舌
+的								的
+其实								其实
+在								在
+戏								戏
+里								里
+我								我
+纽带								纽带
+的								的
+作用								作用
+起								起
+的								的
+不								不
+是								是
+很								很
+好								好
+因为								因为
+最终								最终
+真的								真的
+矛盾								矛盾
+出现								出现
+的								的
+时候								时候
+我								我
+还是								还是
+站								站
+在								在
+了								了
+母亲								母亲
+的								的
+这边								这边
 INSERTIONS:	0
-DELETIONS:	47
-SUBSTITUTIONS:	1
-NCHANGE:	48
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	49
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	49
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----361
 而								而
 就								就
@@ -11051,49 +11185,52 @@ NTEST:	21
 TRUE WORDS RECALL:	0.850
 TEST WORDS PRECISION:	0.810
 --standard.txt-------testout.txt----362
-她							      |	她就看我这角色我舅妈一边看就一边骂骂我对媳妇不好太向着妈了我
-就							      <
-看							      <
-我							      <
-这							      <
-角色							      <
-我							      <
-舅妈							      <
-一边							      <
-看							      <
-就							      <
-一边							      <
-骂							      <
-骂							      <
-我							      <
-对							      <
-媳妇							      <
-不好							      <
-太							      <
-向着							      <
-妈							      <
-了							      <
-我							      <
-舅妈							      <
-就							      <
-把							      <
-她							      <
-自己							      <
-融入							      <
-到							      <
-她							      <
-当年							      <
-当							      <
-儿媳妇							      <
+她								她
+就								就
+看								看
+我								我
+这								这
+角色								角色
+我								我
+舅妈							      |	舅
+							      >	妈
+一边								一边
+看								看
+就								就
+一边								一边
+骂								骂
+骂								骂
+我								我
+对								对
+媳妇								媳妇
+不好								不好
+太								太
+向着								向着
+妈								妈
+了								了
+我								我
+舅妈							      |	舅
+							      >	妈
+就								就
+把								把
+她								她
+自己								自己
+融入								融入
+到								到
+她								她
+当年								当年
+当								当
+儿媳妇							      |	儿
+							      >	媳妇
 的								的
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.914
+TEST WORDS PRECISION:	0.842
 --standard.txt-------testout.txt----363
 而								而
 谈								谈
@@ -11491,103 +11628,112 @@ TRUE WORDS RECALL:	0.950
 TEST WORDS PRECISION:	0.905
 --standard.txt-------testout.txt----376
 原来								原来
-五十七							      |	五十七岁的安阿姨离婚已经十二年二年前退休无房无子女的她靠租房
-岁							      <
-的							      <
-安							      <
-阿姨							      <
-离婚							      <
-已经							      <
-十二年							      <
-二							      <
-年前							      <
-退休							      <
-无							      <
-房							      <
-无							      <
-子女							      <
-的							      <
-她							      <
-靠							      <
-租房							      <
-生活							      <
-但是							      <
-因为							      <
-前夫							      <
-不							      <
-给							      <
-出具							      <
-房产							      <
-证明							      <
-手续							      <
-不							      <
-全							      <
-无法							      <
-申请							      <
-报名							      <
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+五十七							      |	五十
+							      >	七
+岁								岁
+的								的
+安								安
+阿姨							      |	阿
+							      >	姨
+离婚								离婚
+已经								已经
+十二年							      |	十
+二								二
+年前							      |	年
+							      >	二
+							      >	年
+							      >	前
+退休								退休
+无								无
+房								房
+无								无
+子女								子女
+的								的
+她								她
+靠								靠
+租房								租房
+生活								生活
+但是							      |	但
+							      >	是
+因为								因为
+前夫								前夫
+不								不
+给								给
+出具								出具
+房产								房产
+证明								证明
+手续								手续
+不								不
+全								全
+无法								无法
+申请								申请
+报名								报名
+INSERTIONS:	6
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	11
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	41
+TRUE WORDS RECALL:	0.857
+TEST WORDS PRECISION:	0.732
 --standard.txt-------testout.txt----377
-九八年							      |	九八年就离婚了已经十多年了一直都没房子住的是农民房子农民房子
-就							      |	去
-离婚							      <
-了							      <
-已经							      <
-十多							      <
-年							      <
-了							      <
-一直							      <
-都							      <
-没							      <
-房子							      <
-住							      <
-的							      <
-是							      <
-农民							      <
-房子							      <
-农民							      <
-房子							      <
-容易							      <
-被							      <
-偷							      <
-我							      <
-实在							      <
-没							      <
-办法							      <
-在							      <
-外面							      <
-租							      <
-房子							      <
-租							      <
-了							      <
-十多							      <
-年							      <
-了							      <
-我							      <
-希望							      <
-政府							      <
-那							      <
-六百							      <
-套							      <
-能够							      <
-把							      <
-我							      <
-考虑							      <
-进去							      <
-INSERTIONS:	0
-DELETIONS:	44
-SUBSTITUTIONS:	2
-NCHANGE:	46
+九八年							      |	九八
+							      >	年
+就								就
+离婚								离婚
+了								了
+已经								已经
+十多							      |	十
+							      >	多
+年								年
+了								了
+一直								一直
+都								都
+没								没
+房子								房子
+住								住
+的								的
+是								是
+农民								农民
+房子								房子
+农民								农民
+房子								房子
+容易								容易
+被								被
+偷								偷
+我								我
+实在								实在
+没								没
+办法								办法
+在								在
+外面								外面
+租								租
+房子								房子
+租								租
+了								了
+十多							      |	十
+							      >	多
+年								年
+了								了
+我								我
+希望								希望
+政府								政府
+那								那
+六百								六百
+套								套
+能够								能够
+把								把
+我								我
+考虑								考虑
+进去								进去
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	46
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	49
+TRUE WORDS RECALL:	0.935
+TEST WORDS PRECISION:	0.878
 --standard.txt-------testout.txt----378
 见								见
 此								此
@@ -11646,59 +11792,61 @@ TRUE WORDS RECALL:	0.765
 TEST WORDS PRECISION:	0.765
 --standard.txt-------testout.txt----380
 本次								本次
-推出							      |	推出的公共租赁房共有六百套其中针对住房困难家庭四百套大学生创
-的							      <
-公共							      <
-租赁房							      <
-共有							      <
-六百							      <
-套							      <
-其中							      <
-针对							      <
-住房							      <
-困难							      <
-家庭							      <
-四百							      <
-套							      <
-大学生							      <
-创业							      <
-人才							      <
-二百							      <
-套							      <
-可谓							      <
-是							      <
-僧多粥少						      <
-非常							      <
-抢手							      <
-但是							      <
-在							      <
-现场							      <
-不少							      <
-申请者							      <
-由于							      <
-手续							      <
-不							      <
-全							      <
-被							      <
-退							      <
-了							      <
-回来							      <
-这							      <
-也							      <
-导致							      <
-了							      <
-报名							      <
-效率							      <
-非常							      <
-低下							      <
-INSERTIONS:	0
-DELETIONS:	44
-SUBSTITUTIONS:	1
-NCHANGE:	45
+推出								推出
+的								的
+公共								公共
+租赁房								租赁房
+共有								共有
+六百								六百
+套								套
+其中								其中
+针对								针对
+住房								住房
+困难								困难
+家庭								家庭
+四百								四百
+套								套
+大学生								大学生
+创业								创业
+人才								人才
+二百								二百
+套								套
+可谓								可谓
+是								是
+僧多粥少							僧多粥少
+非常								非常
+抢手								抢手
+但是							      |	但
+							      >	是
+在								在
+现场								现场
+不少								不少
+申请者								申请者
+由于								由于
+手续								手续
+不								不
+全								全
+被								被
+退								退
+了								了
+回来								回来
+这								这
+也								也
+导致								导致
+了								了
+报名								报名
+效率								效率
+非常								非常
+低下							      |	低
+							      >	下
+INSERTIONS:	2
+DELETIONS:	0
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	46
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	48
+TRUE WORDS RECALL:	0.957
+TEST WORDS PRECISION:	0.917
 --standard.txt-------testout.txt----381
 在								在
 上							      |	上城区
@@ -11728,7 +11876,7 @@ TRUE WORDS RECALL:	0.667
 TEST WORDS PRECISION:	0.588
 --standard.txt-------testout.txt----382
 公共							      |	公共租赁房受理时间只有三天申请表后面有提示的上面写着什么情况
-租赁房							      <
+租赁房							      |	全
 受理							      <
 时间							      <
 只有							      <
@@ -11782,15 +11930,15 @@ TEST WORDS PRECISION:	0.588
 所有							      <
 材料							      <
 提供							      <
-齐全								齐全
+齐全							      <
 INSERTIONS:	0
 DELETIONS:	54
-SUBSTITUTIONS:	1
-NCHANGE:	55
+SUBSTITUTIONS:	2
+NCHANGE:	56
 NTRUTH:	56
 NTEST:	2
-TRUE WORDS RECALL:	0.018
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----383
 新闻								新闻
 直通车								直通车
@@ -11807,103 +11955,105 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----384
 昨天								昨天
-我们							      |	我们在节目中报道了嘉兴一位被火烧伤的二十岁小伙子郭伟雄生命垂
-在							      <
-节目							      <
-中							      <
-报道							      <
-了							      <
-嘉兴							      <
-一							      <
-位							      <
-被							      <
-火							      <
-烧伤							      <
-的							      <
-二十							      <
-岁							      <
-小伙子							      <
-郭							      <
-伟雄							      <
-生命							      <
-垂危							      <
-急需							      <
-稀有							      <
-血型							      <
-阴性							      <
-型							      <
-血							      <
-也							      <
-就							      <
-是							      <
-我们							      <
-俗称							      <
-的							      <
-熊猫							      <
-血							      <
-INSERTIONS:	0
-DELETIONS:	33
+我们								我们
+在								在
+节目								节目
+中								中
+报道								报道
+了								了
+嘉兴								嘉兴
+一								一
+位								位
+被								被
+火								火
+烧伤								烧伤
+的								的
+二十								二十
+岁								岁
+小伙子								小伙子
+郭								郭
+伟雄							      |	伟
+							      >	雄
+生命								生命
+垂危								垂危
+急需								急需
+稀有								稀有
+血型								血型
+阴性								阴性
+型								型
+血								血
+也								也
+就								就
+是								是
+我们								我们
+俗称								俗称
+的								的
+熊猫								熊猫
+血								血
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	34
+NCHANGE:	2
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	36
+TRUE WORDS RECALL:	0.971
+TEST WORDS PRECISION:	0.944
 --standard.txt-------testout.txt----385
-报道							      |	报道播出之后我们接到了来自全国各地很多观众朋友打来电话说他们
-播出							      <
-之后							      <
-我们							      <
-接到							      <
-了							      <
-来自							      <
-全国							      <
-各地							      <
-很多							      <
-观众							      <
-朋友							      <
-打							      <
-来							      <
-电话							      <
-说							      <
-他们							      <
-自己							      <
-就							      <
-是							      <
-这							      <
-一							      <
-血型							      <
-表示							      <
-只要							      <
-需要							      <
-他们							      <
-随时							      <
-可以							      <
-帮助							      <
-小郭							      <
-因为							      <
-病情							      <
-加重							      <
-昨天							      <
-晚上							      <
-小郭							      <
-已经							      <
-从							      <
-嘉兴							      <
-医院							      <
-转							      <
-到							      <
-了							      <
-浙二							      <
+报道								报道
+播出								播出
+之后								之后
+我们								我们
+接到								接到
+了								了
+来自								来自
+全国								全国
+各地								各地
+很多								很多
+观众								观众
+朋友								朋友
+打								打
+来								来
+电话								电话
+说								说
+他们								他们
+自己								自己
+就								就
+是								是
+这								这
+一								一
+血型								血型
+表示								表示
+只要								只要
+需要								需要
+他们								他们
+随时								随时
+可以								可以
+帮助								帮助
+小郭								小郭
+因为								因为
+病情								病情
+加重								加重
+昨天								昨天
+晚上								晚上
+小郭								小郭
+已经								已经
+从								从
+嘉兴								嘉兴
 医院								医院
-INSERTIONS:	0
-DELETIONS:	44
+转								转
+到								到
+了								了
+浙二							      |	浙
+							      >	二
+医院								医院
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	45
+NCHANGE:	2
 NTRUTH:	46
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	47
+TRUE WORDS RECALL:	0.978
+TEST WORDS PRECISION:	0.957
 --standard.txt-------testout.txt----386
 小郭								小郭
 要								要
@@ -12546,60 +12696,60 @@ TRUE WORDS RECALL:	0.853
 TEST WORDS PRECISION:	0.853
 --standard.txt-------testout.txt----405
 既								既
-要							      |	要积极进取又要实事求是按照科学发展的要求合理确定发展速度把经
-积极							      <
-进取							      <
-又							      <
-要							      <
-实事求是						      <
-按照							      <
-科学							      <
-发展							      <
-的							      <
-要求							      <
-合理							      <
-确定							      <
-发展							      <
-速度							      <
-把							      <
-经济							      <
-增长							      <
-真正							      <
-建立							      <
-在							      <
-结构							      <
-优化							      <
-质量							      <
-提高							      <
-效益							      <
-改善							      <
-的							      <
-基础							      <
-上							      <
-努力							      <
-实现							      <
-居民							      <
-收入							      <
-增长							      <
-和							      <
-经济							      <
-发展							      <
-同步							      <
-劳动							      <
-报酬							      <
-增长							      <
-和							      <
-劳动生产率						      <
-提高							      <
-同步							      <
+要								要
+积极								积极
+进取								进取
+又								又
+要								要
+实事求是							实事求是
+按照								按照
+科学								科学
+发展								发展
+的								的
+要求								要求
+合理								合理
+确定								确定
+发展								发展
+速度								速度
+把								把
+经济								经济
+增长								增长
+真正								真正
+建立								建立
+在								在
+结构								结构
+优化								优化
+质量								质量
+提高								提高
+效益								效益
+改善								改善
+的								的
+基础								基础
+上								上
+努力								努力
+实现								实现
+居民								居民
+收入								收入
+增长								增长
+和								和
+经济								经济
+发展								发展
+同步								同步
+劳动								劳动
+报酬								报酬
+增长								增长
+和								和
+劳动生产率							劳动生产率
+提高								提高
+同步								同步
 INSERTIONS:	0
-DELETIONS:	45
-SUBSTITUTIONS:	1
-NCHANGE:	46
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	47
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	47
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----406
 他								他
 指出								指出
@@ -13058,54 +13208,54 @@ TRUE WORDS RECALL:	0.667
 TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----421
 他								他
-说							      |	说建设保障性住房应按照小户型齐功能高质量的要求搞好科学规划和
-建设							      <
-保障性							      <
-住房							      <
-应							      <
-按照							      <
-小户型							      <
-齐							      <
-功能							      <
-高							      <
-质量							      <
-的							      <
-要求							      <
-搞好							      <
-科学							      <
-规划							      <
-和							      <
-设计							      <
-配套							      <
-建设							      <
-必要							      <
-的							      <
-公共							      <
-服务							      <
-设施							      <
-方便							      <
-群众							      <
-就医							      <
-上学							      <
-购物							      <
-和							      <
-出行							      <
-让							      <
-群众							      <
-住							      <
-得							      <
-舒适							      <
-住							      <
-得							      <
-踏实							      <
+说								说
+建设								建设
+保障性								保障性
+住房								住房
+应								应
+按照								按照
+小户型								小户型
+齐								齐
+功能								功能
+高								高
+质量								质量
+的								的
+要求								要求
+搞好								搞好
+科学								科学
+规划								规划
+和								和
+设计								设计
+配套								配套
+建设								建设
+必要								必要
+的								的
+公共								公共
+服务								服务
+设施								设施
+方便								方便
+群众								群众
+就医								就医
+上学								上学
+购物								购物
+和								和
+出行								出行
+让								让
+群众								群众
+住								住
+得								得
+舒适								舒适
+住								住
+得								得
+踏实								踏实
 INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	1
-NCHANGE:	40
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	41
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----422
 希望								希望
 你们								你们
@@ -14135,68 +14285,68 @@ TRUE WORDS RECALL:	0.977
 TEST WORDS PRECISION:	0.955
 --standard.txt-------testout.txt----451
 希望								希望
-浙江							      |	浙江在我国十二五时期新一轮的发展中扎实推进各方面工作培育新优
-在							      <
-我国							      <
-十二							      <
-五							      <
-时期							      <
-新							      <
-一							      <
-轮							      <
-的							      <
-发展							      <
-中							      <
-扎实							      <
-推进							      <
-各							      <
-方面							      <
-工作							      <
-培育							      <
-新							      <
-优势							      <
-实现							      <
-新							      <
-跨越							      <
-努力							      <
-在							      <
-加快							      <
-转变							      <
-经济							      <
-发展							      <
-方式							      <
-上							      <
-走							      <
-在							      <
-前列							      <
-在							      <
-全面							      <
-建设							      <
-小康							      <
-社会							      <
-上							      <
-走							      <
-在							      <
-前列							      <
-为							      <
-全国							      <
-提供							      <
-新鲜							      <
-经验							      <
-起							      <
-到							      <
-重要							      <
-的							      <
-带动							      <
-作用							      <
+浙江								浙江
+在								在
+我国								我国
+十二							      |	十
+五							      |	二五
+时期								时期
+新								新
+一								一
+轮								轮
+的								的
+发展								发展
+中								中
+扎实								扎实
+推进								推进
+各								各
+方面								方面
+工作								工作
+培育								培育
+新								新
+优势								优势
+实现								实现
+新								新
+跨越								跨越
+努力								努力
+在								在
+加快								加快
+转变								转变
+经济								经济
+发展								发展
+方式								方式
+上								上
+走								走
+在								在
+前列								前列
+在								在
+全面								全面
+建设								建设
+小康								小康
+社会								社会
+上								上
+走								走
+在								在
+前列								前列
+为								为
+全国								全国
+提供								提供
+新鲜								新鲜
+经验								经验
+起								起
+到								到
+重要								重要
+的								的
+带动								带动
+作用								作用
 INSERTIONS:	0
-DELETIONS:	53
-SUBSTITUTIONS:	1
-NCHANGE:	54
+DELETIONS:	0
+SUBSTITUTIONS:	2
+NCHANGE:	2
 NTRUTH:	55
-NTEST:	2
-TRUE WORDS RECALL:	0.018
-TEST WORDS PRECISION:	0.500
+NTEST:	55
+TRUE WORDS RECALL:	0.964
+TEST WORDS PRECISION:	0.964
 --standard.txt-------testout.txt----452
 省								省
 领导								领导
@@ -14309,8 +14459,8 @@ NTEST:	8
 TRUE WORDS RECALL:	0.700
 TEST WORDS PRECISION:	0.875
 --standard.txt-------testout.txt----457
-十一月							      |	十一月中下旬以来浙江认真落实国务院稳定物价总水平的要求加强对
-中下旬							      <
+十一月							      |	十
+中下旬							      |	一月中下旬以来浙江认真落实国务院稳定物价总水平的要求加强对成
 以来							      <
 浙江							      <
 认真							      <
@@ -14352,15 +14502,15 @@ TEST WORDS PRECISION:	0.875
 状况							      <
 基本							      <
 得到							      <
-缓解								缓解
+缓解							      <
 INSERTIONS:	0
 DELETIONS:	42
-SUBSTITUTIONS:	1
-NCHANGE:	43
+SUBSTITUTIONS:	2
+NCHANGE:	44
 NTRUTH:	44
 NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----458
 与此同时							与此同时
 我省								我省
@@ -14717,55 +14867,58 @@ TRUE WORDS RECALL:	0.960
 TEST WORDS PRECISION:	0.923
 --standard.txt-------testout.txt----473
 湖北								湖北
-人							      |	人蒋大智大学毕业来杭州工作已经四年目前一家四口还挤在一间二十
-蒋							      <
-大智							      <
-大学							      <
-毕业							      <
-来							      <
-杭州							      <
-工作							      <
-已经							      <
-四							      <
-年							      <
-目前							      <
-一							      <
+人								人
+蒋								蒋
+大智							      |	大
+							      >	智
+大学								大学
+毕业								毕业
+来								来
+杭州								杭州
+工作								工作
+已经								已经
+四								四
+年								年
+目前								目前
+一							      |	一家
 家							      <
-四							      <
-口							      <
-还							      <
-挤							      <
-在							      <
-一							      <
-间							      <
-二十多							      <
-平米							      <
-的							      <
-出租房							      <
-里							      <
-他							      <
-希望							      <
-这次							      <
-能							      <
-申请							      <
-到							      <
-一							      <
-套							      <
-两							      <
-室							      <
-一							      <
-厅							      <
-的							      <
-公共							      <
-租赁房							      <
-INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	1
-NCHANGE:	41
+四								四
+口								口
+还								还
+挤								挤
+在								在
+一								一
+间								间
+二十多							      |	二十
+							      >	多
+平米								平米
+的								的
+出租房							      |	出租
+							      >	房
+里								里
+他								他
+希望								希望
+这次								这次
+能								能
+申请								申请
+到								到
+一								一
+套								套
+两								两
+室								室
+一								一
+厅								厅
+的								的
+公共								公共
+租赁房								租赁房
+INSERTIONS:	3
+DELETIONS:	1
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	44
+TRUE WORDS RECALL:	0.881
+TEST WORDS PRECISION:	0.841
 --standard.txt-------testout.txt----474
 像								像
 我们								我们
@@ -14800,58 +14953,63 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----475
 记者								记者
-在							      |	在上城建设局受理点了解到申请第一天符合条件的申请资料仅有三十
-上城							      <
-建设局							      <
-受理点							      <
-了解到							      <
-申请							      <
-第一							      <
-天							      <
-符合							      <
-条件							      <
-的							      <
-申请							      <
-资料							      <
-仅							      <
-有							      <
-三十二							      <
-份							      <
-不少							      <
-申请人							      <
-杭州市							      <
-房管							      <
-部门							      <
-表示							      <
-这次							      <
-公共							      <
-租赁房							      <
-接受							      <
-申请							      <
-的							      <
-时间							      <
-将							      <
-持续							      <
-到							      <
-本周							      <
-五							      <
-选房							      <
-名单							      <
-经							      <
-公开							      <
-摇号							      <
-后							      <
-于							      <
-月底							      <
-公示							      <
-INSERTIONS:	0
-DELETIONS:	43
-SUBSTITUTIONS:	1
-NCHANGE:	44
+在								在
+上城							      |	上
+							      >	城
+建设局								建设局
+受理点							      |	受理
+了解到							      |	点
+							      >	了解
+							      >	到
+申请								申请
+第一								第一
+天								天
+符合								符合
+条件								条件
+的								的
+申请								申请
+资料								资料
+仅								仅
+有								有
+三十二							      |	三十
+							      >	二
+份								份
+不少								不少
+申请人								申请人
+杭州市								杭州市
+房管								房管
+部门								部门
+表示								表示
+这次								这次
+公共								公共
+租赁房							      |	租赁
+							      >	房
+接受								接受
+申请								申请
+的								的
+时间								时间
+将								将
+持续								持续
+到								到
+本周								本周
+五								五
+选房								选房
+名单								名单
+经								经
+公开								公开
+摇号								摇号
+后								后
+于								于
+月底								月底
+公示								公示
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	10
 NTRUTH:	45
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	50
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----476
 浙江								浙江
 台								台
@@ -14951,162 +15109,183 @@ NTEST:	28
 TRUE WORDS RECALL:	0.762
 TEST WORDS PRECISION:	0.571
 --standard.txt-------testout.txt----480
-评委							      |	评委认为作者用郁达夫式的浪漫诗性续写了一个东欧城市的命运短篇
-认为							      <
-作者							      <
-用							      <
-郁							      <
-达夫							      <
-式							      <
-的							      <
-浪漫							      <
-诗性							      <
-续							      <
-写							      <
-了							      <
-一个							      <
-东欧							      <
-城市							      <
-的							      <
-命运							      <
-短篇小说奖						      <
-由							      <
-中国							      <
-作协							      <
-主席							      <
-铁凝							      <
-的							      <
-伊琳娜							      <
-的							      <
-礼帽							      <
+评委								评委
+认为								认为
+作者								作者
+用								用
+郁								郁
+达夫							      |	达
+							      >	夫
+式								式
+的								的
+浪漫								浪漫
+诗性							      |	诗
+							      >	性
+续								续
+写								写
+了								了
+一个								一个
+东欧								东欧
+城市								城市
+的								的
+命运								命运
+短篇小说奖						      |	短篇
+							      >	小说
+							      >	奖
+由								由
+中国								中国
+作协								作协
+主席								主席
+铁凝							      |	铁
+							      >	凝
+的								的
+伊琳娜							      |	伊
+							      >	琳
+							      >	娜
+的								的
+礼帽								礼帽
 获得								获得
-INSERTIONS:	0
-DELETIONS:	27
-SUBSTITUTIONS:	1
-NCHANGE:	28
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	12
 NTRUTH:	29
-NTEST:	2
-TRUE WORDS RECALL:	0.034
-TEST WORDS PRECISION:	0.500
+NTEST:	36
+TRUE WORDS RECALL:	0.828
+TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----481
 另外								另外
-叶							      |	叶广岑乔叶陈谦的作品并列获得中篇小说提名奖毕飞宇韩少功朱山坡
-广							      <
-岑							      <
-乔							      <
-叶							      <
-陈							      <
-谦							      <
-的							      <
-作品							      <
-并列							      <
-获得							      <
-中篇小说						      <
-提名奖							      <
-毕							      <
-飞宇							      <
-韩							      <
-少功							      <
-朱							      <
-山坡							      <
-的							      <
-作品							      <
-获得							      <
-短篇小说						      <
-提名奖							      <
-INSERTIONS:	0
-DELETIONS:	23
-SUBSTITUTIONS:	1
-NCHANGE:	24
+叶								叶
+广								广
+岑								岑
+乔								乔
+叶								叶
+陈								陈
+谦								谦
+的								的
+作品								作品
+并列								并列
+获得								获得
+中篇小说						      |	中
+							      >	篇
+							      >	小说
+提名奖								提名奖
+毕								毕
+飞宇							      |	飞
+							      >	宇
+韩								韩
+少功							      |	少
+							      >	功
+朱								朱
+山坡								山坡
+的								的
+作品								作品
+获得								获得
+短篇小说						      |	短篇
+							      >	小说
+提名奖								提名奖
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	9
 NTRUTH:	25
-NTEST:	2
-TRUE WORDS RECALL:	0.040
-TEST WORDS PRECISION:	0.500
+NTEST:	30
+TRUE WORDS RECALL:	0.840
+TEST WORDS PRECISION:	0.700
 --standard.txt-------testout.txt----482
-郁							      |	郁达夫小说奖是继矛盾文学奖鲁迅文学奖之后又一个以现代文学大家
-达夫							      |	办
-小说奖							      <
-是							      <
-继							      <
-矛盾							      <
-文学奖							      <
-鲁迅							      <
-文学奖							      <
-之后							      <
-又							      <
-一个							      <
-以							      <
-现代							      <
-文学							      <
-大家							      <
-命名							      <
-的							      <
-文学奖							      <
-将							      <
-每							      <
-两							      <
-年							      <
-一							      <
-届							      <
-只							      <
-针对							      <
-中短篇小说						      <
-进行							      <
-评选							      <
-由							      <
-浙江省							      <
-作协							      <
-江南							      <
-杂志社							      <
-主办							      <
-INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	2
-NCHANGE:	36
+郁								郁
+达夫							      |	达
+小说奖							      |	夫
+							      >	小说
+							      >	奖
+是								是
+继								继
+矛盾								矛盾
+文学奖								文学奖
+鲁迅								鲁迅
+文学奖							      |	文学
+							      >	奖
+之后								之后
+又								又
+一个								一个
+以								以
+现代								现代
+文学								文学
+大家								大家
+命名								命名
+的								的
+文学奖							      |	文学
+							      >	奖
+将								将
+每								每
+两								两
+年								年
+一								一
+届								届
+只								只
+针对								针对
+中短篇小说						      |	中
+							      >	短篇
+							      >	小说
+进行								进行
+评选								评选
+由								由
+浙江省								浙江省
+作协								作协
+江南								江南
+杂志社							      |	杂志
+							      >	社
+主办								主办
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	6
+NCHANGE:	13
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	43
+TRUE WORDS RECALL:	0.833
+TEST WORDS PRECISION:	0.698
 --standard.txt-------testout.txt----483
-于							      |	于其它文学奖项不同的是郁达夫小说奖突破性地将评选范围扩展至海
-其它							      <
-文学							      <
-奖项							      <
-不同							      <
-的							      <
-是							      <
-郁							      <
-达夫							      <
-小说奖							      <
-突破性							      <
-地							      <
-将							      <
-评选							      <
-范围							      <
-扩展							      <
-至							      <
-海外							      <
-华语							      <
-创作							      <
-并							      <
-首创							      <
-了							      <
-实名							      <
-投票							      <
-评语							      <
-公开							      <
-的							      <
-透明							      <
-评奖							      <
+于								于
+其它								其它
+文学								文学
+奖项								奖项
+不同								不同
+的								的
+是								是
+郁								郁
+达夫							      |	达
+小说奖							      |	夫
+							      >	小说
+							      >	奖
+突破性								突破性
+地								地
+将								将
+评选								评选
+范围								范围
+扩展								扩展
+至								至
+海外								海外
+华语								华语
+创作								创作
+并								并
+首创								首创
+了								了
+实名								实名
+投票								投票
+评语								评语
+公开								公开
+的								的
+透明								透明
+评奖								评奖
 方式								方式
-INSERTIONS:	0
-DELETIONS:	29
-SUBSTITUTIONS:	1
-NCHANGE:	30
+INSERTIONS:	2
+DELETIONS:	0
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	31
-NTEST:	2
-TRUE WORDS RECALL:	0.032
-TEST WORDS PRECISION:	0.500
+NTEST:	33
+TRUE WORDS RECALL:	0.935
+TEST WORDS PRECISION:	0.879
 --standard.txt-------testout.txt----484
 浙江								浙江
 台								台
@@ -15217,8 +15396,8 @@ NTEST:	2
 TRUE WORDS RECALL:	0.018
 TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----487
-国家								国家
-安监							      |	安监总局下发通知要求用人单位建立健全职业健康监护制度职工上岗
+国家							      |	国
+安监							      |	家安监总局下发通知要求用人单位建立健全职业健康监护制度职工上
 总局							      <
 下发							      <
 通知							      <
@@ -15272,12 +15451,12 @@ TEST WORDS PRECISION:	0.500
 提供							      <
 INSERTIONS:	0
 DELETIONS:	51
-SUBSTITUTIONS:	1
-NCHANGE:	52
+SUBSTITUTIONS:	2
+NCHANGE:	53
 NTRUTH:	53
 NTEST:	2
-TRUE WORDS RECALL:	0.019
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----488
 铁道部								铁道部
 表示								表示
@@ -15390,93 +15569,100 @@ TRUE WORDS RECALL:	0.853
 TEST WORDS PRECISION:	0.725
 --standard.txt-------testout.txt----491
 今天								今天
-从							      |	从距离浙江二千多公里外的甘肃省陇西县贾家屲村传来好消息由宁波
-距离							      <
-浙江							      <
-二千多							      <
-公里							      <
-外							      <
-的							      <
-甘肃省							      <
-陇西县							      <
-贾家							      <
-屲							      <
-村							      <
-传来							      <
-好							      <
-消息							      <
-由							      <
-宁波							      <
-姑娘							      <
-严							      <
-意							      <
-娜							      <
-发起							      <
-捐建							      <
-的							      <
-爱心桥							      <
-正式							      <
-通车							      <
-了							      <
-我们							      <
-一起							      <
-到							      <
-现场							      <
-去							      <
-看							      <
-一							      <
-看							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	1
-NCHANGE:	36
+从								从
+距离								距离
+浙江								浙江
+二千多							      |	二千
+							      >	多
+公里								公里
+外								外
+的								的
+甘肃省								甘肃省
+陇西县							      |	陇
+贾家							      |	西
+屲							      |	县
+							      >	贾家屲
+村								村
+传来								传来
+好								好
+消息								消息
+由								由
+宁波								宁波
+姑娘								姑娘
+严								严
+意								意
+娜								娜
+发起								发起
+捐建								捐建
+的								的
+爱心桥							      |	爱心
+							      >	桥
+正式								正式
+通车								通车
+了								了
+我们								我们
+一起								一起
+到								到
+现场								现场
+去								去
+看								看
+一								一
+看								看
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	8
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.027
-TEST WORDS PRECISION:	0.500
+NTEST:	40
+TRUE WORDS RECALL:	0.865
+TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----492
 在								在
-我							      |	我身后这座就是宁波市民爱心桥了那么它连接起的是甘肃省陇西县宏
-身后							      <
-这							      <
-座							      <
-就							      <
-是							      <
-宁波							      <
-市民							      <
-爱心桥							      <
-了							      <
-那么							      <
-它							      <
-连接							      <
-起							      <
-的							      <
-是							      <
-甘肃省							      <
-陇西县							      <
-宏伟							      <
-乡							      <
-的							      <
-贾家							      <
+我								我
+身后								身后
+这								这
+座								座
+就								就
+是								是
+宁波								宁波
+市民								市民
+爱心桥							      |	爱心
+							      >	桥
+了								了
+那么								那么
+它								它
+连接								连接
+起								起
+的								的
+是								是
+甘肃省								甘肃省
+陇西县							      |	陇
+							      >	西
+							      >	县
+宏伟								宏伟
+乡								乡
+的								的
+贾家							      |	贾家屲
 屲							      <
-村							      <
-和							      <
-权							      <
-家湾							      <
-乡							      <
-的							      <
-槐							      <
-树							      <
-岔							      <
-村							      <
-INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+村								村
+和								和
+权								权
+家湾							      |	家
+							      >	湾
+乡								乡
+的								的
+槐								槐
+树								树
+岔								岔
+村								村
+INSERTIONS:	4
+DELETIONS:	1
+SUBSTITUTIONS:	4
+NCHANGE:	9
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	37
+TRUE WORDS RECALL:	0.853
+TEST WORDS PRECISION:	0.784
 --standard.txt-------testout.txt----493
 上午								上午
 随着								随着
@@ -15561,68 +15747,73 @@ NTEST:	20
 TRUE WORDS RECALL:	0.882
 TEST WORDS PRECISION:	0.750
 --standard.txt-------testout.txt----496
-甘肃省							      |	甘肃省陇西县宏伟乡贾家屲村村民贾琪现在骑车就能送走
-陇西县							      <
-宏伟							      <
-乡							      <
-贾家							      <
+甘肃省								甘肃省
+陇西县							      |	陇
+							      >	西
+							      >	县
+宏伟								宏伟
+乡								乡
+贾家							      |	贾家屲
 屲							      <
-村							      <
-村民							      <
-贾							      <
-琪							      <
-现在							      <
-骑车							      <
-就							      <
-能							      <
-送走							      <
+村								村
+村民								村民
+贾								贾
+琪								琪
+现在								现在
+骑车								骑车
+就								就
+能								能
+送走							      |	送
+							      >	走
 了								了
-INSERTIONS:	0
-DELETIONS:	14
-SUBSTITUTIONS:	1
-NCHANGE:	15
+INSERTIONS:	3
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	7
 NTRUTH:	16
-NTEST:	2
-TRUE WORDS RECALL:	0.062
-TEST WORDS PRECISION:	0.500
+NTEST:	18
+TRUE WORDS RECALL:	0.750
+TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----497
-原来							      |	原来穿越槐树岔村与贾家屲村之间的华尖河挡住了当地学生的上学路
-穿越							      |	里
-槐树							      <
-岔							      <
-村							      <
-与							      <
-贾家							      <
+原来								原来
+穿越								穿越
+槐树							      |	槐
+							      >	树
+岔								岔
+村								村
+与								与
+贾家							      |	贾家屲
 屲							      <
-村							      <
-之间							      <
-的							      <
-华							      <
-尖							      <
-河							      <
-挡住							      <
-了							      <
-当地							      <
-学生							      <
-的							      <
-上学							      <
-路							      <
-村民							      <
-购置							      <
-生活							      <
-用品							      <
-要							      <
-绕道							      <
-十多							      <
-公里							      <
-INSERTIONS:	0
-DELETIONS:	27
-SUBSTITUTIONS:	2
-NCHANGE:	29
+村								村
+之间								之间
+的								的
+华								华
+尖								尖
+河								河
+挡住								挡住
+了								了
+当地								当地
+学生								学生
+的								的
+上学								上学
+路								路
+村民								村民
+购置								购置
+生活								生活
+用品								用品
+要								要
+绕道								绕道
+十多							      |	十
+							      >	多
+公里								公里
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	29
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	30
+TRUE WORDS RECALL:	0.862
+TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----498
 宁波								宁波
 姑娘								姑娘
@@ -15656,51 +15847,54 @@ NTEST:	23
 TRUE WORDS RECALL:	0.955
 TEST WORDS PRECISION:	0.913
 --standard.txt-------testout.txt----499
-该桥							      |	该
-全桥							      |	桥全桥长五百二十米总投资幺幺零多万元是陇西县宏伟乡迄今为止第
-长							      <
-五百二十						      <
-米							      <
-总							      <
-投资							      <
+该桥								该桥
+全桥								全桥
+长								长
+五百二十						      |	五百
+							      >	二十
+米								米
+总								总
+投资								投资
+幺							      |	幺幺
 幺							      <
-幺							      <
-零							      <
-多							      <
-万							      <
-元							      <
-是							      <
-陇西县							      <
-宏伟							      <
-乡							      <
-迄今为止						      <
-第一							      <
-个							      <
-通过							      <
-社会							      <
-力量							      <
-修造							      <
-的							      <
-基础							      <
-设施							      <
-项目							      <
-今后							      <
-将							      <
-由							      <
-当地							      <
-乡政府							      <
-进行							      <
-管理							      <
-和							      <
-养护							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	2
-NCHANGE:	37
+零								零
+多								多
+万								万
+元								元
+是								是
+陇西县							      |	陇
+							      >	西
+							      >	县
+宏伟								宏伟
+乡								乡
+迄今为止							迄今为止
+第一								第一
+个								个
+通过								通过
+社会								社会
+力量								力量
+修造								修造
+的								的
+基础								基础
+设施								设施
+项目								项目
+今后								今后
+将								将
+由								由
+当地								当地
+乡政府								乡政府
+进行								进行
+管理								管理
+和								和
+养护								养护
+INSERTIONS:	3
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	7
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	39
+TRUE WORDS RECALL:	0.892
+TEST WORDS PRECISION:	0.846
 --standard.txt-------testout.txt----500
 我								我
 觉得								觉得
@@ -16160,65 +16354,69 @@ TRUE WORDS RECALL:	0.963
 TEST WORDS PRECISION:	0.929
 --standard.txt-------testout.txt----514
 在								在
-广场							      |	广场入口处竖着巨大的招聘广告牌包括餐饮服装百货等四十八个商家
-入口处							      <
-竖							      <
-着							      <
-巨大							      <
-的							      <
-招聘							      <
-广告牌							      <
-包括							      <
-餐饮							      <
-服装							      <
-百货							      <
-等							      <
-四十八							      <
-个							      <
-商家							      <
-提供							      <
-了							      <
-近							      <
-千							      <
-个							      <
-岗位							      <
-即便							      <
-是							      <
-最							      <
-基层							      <
-的							      <
-服务员							      <
-提供							      <
-的							      <
-月薪							      <
-也							      <
-都							      <
-在							      <
-一							      <
-六							      <
-零							      <
-零							      <
-一千七百						      <
-左右							      <
-有							      <
-的							      <
-还							      <
-包							      <
-食宿							      <
-但是							      <
-应聘							      <
-的							      <
-情况							      <
-却							      <
-不容乐观						      <
-INSERTIONS:	0
-DELETIONS:	50
-SUBSTITUTIONS:	1
-NCHANGE:	51
+广场								广场
+入口处								入口处
+竖								竖
+着								着
+巨大								巨大
+的								的
+招聘								招聘
+广告牌							      |	广告
+							      >	牌
+包括								包括
+餐饮								餐饮
+服装								服装
+百货								百货
+等								等
+四十八							      |	四十
+							      >	八
+个								个
+商家								商家
+提供								提供
+了								了
+近								近
+千								千
+个								个
+岗位								岗位
+即便								即便
+是								是
+最								最
+基层								基层
+的								的
+服务员								服务员
+提供								提供
+的								的
+月薪								月薪
+也								也
+都								都
+在								在
+一								一
+六								六
+零								零
+零								零
+一千七百						      |	一千
+							      >	七百
+左右								左右
+有								有
+的								的
+还								还
+包								包
+食宿								食宿
+但是								但是
+应聘								应聘
+的								的
+情况								情况
+却								却
+不容乐观						      |	不容
+							      >	乐观
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	52
-NTEST:	2
-TRUE WORDS RECALL:	0.019
-TEST WORDS PRECISION:	0.500
+NTEST:	56
+TRUE WORDS RECALL:	0.923
+TEST WORDS PRECISION:	0.857
 --standard.txt-------testout.txt----515
 宁波								宁波
 江北								江北
@@ -16708,49 +16906,54 @@ NTEST:	11
 TRUE WORDS RECALL:	0.900
 TEST WORDS PRECISION:	0.818
 --standard.txt-------testout.txt----532
-泡沫							      |	泡沫成分占实际价格比例百分之五十以上的七个城市分别是福州杭州
-成分							      |	百
-占							      |	分之
-实际							      |	三十
-价格							      <
-比例							      <
-百分之五十						      <
-以上							      <
-的							      <
-七							      <
-个							      <
-城市							      <
-分别							      <
-是							      <
-福州							      <
-杭州							      <
-南宁							      <
-青岛							      <
-天津							      <
-兰州							      <
-石家庄							      <
-全国							      <
-三十五							      <
-个							      <
-大中城市						      <
-二类							      <
-地段							      <
-普通							      <
-商品							      <
-住房							      <
-平均							      <
-房价							      <
-泡沫							      <
-接近							      <
-百分之三十						      <
-INSERTIONS:	0
-DELETIONS:	31
-SUBSTITUTIONS:	4
-NCHANGE:	35
+泡沫								泡沫
+成分								成分
+占								占
+实际								实际
+价格								价格
+比例								比例
+百分之五十						      |	百
+							      >	分之
+							      >	五十
+以上								以上
+的								的
+七								七
+个								个
+城市								城市
+分别								分别
+是								是
+福州								福州
+杭州								杭州
+南宁								南宁
+青岛								青岛
+天津								天津
+兰州								兰州
+石家庄								石家庄
+全国								全国
+三十五							      |	三十
+							      >	五
+个								个
+大中城市							大中城市
+二类								二类
+地段								地段
+普通								普通
+商品								商品
+住房								住房
+平均								平均
+房价								房价
+泡沫								泡沫
+接近								接近
+百分之三十						      |	百
+							      >	分之
+							      >	三十
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	8
 NTRUTH:	35
-NTEST:	4
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	40
+TRUE WORDS RECALL:	0.914
+TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----533
 报告								报告
 还								还
@@ -16824,55 +17027,55 @@ NTEST:	30
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----535
-修改							      |	修改后的条例草案规定除现行规定的机动车事故以外职工在上下班途
-后							      |	伤
-的							      <
-条例							      <
-草案							      <
-规定							      <
-除							      <
-现行							      <
-规定							      <
-的							      <
-机动车							      <
-事故							      <
-以外							      <
-职工							      <
-在							      <
-上下班							      <
-途中							      <
-受到							      <
-非							      <
-本人							      <
-主要							      <
-责任							      <
-的							      <
-非							      <
-机动车							      <
-交通							      <
-事故							      <
-或者							      <
-城市							      <
-轨道							      <
-交通							      <
-客运							      <
-渡轮							      <
-火车							      <
-事故							      <
-伤害							      <
-也							      <
-应当							      <
-认定							      <
-为							      <
-工伤							      <
+修改								修改
+后								后
+的								的
+条例								条例
+草案								草案
+规定								规定
+除								除
+现行								现行
+规定								规定
+的								的
+机动车								机动车
+事故								事故
+以外								以外
+职工								职工
+在								在
+上下班								上下班
+途中								途中
+受到								受到
+非								非
+本人								本人
+主要								主要
+责任								责任
+的								的
+非								非
+机动车								机动车
+交通								交通
+事故								事故
+或者								或者
+城市								城市
+轨道								轨道
+交通								交通
+客运								客运
+渡轮								渡轮
+火车								火车
+事故								事故
+伤害								伤害
+也								也
+应当								应当
+认定								认定
+为								为
+工伤								工伤
 INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	2
-NCHANGE:	41
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	41
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----536
 对于								对于
 事实								事实
@@ -17309,50 +17512,51 @@ TRUE WORDS RECALL:	0.696
 TEST WORDS PRECISION:	0.696
 --standard.txt-------testout.txt----550
 对此							      |	对
-杭州							      |	此杭州西溪湿地国家公园管委会做出了回应认为该报道与事实不相符
-西溪							      <
-湿地							      <
-国家							      <
-公园							      <
-管委会							      <
-做出							      <
-了							      <
-回应							      <
-认为							      <
-该							      <
-报道							      <
-与							      <
-事实							      <
-不							      <
-相							      <
-符合							      <
-表示							      <
-园区							      <
-房屋							      <
-仍							      <
-为							      <
-国家							      <
-资产							      <
-与							      <
-名人							      <
-名企							      <
-之间							      <
-属							      <
-租赁							      <
-关系							      <
-而							      <
-非							      <
-别墅							      <
-保障							      <
-房							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	2
-NCHANGE:	37
+							      >	此
+杭州								杭州
+西溪								西溪
+湿地								湿地
+国家								国家
+公园								公园
+管委会								管委会
+做出								做出
+了								了
+回应								回应
+认为								认为
+该								该
+报道								报道
+与								与
+事实								事实
+不								不
+相								相
+符合								符合
+表示								表示
+园区								园区
+房屋								房屋
+仍								仍
+为								为
+国家								国家
+资产								资产
+与								与
+名人								名人
+名企								名企
+之间								之间
+属								属
+租赁								租赁
+关系								关系
+而								而
+非								非
+别墅								别墅
+保障								保障
+房								房
+INSERTIONS:	1
+DELETIONS:	0
+SUBSTITUTIONS:	1
+NCHANGE:	2
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	38
+TRUE WORDS RECALL:	0.973
+TEST WORDS PRECISION:	0.947
 --standard.txt-------testout.txt----551
 管委会								管委会
 负责人								负责人
@@ -17413,54 +17617,61 @@ TRUE WORDS RECALL:	0.714
 TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----553
 今天								今天
-上午							      |	上午七点十分一辆牌照为浙七三七四的福特轿车搭乘渡轮从温州市区
-七点							      <
-十分							      <
-一							      <
-辆							      <
-牌照							      <
-为							      <
-浙							      <
-七三七							      <
-四							      <
-的							      <
-福特							      <
-轿车							      <
-搭乘							      <
-渡轮							      <
-从							      <
-温州							      <
-市区							      <
-到							      <
-甬江							      <
-瓯北镇							      <
-码头							      <
-时							      <
-因							      <
-驾驶员							      <
-操作							      <
-失误							      <
-错							      <
-把							      <
-倒车							      <
-档							      <
-当成							      <
-前进							      <
-档							      <
-连							      <
-人							      <
-带							      <
-车							      <
-滑入							      <
-瓯江							      <
-INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	1
-NCHANGE:	40
+上午								上午
+七点							      |	七
+							      >	点
+十分								十分
+一								一
+辆								辆
+牌照								牌照
+为								为
+浙								浙
+七三七							      |	七
+							      >	三
+							      >	七
+四								四
+的								的
+福特								福特
+轿车								轿车
+搭乘								搭乘
+渡轮								渡轮
+从								从
+温州								温州
+市区								市区
+到								到
+甬江							      |	甬
+瓯北镇							      |	江
+							      >	瓯
+							      >	北
+							      >	镇
+码头								码头
+时								时
+因								因
+驾驶员								驾驶员
+操作								操作
+失误								失误
+错								错
+把								把
+倒车								倒车
+档								档
+当成								当成
+前进								前进
+档								档
+连								连
+人								人
+带								带
+车								车
+滑入								滑入
+瓯江							      |	瓯
+							      >	江
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	12
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	48
+TRUE WORDS RECALL:	0.878
+TEST WORDS PRECISION:	0.750
 --standard.txt-------testout.txt----554
 当时								当时
 车上								车上
@@ -17823,57 +18034,59 @@ TRUE WORDS RECALL:	0.913
 TEST WORDS PRECISION:	0.840
 --standard.txt-------testout.txt----567
 第二								第二
-天							      |	天晚上警方在现场进行了蹲守秘密取证民警发现进出这个洗浴中心的
-晚上							      <
-警方							      <
-在							      <
-现场							      <
-进行							      <
-了							      <
-蹲守							      <
-秘密							      <
-取证							      <
-民警							      <
-发现							      <
-进出							      <
-这个							      <
-洗浴							      <
-中心							      <
-的							      <
-人							      <
-很多							      <
-其中							      <
-绝大							      <
-部分							      <
-都							      <
-是							      <
-出租车							      <
-司机							      <
-带							      <
-过来							      <
-的							      <
-而							      <
-司机							      <
-们							      <
-把							      <
-客人							      <
-送到							      <
-也							      <
-没有							      <
-立即							      <
-离开							      <
-而是							      <
-坐							      <
-下来							      <
-喝茶							      <
-INSERTIONS:	0
-DELETIONS:	42
-SUBSTITUTIONS:	1
-NCHANGE:	43
+天								天
+晚上								晚上
+警方								警方
+在								在
+现场								现场
+进行								进行
+了								了
+蹲守								蹲守
+秘密								秘密
+取证								取证
+民警								民警
+发现								发现
+进出								进出
+这个								这个
+洗浴								洗浴
+中心								中心
+的								的
+人								人
+很多								很多
+其中								其中
+绝大								绝大
+部分								部分
+都								都
+是								是
+出租车								出租车
+司机								司机
+带								带
+过来								过来
+的								的
+而								而
+司机								司机
+们								们
+把								把
+客人								客人
+送到							      |	送
+							      >	到
+也								也
+没有								没有
+立即								立即
+离开								离开
+而是							      |	而
+							      >	是
+坐								坐
+下来								下来
+喝茶								喝茶
+INSERTIONS:	2
+DELETIONS:	0
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	44
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	46
+TRUE WORDS RECALL:	0.955
+TEST WORDS PRECISION:	0.913
 --standard.txt-------testout.txt----568
 很								很
 悠闲								悠闲
@@ -17947,64 +18160,65 @@ TRUE WORDS RECALL:	0.875
 TEST WORDS PRECISION:	0.778
 --standard.txt-------testout.txt----571
 这								这
-名							      |	名司机交代不久前他在等绿灯时有人发给他这家洗浴中心的小广告上
-司机							      <
-交代							      <
-不久前							      <
-他							      <
-在							      <
-等							      <
-绿灯							      <
-时							      <
-有人							      <
-发给							      <
-他							      <
-这家							      <
-洗浴							      <
-中心							      <
-的							      <
-小							      <
-广告							      <
-上面							      <
-写							      <
-着							      <
-拉客							      <
-人							      <
-过来							      <
-就							      <
-给							      <
-一百							      <
-元							      <
-到							      <
-一百五十						      <
-元							      <
-的							      <
-回扣							      <
-尝							      <
-到							      <
-几							      <
-次							      <
-甜头							      <
-后							      <
-这							      <
-位							      <
-司机							      <
-开始							      <
-为							      <
-这							      <
-洗浴							      <
-中心							      <
-主动							      <
-招揽							      <
-客人							      <
-INSERTIONS:	0
-DELETIONS:	49
-SUBSTITUTIONS:	1
-NCHANGE:	50
+名								名
+司机								司机
+交代								交代
+不久前								不久前
+他								他
+在								在
+等								等
+绿灯								绿灯
+时								时
+有人								有人
+发给								发给
+他								他
+这家								这家
+洗浴								洗浴
+中心								中心
+的								的
+小								小
+广告								广告
+上面								上面
+写								写
+着								着
+拉客							      |	拉
+人							      |	客人
+过来								过来
+就								就
+给								给
+一百								一百
+元								元
+到								到
+一百五十						      |	一百
+							      >	五十
+元								元
+的								的
+回扣								回扣
+尝								尝
+到								到
+几								几
+次								次
+甜头								甜头
+后								后
+这								这
+位								位
+司机								司机
+开始								开始
+为								为
+这								这
+洗浴								洗浴
+中心								中心
+主动								主动
+招揽								招揽
+客人								客人
+INSERTIONS:	1
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	4
 NTRUTH:	51
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	52
+TRUE WORDS RECALL:	0.941
+TEST WORDS PRECISION:	0.923
 --standard.txt-------testout.txt----572
 事发							      |	事
 当晚							      |	发当
@@ -18541,64 +18755,69 @@ TRUE WORDS RECALL:	0.929
 TEST WORDS PRECISION:	0.867
 --standard.txt-------testout.txt----590
 我们								我们
-给							      |	给她做检查她光感已经消失了我们给她做探查时发现她除了眼睑有一
-她							      <
-做							      <
-检查							      <
-她							      <
-光感							      <
-已经							      <
-消失							      <
-了							      <
-我们							      <
-给							      <
-她							      <
-做							      <
-探查							      <
-时							      <
-发现							      <
-她							      <
-除了							      <
-眼睑							      <
-有							      <
-一个							      <
-裂口							      <
-以外							      <
-除了							      <
-角膜							      <
-以外							      <
-从							      <
-巩膜							      <
-的							      <
-外侧							      <
-肌							      <
-的							      <
-下方							      <
-一直							      <
-裂							      <
-到							      <
-后面							      <
-有							      <
-个							      <
-一点五							      <
-公分							      <
-的							      <
-碎							      <
-玻							      <
+给								给
+她								她
+做								做
+检查								检查
+她								她
+光感								光感
+已经								已经
+消失								消失
+了								了
+我们								我们
+给								给
+她								她
+做								做
+探查								探查
+时								时
+发现								发现
+她								她
+除了								除了
+眼睑							      |	眼
+							      >	睑
+有								有
+一个								一个
+裂口								裂口
+以外								以外
+除了								除了
+角膜							      |	角
+							      >	膜
+以外								以外
+从								从
+巩膜							      |	巩
+							      >	膜
+的								的
+外侧								外侧
+肌								肌
+的								的
+下方								下方
+一直								一直
+裂								裂
+到								到
+后面								后面
+有								有
+个								个
+一点五							      |	一
+							      >	点
+							      >	五
+公分								公分
+的								的
+碎								碎
+玻							      |	玻璃
 璃							      <
-就							      <
-插							      <
-在							      <
-这个							      <
-地方							      <
-INSERTIONS:	0
-DELETIONS:	49
-SUBSTITUTIONS:	1
-NCHANGE:	50
+就								就
+插								插
+在								在
+这个								这个
+地方								地方
+INSERTIONS:	5
+DELETIONS:	1
+SUBSTITUTIONS:	5
+NCHANGE:	11
 NTRUTH:	51
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	55
+TRUE WORDS RECALL:	0.882
+TEST WORDS PRECISION:	0.818
 --standard.txt-------testout.txt----591
 医生								医生
 诊断								诊断
@@ -18940,47 +19159,54 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----603
 我们								我们
-刚刚							      |	刚刚了解到第一位受捐人小丁由于眼压过高无法顺利进行手术医院当
-了解到							      <
-第一							      <
-位							      <
-受							      <
-捐							      <
-人							      <
-小丁							      <
-由于							      <
-眼压							      <
-过							      <
-高							      <
-无法							      <
-顺利							      <
-进行							      <
-手术							      <
-医院							      <
-当机立断						      <
-把							      <
-小							      <
+刚刚								刚刚
+了解到							      |	了解
+							      >	到
+第一								第一
+位								位
+受								受
+捐								捐
+人								人
+小丁								小丁
+由于								由于
+眼压							      |	眼
+							      >	压
+过								过
+高								高
+无法								无法
+顺利								顺利
+进行								进行
+手术								手术
+医院								医院
+当机立断						      |	当
+							      >	机
+							      >	立
+							      >	断
+把								把
+小							      |	小胡
 胡							      <
-的							      <
-角膜							      <
-移植到							      <
-第二							      <
-位							      <
-受							      <
-捐							      <
-人							      <
-陈							      <
-先生							      <
-的							      <
-身上							      <
-INSERTIONS:	0
-DELETIONS:	32
-SUBSTITUTIONS:	1
-NCHANGE:	33
+的								的
+角膜							      |	角
+移植到							      |	膜
+							      >	移植
+							      >	到
+第二								第二
+位								位
+受								受
+捐								捐
+人								人
+陈								陈
+先生								先生
+的								的
+身上								身上
+INSERTIONS:	7
+DELETIONS:	1
+SUBSTITUTIONS:	6
+NCHANGE:	14
 NTRUTH:	34
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	40
+TRUE WORDS RECALL:	0.794
+TEST WORDS PRECISION:	0.675
 --standard.txt-------testout.txt----604
 陈								陈
 先生								先生
@@ -19081,59 +19307,62 @@ TRUE WORDS RECALL:	0.968
 TEST WORDS PRECISION:	0.938
 --standard.txt-------testout.txt----608
 据								据
-银行							      |	银行的保安说这伙人刚开始进来的时候并没有什么异常行为站在办理
-的							      <
-保安							      <
-说							      <
-这							      <
-伙							      <
-人							      <
-刚							      <
-开始							      <
-进来							      <
-的							      <
-时候							      <
-并							      <
-没有							      <
-什么							      <
-异常							      <
-行为							      <
-站							      <
-在							      <
-办理							      <
-业务							      <
-的							      <
-队伍							      <
-里面							      <
-但							      <
-随后							      <
-其中							      <
-一个							      <
-男子							      <
-找到							      <
-保安							      <
-还							      <
-对							      <
-保安							      <
-不停							      <
-地							      <
-挤眉弄眼						      <
-并							      <
-给							      <
-保安							      <
-写							      <
-了							      <
-一							      <
-张							      <
-纸条							      <
-INSERTIONS:	0
-DELETIONS:	44
+银行								银行
+的								的
+保安								保安
+说								说
+这								这
+伙								伙
+人								人
+刚								刚
+开始								开始
+进来								进来
+的								的
+时候								时候
+并								并
+没有								没有
+什么								什么
+异常								异常
+行为								行为
+站								站
+在								在
+办理								办理
+业务								业务
+的								的
+队伍								队伍
+里面								里面
+但								但
+随后								随后
+其中								其中
+一个								一个
+男子								男子
+找到								找到
+保安								保安
+还								还
+对								对
+保安								保安
+不停								不停
+地								地
+挤眉弄眼						      |	挤
+							      >	眉
+							      >	弄
+							      >	眼
+并								并
+给								给
+保安								保安
+写								写
+了								了
+一								一
+张								张
+纸条								纸条
+INSERTIONS:	3
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	45
+NCHANGE:	4
 NTRUTH:	46
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	49
+TRUE WORDS RECALL:	0.978
+TEST WORDS PRECISION:	0.918
 --standard.txt-------testout.txt----609
 当时								当时
 他								他
@@ -20066,108 +20295,108 @@ TRUE WORDS RECALL:	0.941
 TEST WORDS PRECISION:	0.889
 --standard.txt-------testout.txt----641
 那								那
-就							      |	就是首届亲子论坛来自台湾的著名作家刘墉著名节目主持人刘仪伟原
-是							      <
-首							      <
-届							      <
-亲子							      <
-论坛							      <
-来自							      <
-台湾							      <
-的							      <
+就								就
+是								是
+首								首
+届								届
+亲子								亲子
+论坛								论坛
+来自								来自
+台湾								台湾
+的								的
+著名								著名
+作家								作家
+刘							      |	刘墉著
+墉							      |	名
 著名							      <
-作家							      <
-刘							      <
-墉							      <
-著名							      <
-节目							      <
-主持人							      <
-刘							      <
-仪							      <
-伟							      <
-原							      <
-学军							      <
-小学							      <
-校长							      <
-杨							      <
-一							      <
-清							      <
-还有							      <
-来自							      <
-法国							      <
-和							      <
-日本							      <
-的							      <
-教育							      <
-专家							      <
-都							      <
-结合							      <
-自身							      <
-的							      <
-经验							      <
-畅谈							      <
-教育							      <
-孩子							      <
-的							      <
-好							      <
-方法							      <
-我们							      <
-赶快							      <
-来							      <
-听听							      <
+节目								节目
+主持人								主持人
+刘								刘
+仪								仪
+伟								伟
+原								原
+学军								学军
+小学								小学
+校长								校长
+杨								杨
+一								一
+清								清
+还有								还有
+来自								来自
+法国								法国
+和								和
+日本								日本
+的								的
+教育								教育
+专家								专家
+都								都
+结合								结合
+自身								自身
+的								的
+经验								经验
+畅谈								畅谈
+教育								教育
+孩子								孩子
+的								的
+好								好
+方法								方法
+我们								我们
+赶快								赶快
+来								来
+听听								听听
 INSERTIONS:	0
-DELETIONS:	48
-SUBSTITUTIONS:	1
-NCHANGE:	49
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	3
 NTRUTH:	50
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	49
+TRUE WORDS RECALL:	0.940
+TEST WORDS PRECISION:	0.959
 --standard.txt-------testout.txt----642
 台湾								台湾
-著名							      |	著名作家刘墉有一儿一女在孩子的成长过程中刘墉撰写了超越自己创
-作家							      <
-刘							      <
-墉							      <
-有							      <
+著名								著名
+作家								作家
+刘							      |	刘墉有
+墉							      |	一
+有							      |	儿
 一儿							      <
-一							      <
-女							      <
-在							      <
-孩子							      <
-的							      <
-成长							      <
-过程							      <
-中							      <
-刘							      <
-墉							      <
+一								一
+女								女
+在								在
+孩子								孩子
+的								的
+成长								成长
+过程								过程
+中								中
+刘							      |	刘墉撰
+墉							      |	写
 撰写							      <
-了							      <
-超越							      <
-自己							      <
-创造							      <
-自己							      <
-肯定							      <
-自己							      <
-等							      <
-一							      <
-系列							      <
-亲子							      <
-书籍							      <
-成为							      <
-为							      <
+了								了
+超越								超越
+自己								自己
+创造								创造
+自己								自己
+肯定								肯定
+自己								自己
+等								等
+一								一
+系列								系列
+亲子								亲子
+书籍								书籍
+成为								成为
+为							      |	为人
 人							      <
-父母							      <
-的							      <
-典范							      <
+父母								父母
+的								的
+典范								典范
 INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	1
-NCHANGE:	35
+DELETIONS:	3
+SUBSTITUTIONS:	6
+NCHANGE:	9
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	33
+TRUE WORDS RECALL:	0.750
+TEST WORDS PRECISION:	0.818
 --standard.txt-------testout.txt----643
 他								他
 的								的
@@ -20262,8 +20491,8 @@ NTEST:	2
 TRUE WORDS RECALL:	0.017
 TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----645
-杨							      |	杨一清是原杭州学军小学的校长他举了一个简单的例子一个调查数据
-一							      <
+杨								杨
+一							      |	一清是原杭州学军小学的校长他举了一个简单的例子一个调查数据显
 清							      <
 是							      <
 原							      <
@@ -20340,7 +20569,7 @@ TEST WORDS PRECISION:	0.500
 难							      <
 建立							      <
 的							      <
-和谐								和谐
+和谐							      <
 INSERTIONS:	0
 DELETIONS:	77
 SUBSTITUTIONS:	1
@@ -20395,58 +20624,61 @@ TRUE WORDS RECALL:	0.939
 TEST WORDS PRECISION:	0.886
 --standard.txt-------testout.txt----647
 一								一
-位							      |	位开红色马六轿车的男子撞人后还口出狂言的事情引起了很多人的关
-开							      <
-红色							      <
-马							      <
-六							      <
-轿车							      <
-的							      <
-男子							      <
-撞							      <
+位								位
+开								开
+红色								红色
+马								马
+六								六
+轿车								轿车
+的								的
+男子								男子
+撞							      |	撞人
 人							      <
-后							      <
-还							      <
-口							      <
-出							      <
-狂言							      <
-的							      <
-事情							      <
-引起							      <
-了							      <
-很多							      <
-人							      <
-的							      <
-关注							      <
-马							      <
-六							      <
-男							      <
-姜某							      <
-因							      <
-殴打							      <
-他人							      <
-私							      <
-着							      <
-警服							      <
-被							      <
-处以							      <
-行政							      <
-拘留							      <
-十五							      <
-天							      <
-罚款							      <
-五百							      <
-元							      <
-的							      <
-处罚							      <
-INSERTIONS:	0
-DELETIONS:	43
-SUBSTITUTIONS:	1
-NCHANGE:	44
+后								后
+还								还
+口								口
+出								出
+狂言							      |	狂
+							      >	言
+的								的
+事情								事情
+引起								引起
+了								了
+很多								很多
+人								人
+的								的
+关注								关注
+马								马
+六								六
+男								男
+姜某							      |	姜
+							      >	某
+因								因
+殴打								殴打
+他人								他人
+私								私
+着								着
+警服								警服
+被								被
+处以								处以
+行政								行政
+拘留								拘留
+十五							      |	十
+							      >	五
+天								天
+罚款								罚款
+五百								五百
+元								元
+的								的
+处罚								处罚
+INSERTIONS:	3
+DELETIONS:	1
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	45
-NTEST:	2
-TRUE WORDS RECALL:	0.022
-TEST WORDS PRECISION:	0.500
+NTEST:	47
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.851
 --standard.txt-------testout.txt----648
 道歉								道歉
 道歉								道歉
@@ -20761,50 +20993,51 @@ TRUE WORDS RECALL:	0.947
 TEST WORDS PRECISION:	0.900
 --standard.txt-------testout.txt----657
 在								在
-建设							      |	建设广场派出所记者了解到目前公安机关正在对事件中借机鼓动闹事
-广场							      <
-派出所							      <
-记者							      <
-了解到							      <
-目前							      <
-公安							      <
-机关							      <
-正在							      <
-对							      <
-事件							      <
-中							      <
-借机							      <
-鼓动							      <
-闹事							      <
-打砸							      <
-车辆							      <
-和							      <
-当事人							      <
-仍							      <
-撇							      <
-物品							      <
-造成							      <
-民警							      <
-受伤							      <
-的							      <
-违法							      <
-人员							      <
-开展							      <
-调查							      <
-并							      <
-会							      <
-依法							      <
-追究							      <
-法律							      <
-责任							      <
-INSERTIONS:	0
-DELETIONS:	35
+建设								建设
+广场								广场
+派出所								派出所
+记者								记者
+了解到							      |	了解
+							      >	到
+目前								目前
+公安								公安
+机关								机关
+正在								正在
+对								对
+事件								事件
+中								中
+借机								借机
+鼓动								鼓动
+闹事								闹事
+打砸								打砸
+车辆								车辆
+和								和
+当事人								当事人
+仍								仍
+撇								撇
+物品								物品
+造成								造成
+民警								民警
+受伤								受伤
+的								的
+违法								违法
+人员								人员
+开展								开展
+调查								调查
+并								并
+会								会
+依法								依法
+追究								追究
+法律								法律
+责任								责任
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	36
+NCHANGE:	2
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.027
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.973
+TEST WORDS PRECISION:	0.947
 --standard.txt-------testout.txt----658
 有								有
 媒体								媒体
@@ -20961,53 +21194,54 @@ NTEST:	13
 TRUE WORDS RECALL:	0.857
 TEST WORDS PRECISION:	0.923
 --standard.txt-------testout.txt----664
-杭州							      |	杭州市委组织部人才办副主任徐国联这个不是保障房体系这个怎么能
-市委							      <
-组织部							      <
-人才							      <
-办							      <
-副主任							      <
-徐							      <
-国联							      <
-这个							      <
-不							      <
-是							      <
-保障							      <
+杭州								杭州
+市委								市委
+组织部								组织部
+人才								人才
+办								办
+副主任							      |	副
+							      >	主任
+徐								徐
+国联								国联
+这个								这个
+不								不
+是								是
+保障							      |	保障房
 房							      <
-体系							      <
-这个							      <
-怎么							      <
-能							      <
-说							      <
-是							      <
-保障							      <
+体系								体系
+这个								这个
+怎么								怎么
+能								能
+说								说
+是								是
+保障							      |	保障房
 房							      <
-我们							      <
-一直							      <
-都							      <
-说							      <
-是							      <
-人才							      <
-房							      <
-人才							      <
-房							      <
-也							      <
-有							      <
-很多							      <
-渠道							      <
-其中							      <
-一些							      <
-是							      <
-保障性							      <
+我们								我们
+一直								一直
+都								都
+说								说
+是								是
+人才								人才
+房								房
+人才								人才
+房								房
+也								也
+有								有
+很多								很多
+渠道								渠道
+其中								其中
+一些								一些
+是								是
+保障性								保障性
 的								的
-INSERTIONS:	0
-DELETIONS:	37
-SUBSTITUTIONS:	1
-NCHANGE:	38
+INSERTIONS:	1
+DELETIONS:	2
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	39
-NTEST:	2
-TRUE WORDS RECALL:	0.026
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	0.872
+TEST WORDS PRECISION:	0.895
 --standard.txt-------testout.txt----665
 他们								他们
 这么								这么
@@ -21049,49 +21283,51 @@ NTEST:	11
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----667
-杭州							      |	杭州西溪湿地国家公园管委会对此表示西溪创意产业园内的五十九幢
-西溪							      <
-湿地							      <
-国家							      <
-公园							      <
-管委会							      <
-对此							      <
-表示							      <
-西溪							      <
-创意							      <
-产业园							      <
-内							      <
-的							      <
-五十九							      <
-幢							      <
-房屋							      <
-属							      <
-国有							      <
-资产							      <
-并非							      <
-为							      <
-引进							      <
-人才							      <
-而							      <
-建设							      <
-的							      <
-别墅							      <
-保障							      <
+杭州								杭州
+西溪								西溪
+湿地								湿地
+国家								国家
+公园								公园
+管委会								管委会
+对此								对此
+表示								表示
+西溪								西溪
+创意								创意
+产业园							      |	产业
+							      >	园
+内								内
+的								的
+五十九							      |	五十
+							      >	九
+幢								幢
+房屋								房屋
+属								属
+国有								国有
+资产								资产
+并非								并非
+为								为
+引进								引进
+人才								人才
+而								而
+建设								建设
+的								的
+别墅								别墅
+保障							      |	保障房
 房							      <
-更							      <
-不							      <
-是							      <
-经济							      <
-适用							      <
+更								更
+不								不
+是								是
+经济								经济
+适用								适用
 房								房
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	36
+TRUE WORDS RECALL:	0.886
+TEST WORDS PRECISION:	0.861
 --standard.txt-------testout.txt----668
 它								它
 不							      |	不会
@@ -21273,45 +21509,45 @@ NTEST:	24
 TRUE WORDS RECALL:	0.909
 TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----674
-西溪							      |	西溪湿地管委会称园区的房屋并非名人名企的私有住宅主要用于引进
-湿地							      |	室
-管委会							      <
-称							      <
-园区							      <
-的							      <
-房屋							      <
-并非							      <
-名人							      <
-名企							      <
-的							      <
-私有							      <
-住宅							      <
-主要							      <
-用于							      <
-引进							      <
-国内							      <
-顶尖							      <
-国际							      <
-一流							      <
-的							      <
-名人							      <
-名企							      <
-入住							      <
-办公							      <
-和							      <
-创作							      <
-是							      <
-名人							      <
-企							      <
-工作室							      <
+西溪								西溪
+湿地								湿地
+管委会								管委会
+称								称
+园区								园区
+的								的
+房屋								房屋
+并非								并非
+名人								名人
+名企								名企
+的								的
+私有								私有
+住宅								住宅
+主要								主要
+用于								用于
+引进								引进
+国内								国内
+顶尖								顶尖
+国际								国际
+一流								一流
+的								的
+名人								名人
+名企								名企
+入住								入住
+办公								办公
+和								和
+创作								创作
+是								是
+名人								名人
+企								企
+工作室								工作室
 INSERTIONS:	0
-DELETIONS:	29
-SUBSTITUTIONS:	2
-NCHANGE:	31
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	31
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	31
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----675
 为了								为了
 促进								促进
@@ -21389,7 +21625,7 @@ TRUE WORDS RECALL:	0.867
 TEST WORDS PRECISION:	0.929
 --standard.txt-------testout.txt----677
 会议							      |	会议强调全省上下要把学习贯彻李克强副总理重要讲话精神与深入贯
-强调							      <
+强调							      |	来
 全省							      <
 上下							      <
 要							      <
@@ -21452,15 +21688,15 @@ TEST WORDS PRECISION:	0.929
 建设							      <
 紧密							      <
 结合							      <
-起来								起来
+起来							      <
 INSERTIONS:	0
 DELETIONS:	63
-SUBSTITUTIONS:	1
-NCHANGE:	64
+SUBSTITUTIONS:	2
+NCHANGE:	65
 NTRUTH:	65
 NTEST:	2
-TRUE WORDS RECALL:	0.015
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----678
 认清								认清
 形势								形势
@@ -21522,8 +21758,8 @@ NTEST:	6
 TRUE WORDS RECALL:	0.500
 TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----680
-会议								会议
-认为							      |	认为在我省深入学习贯彻党的十七届五中全会精神谋划十二五规划的
+会议							      |	会
+认为							      |	议认为在我省深入学习贯彻党的十七届五中全会精神谋划十二五规划
 在							      <
 我省							      <
 深入							      <
@@ -21581,12 +21817,12 @@ TEST WORDS PRECISION:	0.500
 关怀							      <
 INSERTIONS:	0
 DELETIONS:	55
-SUBSTITUTIONS:	1
-NCHANGE:	56
+SUBSTITUTIONS:	2
+NCHANGE:	57
 NTRUTH:	57
 NTEST:	2
-TRUE WORDS RECALL:	0.018
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----681
 李							      |	李克强
 克强							      <
@@ -24150,49 +24386,51 @@ TRUE WORDS RECALL:	0.818
 TEST WORDS PRECISION:	0.692
 --standard.txt-------testout.txt----769
 今天								今天
-一早							      |	一早在浙江信息工程学校七百多名年满十八周岁的学生胸戴成人纪念
-在							      <
-浙江							      <
-信息							      <
-工程							      <
-学校							      <
-七百多							      <
-名							      <
-年							      <
-满							      <
-十八							      <
-周岁							      <
-的							      <
-学生							      <
-胸							      <
+一早								一早
+在								在
+浙江								浙江
+信息								信息
+工程								工程
+学校								学校
+七百多							      |	七百
+							      >	多
+名								名
+年								年
+满								满
+十八							      |	十
+							      >	八
+周岁								周岁
+的								的
+学生								学生
+胸							      |	胸戴
 戴							      <
-成人							      <
-纪念章							      <
-手							      <
-拿							      <
-绿色							      <
-成人							      <
-纪念册							      <
-面向							      <
-国旗							      <
-高举							      <
-右手							      <
-用							      <
-嘹亮							      <
-的							      <
-青春							      <
-誓言							      <
-告别							      <
-少年							      <
-时代							      <
-INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	1
-NCHANGE:	35
+成人								成人
+纪念章								纪念章
+手								手
+拿								拿
+绿色								绿色
+成人								成人
+纪念册								纪念册
+面向								面向
+国旗								国旗
+高举								高举
+右手								右手
+用								用
+嘹亮								嘹亮
+的								的
+青春								青春
+誓言								誓言
+告别								告别
+少年								少年
+时代								时代
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	37
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.865
 --standard.txt-------testout.txt----770
 随后								随后
 同学								同学
@@ -24285,53 +24523,54 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----773
 今年								今年
-我省							      |	我省成人节活动的主题是我成长我担当倡导学生在实践中提高科学文
-成人节							      <
-活动							      <
-的							      <
-主题							      <
-是							      <
-我							      <
-成长							      <
-我							      <
-担当							      <
-倡导							      <
-学生							      <
-在							      <
-实践							      <
-中							      <
-提高							      <
-科学							      <
-文化							      <
-素质							      <
-身体							      <
-素质							      <
-心理							      <
-素质							      <
-和							      <
-基本							      <
-生活							      <
-技能							      <
-在							      <
-服务							      <
-社会							      <
-实践							      <
-中							      <
-增强							      <
-对							      <
-国家							      <
-社会							      <
-家庭							      <
-的							      <
-责任感							      <
-INSERTIONS:	0
-DELETIONS:	38
+我省								我省
+成人节							      |	成人
+							      >	节
+活动								活动
+的								的
+主题								主题
+是								是
+我								我
+成长								成长
+我								我
+担当								担当
+倡导								倡导
+学生								学生
+在								在
+实践								实践
+中								中
+提高								提高
+科学								科学
+文化								文化
+素质								素质
+身体								身体
+素质								素质
+心理								心理
+素质								素质
+和								和
+基本								基本
+生活								生活
+技能								技能
+在								在
+服务								服务
+社会								社会
+实践								实践
+中								中
+增强								增强
+对								对
+国家								国家
+社会								社会
+家庭								家庭
+的								的
+责任感								责任感
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	39
+NCHANGE:	2
 NTRUTH:	40
-NTEST:	2
-TRUE WORDS RECALL:	0.025
-TEST WORDS PRECISION:	0.500
+NTEST:	41
+TRUE WORDS RECALL:	0.975
+TEST WORDS PRECISION:	0.951
 --standard.txt-------testout.txt----774
 在								在
 余姚								余姚
@@ -24775,49 +25014,51 @@ NTEST:	23
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----790
-电力							      |	电力部门预计今冬浙江用电缺口将在一百到一百四十万千瓦主要是因
-部门							      <
-预计							      <
-今冬							      <
-浙江							      <
-用电							      <
-缺口							      <
-将							      <
-在							      <
-一百							      <
-到							      <
-一百四十万						      <
-千瓦							      <
-主要							      <
-是							      <
-因为							      <
-居民							      <
-生活							      <
-取暖							      <
-负荷							      <
-增加							      <
-再							      <
-加上							      <
-配合							      <
-高							      <
+电力								电力
+部门								部门
+预计								预计
+今冬								今冬
+浙江								浙江
+用电								用电
+缺口								缺口
+将								将
+在								在
+一百								一百
+到								到
+一百四十万						      |	一百
+							      >	四十
+							      >	万
+千瓦								千瓦
+主要								主要
+是								是
+因为								因为
+居民								居民
+生活								生活
+取暖								取暖
+负荷								负荷
+增加								增加
+再								再
+加上								加上
+配合								配合
+高							      |	高铁
 铁							      <
-施工							      <
-电网							      <
-检修							      <
-导致							      <
-局部							      <
-区域							      <
-用电							      <
-受							      <
+施工								施工
+电网								电网
+检修								检修
+导致								导致
+局部								局部
+区域								区域
+用电								用电
+受								受
 制约								制约
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	5
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	36
+TRUE WORDS RECALL:	0.914
+TEST WORDS PRECISION:	0.889
 --standard.txt-------testout.txt----791
 省								省
 电力								电力
@@ -24896,62 +25137,63 @@ NTEST:	31
 TRUE WORDS RECALL:	0.967
 TEST WORDS PRECISION:	0.935
 --standard.txt-------testout.txt----793
-职工							      |	职工在上下班途中受到非本人主要责任的非机动车交通事故或者城市
-在							      <
-上下班							      <
-途中							      <
-受到							      <
-非							      <
-本人							      <
-主要							      <
-责任							      <
-的							      <
-非							      <
-机动车							      <
-交通							      <
-事故							      <
-或者							      <
-城市							      <
-轨道							      <
-交通							      <
-客运							      <
-轮渡							      <
-火车							      <
-事故							      <
-伤害							      <
-也							      <
-被							      <
-认定							      <
-为							      <
-工伤							      <
-一次性							      <
-因工							      <
-死亡							      <
-补助金							      <
-标准							      <
-调整							      <
-为							      <
-上							      <
-一							      <
-年度							      <
-全国							      <
-城镇							      <
-居民							      <
-人均							      <
-可							      <
-支配							      <
-收入							      <
-的							      <
-二十							      <
+职工								职工
+在								在
+上下班								上下班
+途中								途中
+受到								受到
+非								非
+本人								本人
+主要								主要
+责任								责任
+的								的
+非								非
+机动车								机动车
+交通								交通
+事故								事故
+或者								或者
+城市								城市
+轨道								轨道
+交通								交通
+客运								客运
+轮渡								轮渡
+火车								火车
+事故								事故
+伤害								伤害
+也								也
+被								被
+认定								认定
+为								为
+工伤								工伤
+一次性								一次性
+因工							      |	因
+							      >	工
+死亡								死亡
+补助金								补助金
+标准								标准
+调整								调整
+为								为
+上								上
+一								一
+年度								年度
+全国								全国
+城镇								城镇
+居民								居民
+人均								人均
+可								可
+支配								支配
+收入								收入
+的								的
+二十								二十
 倍								倍
-INSERTIONS:	0
-DELETIONS:	46
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	47
+NCHANGE:	2
 NTRUTH:	48
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	49
+TRUE WORDS RECALL:	0.979
+TEST WORDS PRECISION:	0.959
 --standard.txt-------testout.txt----794
 以								以
 二零零九						      |	二
@@ -25024,55 +25266,61 @@ TRUE WORDS RECALL:	0.913
 TEST WORDS PRECISION:	0.840
 --standard.txt-------testout.txt----796
 今天								今天
-台州市							      |	台州市黄岩橘都合作社将一批优质黄岩蜜橘统一包装后发往上海一盒
-黄岩							      <
-橘							      <
-都							      <
-合作社							      <
-将							      <
-一							      <
-批							      <
-优质							      <
-黄岩							      <
-蜜橘							      <
-统一							      <
-包装							      <
-后							      <
-发							      <
-往							      <
-上海							      <
-一							      <
-盒							      <
-四十八							      <
-只							      <
-装							      <
-的							      <
-蜜橘							      <
-可以							      <
-卖							      <
-到							      <
-八十							      <
-元							      <
-相当							      <
-于							      <
-每							      <
-公斤							      <
-四十							      <
-元							      <
-比							      <
-去年							      <
-同期							      <
-高出							      <
-三分之一						      <
-左右							      <
-INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	1
-NCHANGE:	41
+台州市								台州市
+黄岩								黄岩
+橘								橘
+都								都
+合作社								合作社
+将								将
+一								一
+批								批
+优质								优质
+黄岩								黄岩
+蜜橘							      |	蜜
+							      >	橘
+统一								统一
+包装								包装
+后								后
+发								发
+往								往
+上海								上海
+一								一
+盒								盒
+四十八							      |	四十
+							      >	八
+只								只
+装								装
+的								的
+蜜橘							      |	蜜
+							      >	橘
+可以								可以
+卖								卖
+到								到
+八十								八十
+元								元
+相当								相当
+于								于
+每								每
+公斤								公斤
+四十								四十
+元								元
+比								比
+去年								去年
+同期								同期
+高出							      |	高
+三分之一						      |	出
+							      >	三
+							      >	分之
+							      >	一
+左右								左右
+INSERTIONS:	6
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	11
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	48
+TRUE WORDS RECALL:	0.881
+TEST WORDS PRECISION:	0.771
 --standard.txt-------testout.txt----797
 这								这
 两								两
@@ -25207,50 +25455,52 @@ NTEST:	9
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----801
-我省							      |	我
-最							      |	省最大的瓯柑生产基地瑞安金潮港农场今年种植的八百一十多亩瓯柑
-大							      <
-的							      <
-瓯							      <
-柑							      <
-生产							      <
-基地							      <
-瑞安							      <
-金潮							      <
-港							      <
-农场							      <
-今年							      <
-种植							      <
-的							      <
-八百							      <
-一							      <
-十多							      <
-亩							      <
-瓯							      <
-柑							      <
-已经							      <
-挂							      <
-满							      <
-枝头							      <
-六十多							      <
-户							      <
-农户							      <
-正							      <
-忙							      <
-着							      <
-采摘							      <
-成熟							      <
-的							      <
-瓯							      <
-柑							      <
-INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	2
-NCHANGE:	36
+我省								我省
+最								最
+大								大
+的								的
+瓯								瓯
+柑								柑
+生产								生产
+基地								基地
+瑞安								瑞安
+金潮							      |	金
+							      >	潮
+港								港
+农场								农场
+今年								今年
+种植								种植
+的								的
+八百								八百
+一							      |	一十
+十多							      |	多
+亩								亩
+瓯								瓯
+柑								柑
+已经								已经
+挂								挂
+满								满
+枝头								枝头
+六十多							      |	六十
+							      >	多
+户								户
+农户								农户
+正								正
+忙								忙
+着								着
+采摘								采摘
+成熟								成熟
+的								的
+瓯								瓯
+柑								柑
+INSERTIONS:	2
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	6
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	38
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.842
 --standard.txt-------testout.txt----802
 农场								农场
 负责人								负责人
@@ -25828,103 +26078,116 @@ NTEST:	25
 TRUE WORDS RECALL:	0.500
 TEST WORDS PRECISION:	0.440
 --standard.txt-------testout.txt----822
-初冬							      |	初冬的永嘉楠溪江畔片片红枫映衬着碧蓝的天空呈现出远岸秋沙白连
-的							      |	间
-永嘉							      <
-楠溪江							      <
-畔							      <
-片片							      <
-红枫							      <
-映衬							      <
-着							      <
-碧蓝							      <
-的							      <
-天空							      <
-呈现							      <
-出							      <
-远岸							      <
-秋							      <
-沙							      <
-白							      <
-连							      <
-山							      <
-晚照							      <
-红							      <
-的							      <
-意境							      <
-落叶							      <
-缤							      <
+初冬							      |	初
+							      >	冬
+的								的
+永嘉								永嘉
+楠溪江							      |	楠
+畔							      |	溪
+							      >	江畔
+片片								片片
+红枫							      |	红
+							      >	枫
+映衬								映衬
+着								着
+碧蓝							      |	碧
+							      >	蓝
+的								的
+天空								天空
+呈现								呈现
+出								出
+远岸							      |	远
+							      >	岸
+秋								秋
+沙								沙
+白								白
+连								连
+山								山
+晚照							      |	晚
+							      >	照
+红								红
+的								的
+意境								意境
+落叶								落叶
+缤							      |	缤纷
 纷							      <
-摄影							      <
-爱好者							      <
-架起							      <
-长枪							      <
-短							      <
+摄影								摄影
+爱好者								爱好者
+架起							      |	架
+长枪							      |	起
+短							      |	长枪短炮
 炮							      <
-记录							      <
-下							      <
-美丽							      <
-的							      <
-瞬间							      <
-INSERTIONS:	0
-DELETIONS:	36
-SUBSTITUTIONS:	2
-NCHANGE:	38
+记录								记录
+下								下
+美丽								美丽
+的								的
+瞬间								瞬间
+INSERTIONS:	6
+DELETIONS:	2
+SUBSTITUTIONS:	11
+NCHANGE:	19
 NTRUTH:	38
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	42
+TRUE WORDS RECALL:	0.658
+TEST WORDS PRECISION:	0.595
 --standard.txt-------testout.txt----823
-气温							      |	气温骤降兰溪市这棵七百多岁的古银杏树披上了黄金甲在阳光下金黄
-骤降							      |	韵
-兰溪市							      <
-这							      <
-棵							      <
-七百多							      <
-岁							      <
-的							      <
-古							      <
-银杏树							      <
-披上							      <
-了							      <
-黄金甲							      <
-在							      <
-阳光							      <
-下							      <
-金黄							      <
-的							      <
-叶子							      <
-光影							      <
-斑驳							      <
-而							      <
-洒落							      <
-在							      <
-瓦房							      <
-地面							      <
-上							      <
-的							      <
-片片							      <
-银杏叶							      <
-更							      <
-有							      <
-万							      <
-叶							      <
-秋声							      <
-里							      <
-千							      <
-家							      <
-落照							      <
-时							      <
-的							      <
-意韵							      <
-INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	2
-NCHANGE:	42
+气温								气温
+骤降								骤降
+兰溪市								兰溪市
+这								这
+棵								棵
+七百多							      |	七百
+							      >	多
+岁								岁
+的								的
+古								古
+银杏树								银杏树
+披上							      |	披
+							      >	上
+了								了
+黄金甲							      |	黄金
+							      >	甲
+在								在
+阳光								阳光
+下								下
+金黄								金黄
+的								的
+叶子								叶子
+光影								光影
+斑驳								斑驳
+而								而
+洒落								洒落
+在								在
+瓦房								瓦房
+地面								地面
+上								上
+的								的
+片片								片片
+银杏叶							      |	银杏
+							      >	叶
+更								更
+有								有
+万								万
+叶								叶
+秋声							      |	秋
+							      >	声
+里								里
+千								千
+家								家
+落照							      |	落
+							      >	照
+时								时
+的								的
+意韵							      |	意
+							      >	韵
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	49
+TRUE WORDS RECALL:	0.833
+TEST WORDS PRECISION:	0.714
 --standard.txt-------testout.txt----824
 这								这
 两								两
@@ -26086,55 +26349,56 @@ TRUE WORDS RECALL:	0.864
 TEST WORDS PRECISION:	0.864
 --standard.txt-------testout.txt----830
 中国								中国
-联通							      |	联通针对天价微博事件表示将眷出台一些主要国家和地区的国际漫游
-针对							      <
-天价							      <
-微							      <
+联通								联通
+针对								针对
+天价								天价
+微							      |	微博
 博							      <
-事件							      <
-表示							      <
-将							      <
-眷							      <
-出台							      <
-一些							      <
-主要							      <
-国家							      <
-和							      <
-地区							      <
-的							      <
-国际							      <
-漫游							      <
-数据							      <
-包							      <
-天							      <
-资费							      <
-并							      <
-宣布							      <
-将							      <
-于							      <
-今年							      <
-十二月							      <
-底							      <
-前							      <
-正式							      <
-推出							      <
-三							      <
-基本							      <
-套餐							      <
-大幅							      <
-降低							      <
-三							      <
-的							      <
-消费							      <
-门槛							      <
-INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	1
-NCHANGE:	41
+事件								事件
+表示								表示
+将								将
+眷								眷
+出台								出台
+一些								一些
+主要								主要
+国家								国家
+和								和
+地区								地区
+的								的
+国际								国际
+漫游								漫游
+数据								数据
+包								包
+天								天
+资费								资费
+并								并
+宣布								宣布
+将								将
+于								于
+今年								今年
+十二月							      |	十二
+							      >	月
+底								底
+前								前
+正式								正式
+推出								推出
+三								三
+基本								基本
+套餐								套餐
+大幅								大幅
+降低								降低
+三								三
+的								的
+消费								消费
+门槛								门槛
+INSERTIONS:	1
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	42
+TRUE WORDS RECALL:	0.929
+TEST WORDS PRECISION:	0.929
 --standard.txt-------testout.txt----831
 据								据
 人民网							      |	人民
@@ -26532,54 +26796,59 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----845
 国家								国家
-发改委							      |	发改委向神华中煤大同等国内煤炭龙头企业下发通知要求二零一一年
-向							      <
-神华							      <
-中煤							      <
-大							      <
-同等							      <
-国内							      <
-煤炭							      <
-龙头							      <
-企业							      <
-下发							      <
-通知							      <
-要求							      <
-二零一							      <
-一							      <
-年							      <
-重点							      <
-电煤							      <
-合同价							      <
-维持							      <
-与							      <
-上年							      <
-水平							      <
-的							      <
-稳定							      <
-并							      <
-要求							      <
-煤炭							      <
-供需							      <
-企业							      <
-在							      <
-通知							      <
-下发							      <
-后							      <
-二十五日						      <
-内							      <
-协商							      <
-完成							      <
-合同							      <
-签订							      <
-INSERTIONS:	0
-DELETIONS:	39
-SUBSTITUTIONS:	1
-NCHANGE:	40
+发改委								发改委
+向								向
+神华								神华
+中煤								中煤
+大							      |	大同
+同等							      |	等
+国内								国内
+煤炭								煤炭
+龙头								龙头
+企业								企业
+下发								下发
+通知								通知
+要求								要求
+二零一							      |	二
+							      >	零
+							      >	一
+一								一
+年								年
+重点								重点
+电煤								电煤
+合同价							      |	合同
+							      >	价
+维持								维持
+与								与
+上年								上年
+水平								水平
+的								的
+稳定								稳定
+并								并
+要求								要求
+煤炭								煤炭
+供需								供需
+企业								企业
+在								在
+通知								通知
+下发								下发
+后								后
+二十五日						      |	二十
+							      >	五
+							      >	日
+内								内
+协商								协商
+完成								完成
+合同								合同
+签订								签订
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	10
 NTRUTH:	41
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	46
+TRUE WORDS RECALL:	0.878
+TEST WORDS PRECISION:	0.783
 --standard.txt-------testout.txt----846
 业内人士							业内人士
 分析								分析
@@ -26660,8 +26929,8 @@ NTEST:	33
 TRUE WORDS RECALL:	0.935
 TEST WORDS PRECISION:	0.879
 --standard.txt-------testout.txt----848
-昨天								昨天
-杭州							      |	杭州市区最高气温达到了十五点三度今明二天好天气还将延续但从周
+昨天							      |	昨天杭州市区最高气温达到了十五点三度今明二天好天气还将延续但
+杭州							      |	作
 市区							      <
 最高							      <
 气温							      <
@@ -26723,12 +26992,12 @@ TEST WORDS PRECISION:	0.879
 工作							      <
 INSERTIONS:	0
 DELETIONS:	59
-SUBSTITUTIONS:	1
-NCHANGE:	60
+SUBSTITUTIONS:	2
+NCHANGE:	61
 NTRUTH:	61
 NTEST:	2
-TRUE WORDS RECALL:	0.016
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----849
 武汉								武汉
 警方								警方
@@ -26759,38 +27028,43 @@ TRUE WORDS RECALL:	0.882
 TEST WORDS PRECISION:	0.789
 --standard.txt-------testout.txt----850
 自								自
-十一月							      |	十一月二十六号以来武汉江岸二七小路硚口双厂巷宗关等处相继发生
-二十六							      <
-号							      <
-以来							      <
-武汉							      <
-江岸							      <
-二七							      <
-小路							      <
-硚							      <
-口							      <
-双							      <
-厂							      <
-巷							      <
-宗关							      <
-等							      <
-处							      <
-相继							      <
-发生							      <
-三							      <
-起							      <
-自制							      <
-爆炸物							      <
-爆响							      <
-案件							      <
-INSERTIONS:	0
-DELETIONS:	23
-SUBSTITUTIONS:	1
-NCHANGE:	24
+十一月							      |	十一
+二十六							      |	月
+							      >	二十
+							      >	六
+号								号
+以来								以来
+武汉								武汉
+江岸							      |	江
+							      >	岸
+二七								二七
+小路								小路
+硚								硚
+口								口
+双								双
+厂								厂
+巷								巷
+宗关							      |	宗
+							      >	关
+等								等
+处								处
+相继								相继
+发生								发生
+三								三
+起								起
+自制								自制
+爆炸物								爆炸物
+爆响							      |	爆
+							      >	响
+案件								案件
+INSERTIONS:	5
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	10
 NTRUTH:	25
-NTEST:	2
-TRUE WORDS RECALL:	0.040
-TEST WORDS PRECISION:	0.500
+NTEST:	30
+TRUE WORDS RECALL:	0.800
+TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----851
 经								经
 警方								警方
@@ -26849,49 +27123,50 @@ TRUE WORDS RECALL:	0.889
 TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----853
 最近								最近
-重庆							      |	重庆市政部门将与每个城管人员签下承诺书要求城管人员执法的时候
-市政							      <
-部门							      <
-将							      <
-与							      <
-每个							      <
-城管							      <
-人员							      <
-签下							      <
-承诺书							      <
-要求							      <
-城管							      <
-人员							      <
-执法							      <
-的							      <
-时候							      <
-呢							      <
-以							      <
-教育							      <
-规劝							      <
-为主							      <
-不准							      <
-没收							      <
-小							      <
-摊贩							      <
-的							      <
-东西							      <
-执法							      <
-过程							      <
-中							      <
-必须							      <
-全程							      <
-录像							      <
-照相							      <
-取证							      <
-INSERTIONS:	0
-DELETIONS:	34
+重庆								重庆
+市政								市政
+部门								部门
+将								将
+与								与
+每个								每个
+城管								城管
+人员								人员
+签下								签下
+承诺书							      |	承诺
+							      >	书
+要求								要求
+城管								城管
+人员								人员
+执法								执法
+的								的
+时候								时候
+呢								呢
+以								以
+教育								教育
+规劝								规劝
+为主								为主
+不准								不准
+没收								没收
+小								小
+摊贩								摊贩
+的								的
+东西								东西
+执法								执法
+过程								过程
+中								中
+必须								必须
+全程								全程
+录像								录像
+照相								照相
+取证								取证
+INSERTIONS:	1
+DELETIONS:	0
 SUBSTITUTIONS:	1
-NCHANGE:	35
+NCHANGE:	2
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	37
+TRUE WORDS RECALL:	0.972
+TEST WORDS PRECISION:	0.946
 --standard.txt-------testout.txt----854
 明年								明年
 起								起
@@ -27954,118 +28229,127 @@ NTEST:	2
 TRUE WORDS RECALL:	0.000
 TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----890
-几							      |	几句话过后双方就扭打在了一起厮打中邢某从口袋中掏出携带的弹簧
-句							      <
-话							      <
-过后							      <
-双方							      <
-就							      <
-扭打							      <
-在							      <
-了							      <
-一起							      <
-厮打							      <
-中							      <
-邢某							      <
-从							      <
-口袋							      <
-中							      <
-掏出							      <
-携带							      <
-的							      <
-弹簧刀							      <
-刺							      <
-向							      <
-对方							      <
-男子							      <
-在							      <
-被							      <
-刺							      <
-以后							      <
-踉							      <
-踉跄							      <
-跄							      <
-地							      <
-走							      <
-了							      <
-几							      <
-步							      <
-就							      <
-倒							      <
-在							      <
-了							      <
-地上							      <
-随后							      <
-同伴							      <
-将							      <
-他							      <
-送到							      <
-了							      <
+几								几
+句								句
+话								话
+过后							      |	过
+							      >	后
+双方								双方
+就								就
+扭打								扭打
+在								在
+了								了
+一起								一起
+厮打							      |	厮
+							      >	打
+中								中
+邢某							      |	邢
+							      >	某
+从								从
+口袋								口袋
+中								中
+掏出							      |	掏
+							      >	出
+携带								携带
+的								的
+弹簧刀							      |	弹簧
+							      >	刀
+刺								刺
+向								向
+对方								对方
+男子								男子
+在								在
+被								被
+刺								刺
+以后								以后
+踉								踉
+踉跄							      |	踉
+							      >	跄
+跄								跄
+地								地
+走								走
+了								了
+几								几
+步								步
+就								就
+倒								倒
+在								在
+了								了
+地上								地上
+随后								随后
+同伴								同伴
+将								将
+他								他
+送到							      |	送
+							      >	到
+了								了
 医院								医院
-INSERTIONS:	0
-DELETIONS:	46
-SUBSTITUTIONS:	1
-NCHANGE:	47
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	48
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	55
+TRUE WORDS RECALL:	0.854
+TEST WORDS PRECISION:	0.745
 --standard.txt-------testout.txt----891
-接到							      |	接到报警以后正在路面巡逻的民警立刻赶往案发地在距离案发现场不
-报警							      <
-以后							      <
-正在							      <
-路面							      <
-巡逻							      <
-的							      <
-民警							      <
-立刻							      <
-赶往							      <
-案发							      <
-地							      <
-在							      <
-距离							      <
-案发							      <
-现场							      <
-不							      <
-远							      <
-的							      <
-这个							      <
-路口							      <
-民警							      <
-发现							      <
-一个							      <
-男子							      <
-沿着							      <
-街道							      <
-跑							      <
-来							      <
-显得							      <
-非常							      <
-焦急							      <
-随后							      <
-男子							      <
-拦下							      <
-了							      <
-一							      <
-辆							      <
-出租车							      <
-眼看							      <
-车							      <
-就要							      <
-开走							      <
-了							      <
-民警							      <
-立即							      <
+接到								接到
+报警								报警
+以后								以后
+正在								正在
+路面								路面
+巡逻								巡逻
+的								的
+民警								民警
+立刻								立刻
+赶往								赶往
+案发								案发
+地								地
+在								在
+距离								距离
+案发								案发
+现场								现场
+不								不
+远								远
+的								的
+这个								这个
+路口								路口
+民警								民警
+发现								发现
+一个								一个
+男子								男子
+沿着								沿着
+街道								街道
+跑								跑
+来								来
+显得								显得
+非常								非常
+焦急								焦急
+随后								随后
+男子								男子
+拦下							      |	拦
+							      >	下
+了								了
+一								一
+辆								辆
+出租车								出租车
+眼看								眼看
+车								车
+就要								就要
+开走							      |	开
+							      >	走
+了								了
+民警								民警
+立即								立即
 行动								行动
-INSERTIONS:	0
-DELETIONS:	45
-SUBSTITUTIONS:	1
-NCHANGE:	46
+INSERTIONS:	2
+DELETIONS:	0
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	47
-NTEST:	2
-TRUE WORDS RECALL:	0.021
-TEST WORDS PRECISION:	0.500
+NTEST:	49
+TRUE WORDS RECALL:	0.957
+TEST WORDS PRECISION:	0.918
 --standard.txt-------testout.txt----892
 把								把
 坐								坐
@@ -28396,51 +28680,51 @@ TRUE WORDS RECALL:	0.952
 TEST WORDS PRECISION:	0.909
 --standard.txt-------testout.txt----902
 在								在
-小郭							      |	小郭转院前的嘉兴当地血站也连夜筹备了二二零零阴性型血他们表示
-转院							      <
-前							      <
-的							      <
-嘉兴							      <
-当地							      <
-血站							      <
-也							      <
-连夜							      <
-筹备							      <
-了							      <
-二							      <
-二							      <
-零							      <
-零							      <
-阴性							      <
-型							      <
-血							      <
-他们							      <
-表示							      <
-如果							      <
-杭州							      <
-方面							      <
-需要							      <
-经过							      <
-浙江省							      <
-血液							      <
-中心							      <
-批准							      <
-以后							      <
-他们							      <
-随时							      <
-可以							      <
-把							      <
-血							      <
-送							      <
-过来							      <
+小郭								小郭
+转院								转院
+前								前
+的								的
+嘉兴								嘉兴
+当地								当地
+血站								血站
+也								也
+连夜								连夜
+筹备								筹备
+了								了
+二								二
+二								二
+零								零
+零								零
+阴性								阴性
+型								型
+血								血
+他们								他们
+表示								表示
+如果								如果
+杭州								杭州
+方面								方面
+需要								需要
+经过								经过
+浙江省								浙江省
+血液								血液
+中心								中心
+批准								批准
+以后								以后
+他们								他们
+随时								随时
+可以								可以
+把								把
+血								血
+送								送
+过来								过来
 INSERTIONS:	0
-DELETIONS:	36
-SUBSTITUTIONS:	1
-NCHANGE:	37
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	38
-NTEST:	2
-TRUE WORDS RECALL:	0.026
-TEST WORDS PRECISION:	0.500
+NTEST:	38
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----903
 新闻								新闻
 直通车								直通车
@@ -28529,55 +28813,55 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----907
 这								这
-一							      |	一长串的电话都是新闻直通车的热心观众打来的带着大家的心愿记者
-长							      <
-串							      <
-的							      <
-电话							      <
-都							      <
-是							      <
-新闻							      <
-直通车							      <
-的							      <
-热心							      <
-观众							      <
-打							      <
-来							      <
-的							      <
-带							      <
-着							      <
-大家							      <
-的							      <
-心愿							      <
-记者							      <
-今天							      <
-联系							      <
-上							      <
-了							      <
-负责							      <
-招聘							      <
-支教							      <
-老师							      <
-的							      <
-詹							      <
-南							      <
-把							      <
-观众							      <
-的							      <
-联系							      <
-方式							      <
-提供							      <
-给							      <
-了							      <
-他							      <
+一								一
+长								长
+串								串
+的								的
+电话								电话
+都								都
+是								是
+新闻								新闻
+直通车								直通车
+的								的
+热心								热心
+观众								观众
+打								打
+来								来
+的								的
+带								带
+着								着
+大家								大家
+的								的
+心愿								心愿
+记者								记者
+今天								今天
+联系								联系
+上								上
+了								了
+负责								负责
+招聘								招聘
+支教								支教
+老师								老师
+的								的
+詹								詹
+南								南
+把								把
+观众								观众
+的								的
+联系								联系
+方式								方式
+提供								提供
+给								给
+了								了
+他								他
 INSERTIONS:	0
-DELETIONS:	40
-SUBSTITUTIONS:	1
-NCHANGE:	41
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	42
-NTEST:	2
-TRUE WORDS RECALL:	0.024
-TEST WORDS PRECISION:	0.500
+NTEST:	42
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----908
 詹								詹
 南								南
@@ -28653,8 +28937,8 @@ NTEST:	24
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----910
-对于								对于
-大家							      |	大家的热情詹南很感动不过他也提醒说山区支教的工作条件艰苦需要
+对于							      |	对
+大家							      |	于大家的热情詹南很感动不过他也提醒说山区支教的工作条件艰苦需
 的							      <
 热情							      <
 詹							      <
@@ -28714,12 +28998,12 @@ TEST WORDS PRECISION:	1.000
 准备							      <
 INSERTIONS:	0
 DELETIONS:	57
-SUBSTITUTIONS:	1
-NCHANGE:	58
+SUBSTITUTIONS:	2
+NCHANGE:	59
 NTRUTH:	59
 NTEST:	2
-TRUE WORDS RECALL:	0.017
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----911
 与此同时							与此同时
 志愿者								志愿者
@@ -28854,51 +29138,55 @@ NTEST:	13
 TRUE WORDS RECALL:	0.733
 TEST WORDS PRECISION:	0.846
 --standard.txt-------testout.txt----916
-詹							      |	詹南还表示所有报名的人将在明年二月份参加集体培训最终选出六到
-南							      |	教
-还							      <
-表示							      <
-所有							      <
-报名							      <
-的							      <
-人							      <
-将							      <
-在							      <
-明年							      <
-二月份							      <
-参加							      <
-集体							      <
-培训							      <
-最终							      <
-选出							      <
-六							      <
-到							      <
-八							      <
-名							      <
-志愿者							      <
-入选者							      <
-将							      <
-于							      <
-二零一							      <
-一							      <
-年							      <
-三月份							      <
-左右							      <
-到							      <
-云南							      <
-四十							      <
-朵							      <
-花花							      <
-小学							      <
-任教							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	2
-NCHANGE:	37
+詹								詹
+南								南
+还								还
+表示								表示
+所有								所有
+报名								报名
+的								的
+人								人
+将								将
+在								在
+明年								明年
+二月份								二月份
+参加								参加
+集体								集体
+培训								培训
+最终								最终
+选出								选出
+六								六
+到								到
+八								八
+名								名
+志愿者								志愿者
+入选者							      |	入选
+							      >	者
+将								将
+于								于
+二零一							      |	二
+							      >	零
+							      >	一
+一								一
+年								年
+三月份								三月份
+左右								左右
+到								到
+云南								云南
+四十								四十
+朵								朵
+花花							      |	花
+							      >	花
+小学								小学
+任教								任教
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	3
+NCHANGE:	7
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	41
+TRUE WORDS RECALL:	0.919
+TEST WORDS PRECISION:	0.829
 --standard.txt-------testout.txt----917
 来								来
 关注								关注
@@ -29190,50 +29478,54 @@ NTEST:	20
 TRUE WORDS RECALL:	0.722
 TEST WORDS PRECISION:	0.650
 --standard.txt-------testout.txt----927
-中午							      |	中午正是吃饭的时间同一病房的病友家属都去医院食堂打饭董观荣也
-正是							      <
-吃饭							      <
-的							      <
-时间							      <
-同一							      <
-病房							      <
-的							      <
-病友							      <
-家属							      <
-都							      <
-去							      <
-医院							      <
-食堂							      <
-打饭							      <
-董							      <
-观荣							      <
-也							      <
-拎							      <
-着							      <
-空							      <
-饭盒							      <
-出门							      <
-不过							      <
-她							      <
-从来							      <
-不							      <
-去							      <
-医院							      <
-食堂							      <
-打饭							      <
-而是							      <
-径直							      <
-走出							      <
-了							      <
+中午								中午
+正是								正是
+吃饭								吃饭
+的								的
+时间								时间
+同一								同一
+病房								病房
+的								的
+病友								病友
+家属								家属
+都								都
+去								去
 医院								医院
-INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	1
-NCHANGE:	35
+食堂								食堂
+打饭								打饭
+董								董
+观荣							      |	观
+							      >	荣
+也								也
+拎								拎
+着								着
+空								空
+饭盒								饭盒
+出门								出门
+不过							      |	不
+							      >	过
+她								她
+从来								从来
+不								不
+去								去
+医院								医院
+食堂								食堂
+打饭								打饭
+而是								而是
+径直							      |	径
+走出							      |	直
+							      >	走
+							      >	出
+了								了
+医院								医院
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	40
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----928
 你								你
 要								要
@@ -29337,49 +29629,52 @@ NTEST:	10
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----934
-即便							      |	即
-是							      |	便是这样的饭菜董观荣也舍不得吃总是夹一点菜或是给米饭浇点菜汤
-这样							      <
-的							      <
-饭菜							      <
-董							      <
-观荣							      <
-也							      <
-舍不得							      <
-吃							      <
-总是							      <
-夹							      <
-一点							      <
-菜							      <
-或是							      <
-给							      <
-米饭							      <
-浇点							      <
-菜汤							      <
-就							      <
-凑合							      <
-着							      <
-吃							      <
-了							      <
-省							      <
-下来							      <
-到							      <
-都							      <
-留给							      <
-生病							      <
-的							      <
-儿子							      <
-杨							      <
-德							      <
-飚							      <
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	2
-NCHANGE:	35
+即便								即便
+是								是
+这样								这样
+的								的
+饭菜								饭菜
+董								董
+观荣							      |	观
+							      >	荣
+也								也
+舍不得								舍不得
+吃								吃
+总是								总是
+夹								夹
+一点							      |	一
+							      >	点
+菜								菜
+或是								或是
+给								给
+米饭								米饭
+浇点							      |	浇
+菜汤							      |	点菜
+							      >	汤
+就								就
+凑合								凑合
+着								着
+吃								吃
+了								了
+省								省
+下来							      |	下
+到							      |	来到
+都								都
+留给								留给
+生病								生病
+的								的
+儿子								儿子
+杨								杨
+德								德
+飚								飚
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	6
+NCHANGE:	9
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+NTEST:	38
+TRUE WORDS RECALL:	0.829
+TEST WORDS PRECISION:	0.763
 --standard.txt-------testout.txt----935
 没有								没有
 钞票								钞票
@@ -29484,43 +29779,48 @@ TRUE WORDS RECALL:	0.839
 TEST WORDS PRECISION:	0.788
 --standard.txt-------testout.txt----939
 深圳								深圳
-药监							      |	药监部门此次公布的问题产品为青春掌门人仟佳俪正格牌轻姿牌以及
-部门							      <
-此次							      <
-公布							      <
-的							      <
-问题							      <
-产品							      <
-为							      <
-青春							      <
-掌门人							      <
-仟							      <
+药监								药监
+部门								部门
+此次								此次
+公布								公布
+的								的
+问题								问题
+产品								产品
+为								为
+青春								青春
+掌门人								掌门人
+仟							      |	仟佳俪
 佳							      <
 俪							      <
-正							      <
-格							      <
-牌							      <
-轻							      <
-姿							      <
-牌							      <
-以及							      <
-奥							      <
-露娜							      <
-旗下							      <
-的							      <
-两							      <
-款							      <
-左旋							      <
-肉碱							      <
-减肥药							      <
-INSERTIONS:	0
-DELETIONS:	28
-SUBSTITUTIONS:	1
-NCHANGE:	29
+正								正
+格								格
+牌								牌
+轻								轻
+姿								姿
+牌								牌
+以及								以及
+奥								奥
+露娜							      |	露
+旗下							      |	娜
+							      >	旗
+							      >	下
+的								的
+两								两
+款								款
+左旋							      |	左
+肉碱							      |	旋
+减肥药							      |	肉
+							      >	碱
+							      >	减肥
+							      >	药
+INSERTIONS:	5
+DELETIONS:	2
+SUBSTITUTIONS:	6
+NCHANGE:	13
 NTRUTH:	30
-NTEST:	2
-TRUE WORDS RECALL:	0.033
-TEST WORDS PRECISION:	0.500
+NTEST:	33
+TRUE WORDS RECALL:	0.733
+TEST WORDS PRECISION:	0.667
 --standard.txt-------testout.txt----940
 随后								随后
 记者								记者
@@ -30203,48 +30503,52 @@ TRUE WORDS RECALL:	0.862
 TEST WORDS PRECISION:	0.758
 --standard.txt-------testout.txt----967
 目前								目前
-看来							      |	看来的话从杭州始发的一些航线上面像北京广州深圳然后包括一些前
-的话							      <
-从							      <
-杭州							      <
-始发							      <
-的							      <
-一些							      <
-航线							      <
-上面							      <
-像							      <
-北京							      <
-广州							      <
-深圳							      <
-然后							      <
-包括							      <
-一些							      <
-前期							      <
-的							      <
-旅游							      <
-热线							      <
-像							      <
-昆明							      <
-三亚							      <
-等							      <
-线							      <
-的话							      <
-价格							      <
-都							      <
-比较							      <
-便宜							      <
-基本上							      <
-在							      <
-三折							      <
-左右							      <
-INSERTIONS:	0
-DELETIONS:	33
-SUBSTITUTIONS:	1
-NCHANGE:	34
+看来								看来
+的话							      |	的
+							      >	话
+从								从
+杭州								杭州
+始发								始发
+的								的
+一些								一些
+航线								航线
+上面								上面
+像								像
+北京								北京
+广州								广州
+深圳								深圳
+然后							      |	然
+							      >	后
+包括								包括
+一些								一些
+前期								前期
+的								的
+旅游								旅游
+热线								热线
+像								像
+昆明								昆明
+三亚								三亚
+等								等
+线								线
+的话							      |	的
+							      >	话
+价格								价格
+都								都
+比较								比较
+便宜								便宜
+基本上								基本上
+在								在
+三折							      |	三
+							      >	折
+左右								左右
+INSERTIONS:	4
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	35
-NTEST:	2
-TRUE WORDS RECALL:	0.029
-TEST WORDS PRECISION:	0.500
+NTEST:	39
+TRUE WORDS RECALL:	0.886
+TEST WORDS PRECISION:	0.795
 --standard.txt-------testout.txt----968
 像								像
 成都								成都
@@ -30264,52 +30568,60 @@ TRUE WORDS RECALL:	0.667
 TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----969
 所谓								所谓
-的							      |	的提前购票提前七天购票的话价格基本上是三点五折左右超过这个像
-提前							      <
-购票							      <
-提前							      <
-七							      <
-天							      <
-购票							      <
-的话							      <
-价格							      <
-基本上							      <
-是							      <
-三点五							      <
-折							      <
-左右							      <
-超过							      <
-这个							      <
-像							      <
-十四							      <
-天							      <
-二十一							      <
-天							      <
-一个							      <
-月							      <
-二							      <
-个							      <
-月							      <
-的							      <
-远期							      <
-优惠							      <
-基本上							      <
-都							      <
-是							      <
-二点							      <
-九折							      <
-接近							      <
-三折							      <
-这个							      <
-价格							      <
-INSERTIONS:	0
-DELETIONS:	37
-SUBSTITUTIONS:	1
-NCHANGE:	38
+的								的
+提前								提前
+购票								购票
+提前								提前
+七								七
+天								天
+购票								购票
+的话							      |	的
+							      >	话
+价格								价格
+基本上								基本上
+是								是
+三点五							      |	三
+							      >	点
+							      >	五
+折								折
+左右								左右
+超过								超过
+这个								这个
+像								像
+十四							      |	十
+							      >	四
+天								天
+二十一							      |	二十
+							      >	一
+天								天
+一个								一个
+月								月
+二								二
+个								个
+月								月
+的								的
+远期								远期
+优惠								优惠
+基本上								基本上
+都								都
+是								是
+二点							      |	二
+九折							      |	点
+							      >	九
+							      >	折
+接近								接近
+三折							      |	三
+							      >	折
+这个								这个
+价格								价格
+INSERTIONS:	8
+DELETIONS:	0
+SUBSTITUTIONS:	7
+NCHANGE:	15
 NTRUTH:	39
-NTEST:	2
-TRUE WORDS RECALL:	0.026
-TEST WORDS PRECISION:	0.500
+NTEST:	47
+TRUE WORDS RECALL:	0.821
+TEST WORDS PRECISION:	0.681
 --standard.txt-------testout.txt----970
 厦门								厦门
 航空								航空
@@ -30332,49 +30644,56 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----971
 到								到
-一月							      |	一月十日厦航从杭州出发的所有二十六趟航线所有航线都可以进行秒
-十日							      <
-厦航							      <
-从							      <
-杭州							      <
-出发							      <
-的							      <
-所有							      <
-二十六							      <
-趟							      <
-航线							      <
-所有							      <
-航线							      <
-都							      <
-可以							      <
-进行							      <
-秒杀							      <
-具体							      <
-是							      <
-八百							      <
-公里							      <
-以下							      <
-的							      <
-城市							      <
-价格							      <
-是							      <
-一百八十八						      <
-八百							      <
-公里							      <
-以上							      <
-的							      <
-城市							      <
-价格							      <
-是							      <
-二百八十八						      <
-INSERTIONS:	0
-DELETIONS:	34
-SUBSTITUTIONS:	1
-NCHANGE:	35
+一月							      |	一
+十日							      |	月
+							      >	十
+							      >	日
+厦航								厦航
+从								从
+杭州								杭州
+出发								出发
+的								的
+所有								所有
+二十六							      |	二十
+							      >	六
+趟								趟
+航线								航线
+所有								所有
+航线								航线
+都								都
+可以								可以
+进行								进行
+秒杀								秒杀
+具体								具体
+是								是
+八百								八百
+公里								公里
+以下								以下
+的								的
+城市								城市
+价格								价格
+是								是
+一百八十八						      |	一百
+							      >	八十
+							      >	八
+八百								八百
+公里								公里
+以上								以上
+的								的
+城市								城市
+价格								价格
+是								是
+二百八十八						      |	二百
+							      >	八十
+							      >	八
+INSERTIONS:	7
+DELETIONS:	0
+SUBSTITUTIONS:	5
+NCHANGE:	12
 NTRUTH:	36
-NTEST:	2
-TRUE WORDS RECALL:	0.028
-TEST WORDS PRECISION:	0.500
+NTEST:	43
+TRUE WORDS RECALL:	0.861
+TEST WORDS PRECISION:	0.721
 --standard.txt-------testout.txt----972
 但是								但是
 便宜								便宜
@@ -30578,62 +30897,64 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----980
 大家								大家
-好							      |	好我是超级无敌黄金蟒今年三岁了我现在可是四米多长的大个儿几个
-我							      <
-是							      <
-超级							      <
-无敌							      <
-黄金							      <
-蟒							      <
-今年							      <
-三							      <
-岁							      <
-了							      <
-我							      <
-现在							      <
-可是							      <
-四							      <
-米							      <
-多							      <
-长							      <
-的							      <
-大个儿							      <
-几							      <
-个							      <
-月							      <
-前							      <
-我							      <
-的							      <
-主人							      <
-是							      <
-在							      <
-见							      <
-不得							      <
-我							      <
-这							      <
+好								好
+我								我
+是								是
+超级								超级
+无敌								无敌
+黄金								黄金
+蟒								蟒
+今年								今年
+三								三
+岁								岁
+了								了
+我								我
+现在								现在
+可是								可是
+四								四
+米								米
+多								多
+长								长
+的								的
+大个儿							      |	大
+							      >	个
+							      >	儿
+几								几
+个								个
+月								月
+前								前
+我								我
+的								的
+主人								主人
+是								是
+在								在
+见								见
+不得								不得
+我								我
+这							      |	这丰腴
 丰腴							      <
-的							      <
-体形							      <
-把							      <
-我							      <
-抛弃							      <
-了							      <
-多亏							      <
-绿							      <
-眼睛							      <
-野生							      <
-救助站							      <
-收留							      <
-了							      <
-我							      <
-INSERTIONS:	0
-DELETIONS:	47
-SUBSTITUTIONS:	1
-NCHANGE:	48
+的								的
+体形								体形
+把								把
+我								我
+抛弃								抛弃
+了								了
+多亏								多亏
+绿								绿
+眼睛								眼睛
+野生								野生
+救助站								救助站
+收留								收留
+了								了
+我								我
+INSERTIONS:	2
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	5
 NTRUTH:	49
-NTEST:	2
-TRUE WORDS RECALL:	0.020
-TEST WORDS PRECISION:	0.500
+NTEST:	50
+TRUE WORDS RECALL:	0.939
+TEST WORDS PRECISION:	0.920
 --standard.txt-------testout.txt----981
 温州							      |	温州绿眼睛环保组织大家知道吧曾经获得过咱们国家的地球奖呢这些
 绿							      <
@@ -32456,57 +32777,66 @@ TRUE WORDS RECALL:	0.571
 TEST WORDS PRECISION:	0.571
 --standard.txt-------testout.txt----1053
 这次								这次
-集邮展							      |	集邮展分专题传统邮政历史等十二大类由非竞赛性和竞赛性产品组成
-分							      <
-专题							      <
-传统							      <
-邮政							      <
-历史							      <
-等							      <
-十二							      <
-大							      <
-类							      <
-由							      <
-非							      <
-竞赛性							      <
-和							      <
-竞赛性							      <
-产品							      <
-组成							      <
-展出							      <
-邮集							      <
-展品							      <
-三百							      <
-零三							      <
-部							      <
-集邮							      <
-文献							      <
-八十五							      <
-部							      <
-等							      <
-共有							      <
-一千二百多						      <
-个							      <
-国际							      <
-标准							      <
-展							      <
-框							      <
-的							      <
-邮品							      <
-参展							      <
-其中							      <
-不少							      <
-是							      <
-稀世							      <
-珍品							      <
-INSERTIONS:	0
-DELETIONS:	42
-SUBSTITUTIONS:	1
-NCHANGE:	43
+集邮展							      |	集邮
+							      >	展
+分								分
+专题								专题
+传统								传统
+邮政								邮政
+历史								历史
+等								等
+十二							      |	十
+							      >	二
+大								大
+类								类
+由								由
+非								非
+竞赛性							      |	竞赛
+							      >	性
+和								和
+竞赛性							      |	竞赛
+							      >	性
+产品								产品
+组成								组成
+展出								展出
+邮集							      |	邮
+							      >	集
+展品								展品
+三百								三百
+零三							      |	零
+							      >	三
+部								部
+集邮								集邮
+文献								文献
+八十五							      |	八十
+							      >	五
+部								部
+等								等
+共有								共有
+一千二百多						      |	一千
+							      >	二百
+							      >	多
+个								个
+国际								国际
+标准								标准
+展								展
+框								框
+的								的
+邮品								邮品
+参展								参展
+其中								其中
+不少								不少
+是								是
+稀世								稀世
+珍品								珍品
+INSERTIONS:	9
+DELETIONS:	0
+SUBSTITUTIONS:	8
+NCHANGE:	17
 NTRUTH:	44
-NTEST:	2
-TRUE WORDS RECALL:	0.023
-TEST WORDS PRECISION:	0.500
+NTEST:	53
+TRUE WORDS RECALL:	0.818
+TEST WORDS PRECISION:	0.679
 --standard.txt-------testout.txt----1054
 这								这
 枚								枚
@@ -32646,8 +32976,8 @@ NTEST:	8
 TRUE WORDS RECALL:	0.778
 TEST WORDS PRECISION:	0.875
 --standard.txt-------testout.txt----1059
-夏							      |	夏宝龙
-宝龙							      |	强调要把扶贫工作作为加快低收入群众增收致富奔小康的重要举措创
+夏								夏
+宝龙							      |	宝龙强调要把扶贫工作作为加快低收入群众增收致富奔小康的重要举
 强调							      <
 要							      <
 把							      <
@@ -32698,12 +33028,12 @@ TEST WORDS PRECISION:	0.875
 小康							      <
 INSERTIONS:	0
 DELETIONS:	48
-SUBSTITUTIONS:	2
-NCHANGE:	50
+SUBSTITUTIONS:	1
+NCHANGE:	49
 NTRUTH:	50
 NTEST:	2
-TRUE WORDS RECALL:	0.000
-TEST WORDS PRECISION:	0.000
+TRUE WORDS RECALL:	0.020
+TEST WORDS PRECISION:	0.500
 --standard.txt-------testout.txt----1060
 职能								职能
 扶贫								扶贫
@@ -32982,8 +33312,8 @@ NTEST:	40
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----1069
-会议								会议
-强调							      |	强调要通过扎实有效的教育活动使虚假报道增多的势头得到遏制使新
+会议							      |	会议强调要通过扎实有效的教育活动使虚假报道增多的势头得到遏制
+强调							      |	升
 要							      <
 通过							      <
 扎实							      <
@@ -33037,12 +33367,12 @@ TEST WORDS PRECISION:	1.000
 提升							      <
 INSERTIONS:	0
 DELETIONS:	51
-SUBSTITUTIONS:	1
-NCHANGE:	52
+SUBSTITUTIONS:	2
+NCHANGE:	53
 NTRUTH:	53
 NTEST:	2
-TRUE WORDS RECALL:	0.019
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----1070
 浙江省								浙江省
 农业								农业
@@ -33159,8 +33489,8 @@ NTEST:	15
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----1074
-当前							      |	当前正值冬季农业生产管理的重要时节也是谋划明年生产布局的关键
-正值							      <
+当前							      |	当
+正值							      |	前正值冬季农业生产管理的重要时节也是谋划明年生产布局的关键时
 冬季							      <
 农业							      <
 生产							      <
@@ -33230,15 +33560,15 @@ TEST WORDS PRECISION:	1.000
 的							      <
 五							      <
 送							      <
-服务								服务
+服务							      <
 INSERTIONS:	0
 DELETIONS:	70
-SUBSTITUTIONS:	1
-NCHANGE:	71
+SUBSTITUTIONS:	2
+NCHANGE:	72
 NTRUTH:	72
 NTEST:	2
-TRUE WORDS RECALL:	0.014
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----1075
 活动								活动
 现场								现场
@@ -33598,37 +33928,38 @@ TRUE WORDS RECALL:	0.905
 TEST WORDS PRECISION:	0.760
 --standard.txt-------testout.txt----1088
 今天								今天
-嵊州市							      |	嵊州市剡源水库辽湾水库两座中型水库除险加固工程通过由省水利厅
-剡							      <
-源							      <
-水库							      <
-辽							      <
-湾							      <
-水库							      <
-两							      <
-座							      <
-中型							      <
-水库							      <
-除险							      <
-加固							      <
-工程							      <
-通过							      <
-由							      <
-省							      <
-水利厅							      <
-组织							      <
-的							      <
-蓄水							      <
-阶段							      <
-验收							      <
-INSERTIONS:	0
-DELETIONS:	22
-SUBSTITUTIONS:	1
-NCHANGE:	23
+嵊州市							      |	嵊
+剡							      |	州
+源							      |	市剡源
+水库								水库
+辽								辽
+湾								湾
+水库								水库
+两								两
+座								座
+中型								中型
+水库								水库
+除险								除险
+加固								加固
+工程								工程
+通过								通过
+由								由
+省								省
+水利厅							      |	水利
+							      >	厅
+组织								组织
+的								的
+蓄水								蓄水
+阶段								阶段
+验收								验收
+INSERTIONS:	1
+DELETIONS:	0
+SUBSTITUTIONS:	4
+NCHANGE:	5
 NTRUTH:	24
-NTEST:	2
-TRUE WORDS RECALL:	0.042
-TEST WORDS PRECISION:	0.500
+NTEST:	25
+TRUE WORDS RECALL:	0.833
+TEST WORDS PRECISION:	0.800
 --standard.txt-------testout.txt----1089
 至此								至此
 我省								我省
@@ -33765,50 +34096,51 @@ TRUE WORDS RECALL:	0.875
 TEST WORDS PRECISION:	0.848
 --standard.txt-------testout.txt----1093
 昨天								昨天
-还							      |	还沉浸在悲痛之中的李栋父母委托李栋的表姐夫来到鄞州职业技术学
-沉浸							      <
-在							      <
-悲痛							      <
-之中							      <
-的							      <
-李							      <
-栋							      <
-父母							      <
-委托							      <
-李							      <
-栋							      <
-的							      <
-表							      <
-姐夫							      <
-来到							      <
-鄞							      <
+还								还
+沉浸								沉浸
+在								在
+悲痛								悲痛
+之中								之中
+的								的
+李								李
+栋								栋
+父母								父母
+委托								委托
+李								李
+栋								栋
+的								的
+表							      |	表姐
+姐夫							      |	夫
+来到								来到
+鄞							      |	鄞州
 州							      <
-职业							      <
-技术							      <
-学院							      <
-把							      <
-学校							      <
-为							      <
-他							      <
-募集							      <
-的							      <
-六万							      <
-多元							      <
-医疗费							      <
-转交							      <
-给							      <
-鄞							      <
+职业								职业
+技术								技术
+学院								学院
+把								把
+学校								学校
+为								为
+他								他
+募集								募集
+的								的
+六万								六万
+多元							      |	多
+							      >	元
+医疗费								医疗费
+转交								转交
+给								给
+鄞							      |	鄞州
 州							      <
-职教							      <
-中心							      <
-INSERTIONS:	0
-DELETIONS:	35
-SUBSTITUTIONS:	1
-NCHANGE:	36
+职教								职教
+中心								中心
+INSERTIONS:	1
+DELETIONS:	2
+SUBSTITUTIONS:	5
+NCHANGE:	8
 NTRUTH:	37
-NTEST:	2
-TRUE WORDS RECALL:	0.027
-TEST WORDS PRECISION:	0.500
+NTEST:	36
+TRUE WORDS RECALL:	0.811
+TEST WORDS PRECISION:	0.833
 --standard.txt-------testout.txt----1094
 为							      |	为此
 此							      <
@@ -33858,51 +34190,54 @@ TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----1096
 这								这
 是								是
-记者							      |	记者两个月前拍下的画面十九岁的李栋趴在病床上虽然身体已经很虚
-两							      <
-个							      <
-月							      <
-前							      <
-拍下							      <
-的							      <
-画面							      <
-十九							      <
-岁							      <
-的							      <
-李							      <
-栋							      <
-趴							      <
-在							      <
-病床							      <
-上							      <
-虽然							      <
-身体							      <
-已经							      <
-很							      <
-虚弱							      <
-但							      <
-苍							      <
-白							      <
-瘦削							      <
-的							      <
-脸上							      <
-一							      <
-双							      <
-大							      <
-眼睛							      <
-透							      <
-着							      <
-坚强							      <
-和							      <
-乐观							      <
-INSERTIONS:	0
-DELETIONS:	36
-SUBSTITUTIONS:	1
-NCHANGE:	37
+记者								记者
+两								两
+个								个
+月								月
+前								前
+拍下							      |	拍
+							      >	下
+的								的
+画面								画面
+十九							      |	十
+							      >	九
+岁								岁
+的								的
+李								李
+栋								栋
+趴								趴
+在								在
+病床								病床
+上								上
+虽然								虽然
+身体								身体
+已经								已经
+很								很
+虚弱								虚弱
+但								但
+苍							      |	苍白
+白							      |	瘦
+瘦削							      |	削
+的								的
+脸上							      |	脸
+							      >	上
+一								一
+双								双
+大								大
+眼睛								眼睛
+透								透
+着								着
+坚强								坚强
+和								和
+乐观								乐观
+INSERTIONS:	3
+DELETIONS:	0
+SUBSTITUTIONS:	6
+NCHANGE:	9
 NTRUTH:	39
-NTEST:	3
-TRUE WORDS RECALL:	0.051
-TEST WORDS PRECISION:	0.667
+NTEST:	42
+TRUE WORDS RECALL:	0.846
+TEST WORDS PRECISION:	0.786
 --standard.txt-------testout.txt----1097
 在								在
 同学								同学
@@ -34626,8 +34961,8 @@ NTEST:	12
 TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 --standard.txt-------testout.txt----1122
-国务院								国务院
-今天							      |	今天公布并实施修改后的价格违法行为行政处罚规定规定要求对相互
+国务院							      |	国
+今天							      |	务院今天公布并实施修改后的价格违法行为行政处罚规定规定要求对
 公布							      <
 并							      <
 实施							      <
@@ -34687,12 +35022,12 @@ TEST WORDS PRECISION:	1.000
 营业执照						      <
 INSERTIONS:	0
 DELETIONS:	57
-SUBSTITUTIONS:	1
-NCHANGE:	58
+SUBSTITUTIONS:	2
+NCHANGE:	59
 NTRUTH:	59
 NTEST:	2
-TRUE WORDS RECALL:	0.017
-TEST WORDS PRECISION:	0.500
+TRUE WORDS RECALL:	0.000
+TEST WORDS PRECISION:	0.000
 --standard.txt-------testout.txt----1123
 国家								国家
 统计局								统计局
@@ -35911,16 +36246,16 @@ NTEST:	17
 TRUE WORDS RECALL:	0.933
 TEST WORDS PRECISION:	0.824
 === SUMMARY:
-=== TOTAL INSERTIONS:	1234
-=== TOTAL DELETIONS:	5993
-=== TOTAL SUBSTITUTIONS:	1634
-=== TOTAL NCHANGE:	8861
+=== TOTAL INSERTIONS:	1569
+=== TOTAL DELETIONS:	2184
+=== TOTAL SUBSTITUTIONS:	1882
+=== TOTAL NCHANGE:	5635
 === TOTAL TRUE WORD COUNT:	24238
-=== TOTAL TEST WORD COUNT:	19479
-=== TOTAL TRUE WORDS RECALL:	0.685
-=== TOTAL TEST WORDS PRECISION:	0.853
-=== F MEASURE:	0.760
+=== TOTAL TEST WORD COUNT:	23623
+=== TOTAL TRUE WORDS RECALL:	0.832
+=== TOTAL TEST WORDS PRECISION:	0.854
+=== F MEASURE:	0.843
 === OOV Rate:	1.000
-=== OOV Recall Rate:	0.685
+=== OOV Recall Rate:	0.832
 === IV Recall Rate:	--
-###	testout.txt	1234	5993	1634	8861	24238	19479	0.685	0.853	0.760	1.000	0.685	--
+###	testout.txt	1569	2184	1882	5635	24238	23623	0.832	0.854	0.843	1.000	0.832	--

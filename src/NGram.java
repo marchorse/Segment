@@ -108,7 +108,14 @@ public class NGram {
 		if (dict1.containsKey(s1))
 			return dict1.get(s1);
 		else {
-			return punish;
+			//old
+			//return punish;
+			
+			//new
+			if (s1.length()>3)
+				return punish*10+10*(s1.length()-3);
+			else
+				return punish;
 		}	
 	}
 }
